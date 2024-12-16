@@ -2,7 +2,7 @@
 import { createClient } from '@/utils/supabase/server'
 import { cookies } from 'next/headers'
 import { NextResponse } from 'next/server'
-import type { POI } from '@/types/poi'
+// import type { POI } from '@/types/poi'
 
 export async function GET() {
   try {
