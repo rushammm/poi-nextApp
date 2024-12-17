@@ -15,12 +15,12 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Irsha Elahi | Digital Experience Designer",
+  title: "LocatePro",
   description:
-    "Portfolio of Irsha Elahi - Crafting Digital Experiences Through Design",
+    "Finding optimal locations for business expansion.",
   keywords: [
-    "digital design",
-    "UI/UX",
+    "POI",
+    "Locations",
     "portfolio",
     "web design",
     "interactive design",
