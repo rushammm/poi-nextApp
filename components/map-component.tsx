@@ -1,11 +1,12 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
+import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { Loader2 } from 'lucide-react'
 import type { LatLngExpression } from 'leaflet'
-import { fixLeafletIcon } from './leaflet-setup'
+import { fixLeafletIcon, setupLeafletMap } from './leaflet-setup'
 
 // Dynamically import Leaflet components to avoid SSR issues
 const MapContainer = dynamic(
@@ -30,11 +31,25 @@ interface MapComponentProps {
 const HeatmapLayer = dynamic(() => import('./heatmap-layer'), { ssr: false })
 
 export default function MapComponent({ year }: MapComponentProps) {
+  const mapRef = useRef<L.Map | null>(null)
+  const mapContainerRef = useRef<HTMLDivElement>(null)
+
   // Update center coordinates to Lahore, Pakistan
   const [center] = useState<LatLngExpression>([31.5204, 74.3587])
   const [zoom] = useState(11) // Slightly adjust zoom level for Lahore
   const [isLoading, setIsLoading] = useState(true)
   const [heatmapData, setHeatmapData] = useState<Array<[number, number, number]>>([])
+
+  useEffect(() => {
+    if (!mapContainerRef.current || mapRef.current) return
+
+    mapRef.current = setupLeafletMap(mapContainerRef.current)
+
+    return () => {
+      mapRef.current?.remove()
+      mapRef.current = null
+    }
+  }, [])
 
   useEffect(() => {
     // Fix Leaflet icon issue
@@ -118,7 +133,7 @@ export default function MapComponent({ year }: MapComponentProps) {
   }
 
   return (
-    <div className="h-full w-full">
+    <div ref={mapContainerRef} className="h-full w-full">
       <MapContainer 
         center={center} 
         zoom={zoom} 

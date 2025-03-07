@@ -9,24 +9,25 @@ import { Loader2, Plus as PlusIcon, Minus as MinusIcon, Search, Map, BarChart3, 
 import Image from 'next/image'
 import { SearchResults } from '@/components/searchResults'
 //import { BusinessLocationOptimizerComponent } from '@/components/business-location-optimizer'
-import MapComponent from '@/components/map-component'
+import { MapWrapper } from '@/components/map-wrapper'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { useRouter } from 'next/navigation'
+import { POI } from '@/types/poi'
 
 // Define a type for the search results
-type POI = {
-  id: number
-  created_at: string
-  title: string
-  'categories/0': string
-  hotelStars: number
-  'location/lat': number
-  'location/lng': number
-  categoryName: string
-  address: string
-}
+// type POI = {
+//   id: number
+//   created_at: string
+//   title: string
+//   'categories/0': string
+//   hotelStars: number
+//   'location/lat': number
+//   'location/lng': number
+//   categoryName: string
+//   address: string
+// }
 
 export default function Home() {
   const router = useRouter()
@@ -420,7 +421,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="p-8 bg-white">
                 <div className="mb-8">
-                  <div className="flex justify-center p-1.5 bg-gray-100 rounded-lg inline-block mx-auto">
+                  <div className="flex justify-center p-1.5 bg-gray-100 rounded-lg">
                     <Button 
                       onClick={() => setSelectedBuildupYear('2020')}
                       variant="ghost"
@@ -502,7 +503,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="p-8 bg-white">
                 <div className="mb-8">
-                  <div className="flex justify-center p-1.5 bg-gray-100 rounded-lg inline-block mx-auto">
+                  <div className="flex justify-center p-1.5 bg-gray-100 rounded-lg">
                     <Button 
                       onClick={() => setSelectedMapYear('2020')}
                       variant="ghost"
@@ -528,7 +529,7 @@ export default function Home() {
                 
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <div className="relative h-[550px] rounded-xl border border-gray-100">
-                    <MapComponent year={selectedMapYear} />
+                    <MapWrapper year={selectedMapYear} />
                     
                     <div className="absolute bottom-6 right-6 bg-white rounded-md shadow-lg p-2 z-10 border border-gray-100">
                       <div className="flex flex-col space-y-2">

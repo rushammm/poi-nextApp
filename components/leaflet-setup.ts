@@ -1,3 +1,5 @@
+'use client'
+
 import L from 'leaflet';
 
 // Fix Leaflet default icon issue in Next.js
@@ -14,5 +16,15 @@ const fixLeafletIcon = () => {
     });
   }
 };
+
+export function setupLeafletMap(container: HTMLElement) {
+  const map = L.map(container).setView([51.505, -0.09], 13)
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map)
+
+  return map
+}
 
 export { fixLeafletIcon };
