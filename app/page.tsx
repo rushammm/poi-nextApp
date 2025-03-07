@@ -8,11 +8,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Loader2, Plus as PlusIcon, Minus as MinusIcon, Search, Map, BarChart3, Layers, ArrowRight, X } from 'lucide-react'
 import Image from 'next/image'
 import { SearchResults } from '@/components/searchResults'
-import { BusinessLocationOptimizerComponent } from '@/components/business-location-optimizer'
+//import { BusinessLocationOptimizerComponent } from '@/components/business-location-optimizer'
 import MapComponent from '@/components/map-component'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { Dialog, DialogContent } from '@/components/ui/dialog'
+import { useRouter } from 'next/navigation'
 
 // Define a type for the search results
 type POI = {
@@ -28,8 +29,8 @@ type POI = {
 }
 
 export default function Home() {
+  const router = useRouter()
   const [showFormDialog, setShowFormDialog] = useState(false)
-  const [showExplorer, setShowExplorer] = useState(false) // New state to control explorer visibility
   const [formData, setFormData] = useState({
     businessCategory: '',
     businessName: '',
@@ -45,12 +46,8 @@ export default function Home() {
   const [mapZoom, setMapZoom] = useState(10)
   
   // Function to handle opening the explorer
-  const openExplorer = () => {
-    setShowExplorer(true);
-    // Scroll to the explorer section smoothly
-    setTimeout(() => {
-      document.getElementById('location-explorer')?.scrollIntoView({ behavior: 'smooth' });
-    }, 100);
+  const navigateToExplorer = () => {
+    router.push('/explorer')
   };
   
   const handleZoom = (direction: string) => {
@@ -229,7 +226,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button 
-                onClick={() => openExplorer()} // Changed to open explorer
+                onClick={navigateToExplorer}
                 className="bg-white hover:bg-gray-100 text-gray-900 px-8 py-6 rounded-lg text-lg font-medium transition-all shadow-xl hover:shadow-2xl"
               >
                 <Search className="mr-2 h-5 w-5" />
@@ -292,7 +289,7 @@ export default function Home() {
               
               {!searchResults.length && !error && (
                 <Button 
-                  onClick={() => openExplorer()} // Changed to open explorer
+                  onClick={navigateToExplorer}
                   className="mt-6 bg-black hover:bg-gray-800 text-white px-8 py-3"
                 >
                   <Search className="mr-2 h-5 w-5" />
@@ -568,7 +565,7 @@ export default function Home() {
               </CardContent>
               <CardFooter className="bg-gray-50 px-8 py-4 flex justify-center">
                 <Button 
-                  onClick={() => openExplorer()}
+                  onClick={navigateToExplorer}
                   className="bg-black hover:bg-gray-800 text-white"
                 >
                   Open Full Map Explorer
@@ -578,14 +575,6 @@ export default function Home() {
             </Card>
           </div>
         </div>
-
-        {/* Location Explorer Section - Shows when triggered */}
-        {showExplorer && (
-          <div id="location-explorer" className="pt-10 mt-16 border-t border-gray-200">
-            <h2 className="text-3xl font-bold mb-8 text-center">Location Explorer</h2>
-            <BusinessLocationOptimizerComponent />
-          </div>
-        )}
       </div>
       
       {/* Business Location Form Dialog */}

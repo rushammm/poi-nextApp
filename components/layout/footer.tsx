@@ -1,10 +1,10 @@
 "use client";
 
 import Link from 'next/link'
-import Image from 'next/image'
+//import Image from 'next/image'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
-import { Mail, MapPin, Phone, ArrowRight, Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react'
+import { Mail, MapPin, Phone, ArrowRight, Facebook, Twitter, Linkedin, Github } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Footer() {

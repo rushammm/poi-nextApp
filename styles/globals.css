@@ -16,4 +16,5 @@ select {
 }
 
 .card-shadow-hover:hover {
-  transform: translateY(-4px
+    transform: translateY(-4px);
+  }
