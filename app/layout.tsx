@@ -1,31 +1,19 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import "./globals.css";
+// Dynamically import client components
+import dynamic from "next/dynamic";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
+// Import header and footer with dynamic imports to avoid server component issues
+const Header = dynamic(() => import("@/components/layout/header"), { ssr: true });
+const Footer = dynamic(() => import("@/components/layout/footer"), { ssr: true });
 
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LocatePro",
+  title: "LocatePro - Business Location Intelligence",
   description:
-    "Finding optimal locations for business expansion.",
-  keywords: [
-    "POI",
-    "Locations",
-    "portfolio",
-    "web design",
-    "interactive design",
-    "creative portfolio",
-  ],
+    "Find the optimal location for your business with data-driven insights and advanced geospatial analytics",
 };
 
 export default function RootLayout({
@@ -34,21 +22,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body
-        className={`
-          ${geistSans.variable}
-          ${geistMono.variable}
-          antialiased
-          min-h-screen
-          bg-background
-          text-foreground
-          selection:bg-rose-200
-          selection:text-rose-900
-        `}
-      >
-        <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" />
-        {children}
+    <html lang="en">
+      <body className={inter.className}>
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
