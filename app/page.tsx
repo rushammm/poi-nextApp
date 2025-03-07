@@ -498,7 +498,7 @@ export default function Home() {
                   <CardTitle className="text-2xl font-bold">Interactive Business Opportunity Heatmap</CardTitle>
                 </div>
                 <CardDescription className="text-gray-600 text-base">
-                  Explore potential locations with our interactive heatmap visualization
+                  Explore potential locations with our interactive heatmap visualization.
                 </CardDescription>
               </CardHeader>
               <CardContent className="p-8 bg-white">
