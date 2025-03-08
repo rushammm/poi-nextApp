@@ -30,7 +30,7 @@ export default function AboutPage() {
           <div className="rounded-lg overflow-hidden shadow-xl">
             <div className="relative h-80 w-full">
               <Image 
-                src="/images/image.jpg" 
+                src="/images/plan.jpg" 
                 alt="Our Mission" 
                 fill
                 style={{ objectFit: "cover" }}
@@ -45,7 +45,7 @@ export default function AboutPage() {
           <div className="order-1 md:order-none">
             <div className="relative h-80 w-full rounded-lg overflow-hidden shadow-xl">
               <Image 
-                src="/images/image.jpg" 
+                src="/images/Applications-Of-Satellite-Imagery.jpg" 
                 alt="Our Technology" 
                 fill
                 style={{ objectFit: "cover" }}
@@ -74,7 +74,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Rusham Elahi", role: "Chief Data Scientist", image: "/images/image2.jpg" },
+              { name: "Rusham Elahi", role: "Chief Data Scientist", image: "/images/rusham.jpg" },
               { name: "Sara Johnson", role: "Urban Planning Expert", image: "/images/image3.jpg" },
               { name: "Michael Patel", role: "GIS Specialist", image: "/images/image3.jpg" }
             ].map((member, idx) => (

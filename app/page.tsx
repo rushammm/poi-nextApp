@@ -9,12 +9,13 @@ import { Loader2, Plus as PlusIcon, Minus as MinusIcon, Search, Map, BarChart3, 
 import Image from 'next/image'
 import { SearchResults } from '@/components/searchResults'
 //import { BusinessLocationOptimizerComponent } from '@/components/business-location-optimizer'
-import { MapWrapper } from '@/components/map-wrapper'
+import MapComponent from '@/components/map-component'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { useRouter } from 'next/navigation'
 import { POI } from '@/types/poi'
+import React from 'react'
 
 // Define a type for the search results
 // type POI = {
@@ -383,7 +384,7 @@ export default function Home() {
                     <div className="bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300 group-hover:shadow-xl">
                       <div className="relative">
                         <Image
-                          src="/nextAPPHeatmaps/ntl.png"
+                          src="/nextAPPHeatmaps/busss.png"
                           alt="Business Concentration Heatmap"
                           width={600}
                           height={350}
@@ -529,7 +530,7 @@ export default function Home() {
                 
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <div className="relative h-[550px] rounded-xl border border-gray-100">
-                    <MapWrapper year={selectedMapYear} />
+                    <MapComponent year={selectedMapYear} />
                     
                     <div className="absolute bottom-6 right-6 bg-white rounded-md shadow-lg p-2 z-10 border border-gray-100">
                       <div className="flex flex-col space-y-2">

@@ -1,0 +1,834 @@
+﻿"address","location/lat","location/lng","categoryName","street","title","totalScore","reviewsCount","reviewsDistribution/fiveStar","reviewsDistribution/fourStar","reviewsDistribution/oneStar","reviewsDistribution/threeStar","reviewsDistribution/twoStar","postalCode"
+"8M5G+9M6, Bucheke, Pakistan","31.3084222","73.6766511","Real estate consultant","8M5G+9M6","Hazar Real Estate","5","1",,,,,,
+"Ghalla Mandi, Lahore-Jaranwala Rd, More Khunda, 39120, Pakistan","31.3209716","73.7936284","Real estate agency","Ghalla Mandi, Lahore-Jaranwala Rd","Faizan-e-Madina Bismillah Property Dealer","5","1",,,,,,"39120"
+"4WRC+H3R, Jamber, Pakistan","31.1414832","73.9201463","Real estate agency","4WRC+H3R","KALMA REAL ESTATE","5","2",,,,,,
+"Shora Kothi Rd, beside church, Mohalla Rehmanian, Nankana Sahib, 39100, Pakistan","31.447711","73.7083755","Real estate consultant","Shora Kothi Rd, beside church","HM Sardar Estate Linkers & Builders","4.7","19",,,,,,"39100"
+"CPX5+29Q, Shora Kothi Rd, near Church, Mohalla Rehmanian, Nankana Sahib, Pakistan","31.4475869","73.7084762","Real estate agency","CPX5+29Q, Shora Kothi Rd, near Church","H B Real Estate","5","3",,,,,,
+"7QHG+38J, Kot Indar Singh, Pakistan","31.2788578","73.7756951","Real estate agency","7QHG+38J","Shahzad Ali Rajpoot",,"0",,,,,,
+"G4FW+86R, Jaranwala-Sharaqpur Rd Tariddewala, Taridde Wala, Sharaqpur, 39460, Pakistan","31.5233631","74.1455037","Real estate agency","G4FW+86R, Jaranwala-Sharaqpur Rd Tariddewala","Sher-e-Rabani Estate Agency","2.5","4",,,,,,"39460"
+"5XW4+J9F, Multan Rd, Phool Nagar, Pakistan","31.1965638","73.9559107","Real estate agency","5XW4+J9F, Multan Rd","trust real Estate","3.4","5",,,,,,
+"CPX6+5WM, Housing Colony, Nankana Sahib, Pakistan","31.4480417","73.71234","Real estate agency","CPX6+5WM","پٹوار خانہ",,"0",,,,,,
+"4WRC+C4R, Lahore - Multan Road،, Jamber, Pakistan","31.1411066","73.9202505","Real estate consultant","4WRC+C4R, Lahore - Multan Road،","Punjab Estate Point",,"0",,,,,,
+"Q48F+P3F, Main Town, Kanganpur, Pakistan","30.7668172","74.1226657","Real estate agency","Q48F+P3F","Haji Hanif & Sons Ltd",,"0",,,,,,
+"V3P4+356, New Gulshan Iqbal Town, Allahabad،, Allahabad - Chunian Rd, Gulshan e Iqbal Town, Allahabad, Pakistan","30.8851633","74.0553872","Real estate consultant","V3P4+356, New Gulshan Iqbal Town, Allahabad،, Allahabad - Chunian Rd","Mamo ka ghar","5","1",,,,,,
+"23MC+XV2, NAWAN KOT, NAI ABADI, NEAR ARJAN KOT CHONIAN, Kot Radha Kishan, 55220, Pakistan","31.0348763","74.0721435","Commercial real estate agency","23MC+XV2, NAWAN KOT, NAI ABADI, NEAR ARJAN KOT CHONIAN","NAWAN KOT","5","2",,,,,,"55220"
+"Allahabad - Chunian Rd, Gulshan e Iqbal Town, Allah Abad, Pakistan","30.8849257","74.0498119","Real estate agency","Allahabad - Chunian Rd","RANA REAL ESTATE AND PROPERTY ADVISOR","4","4",,,,,,
+"XXP9+6XC, Shehzada Model Town, Chunian, Pakistan","30.9855667","73.9698794","Real estate agency","XXP9+6XC","Friend Real Estate","3.3","4",,,,,,
+"56M4+Q6J, Road, Bhamba Khurd, Pakistan","31.1844612","74.2055291","Real estate agency","56M4+Q6J, Road","Tj Sahil","5","1",,,,,,
+"Exchange Road Sabzi Mandi Chunian, 55220, Pakistan","30.9654314","73.9767738","Real estate consultant","Exchange Road Sabzi Mandi Chunian","اعوان پراپرٹیز چونیاں","5","1",,,,,,"55220"
+"XXCF+X3X, Changa Manga Rd, Zaheerabad Chunian, 55220, Pakistan","30.9724962","73.9727473","Real estate agency","XXCF+X3X, Changa Manga Rd","Chishti Qadri Property Dealer","5","1",,,,,,"55220"
+"Kissan agrimall f/s khudian khas Depalpur road bi-pas chunian, Khudian Khas, 55030, Pakistan","30.9769457","74.2656787","Property investment company","Kissan agrimall f/s khudian khas Depalpur road bi-pas chunian","AHA Developer's & Estate","5","1",,,,,,"55030"
+"5463+C54, Basti Sarifpura, Kot Radha Kishan, Pakistan","31.1610231","74.102938","Real estate agency","5463+C54","ETIHAD REAL ESTATE","5","3",,,,,,
+"main Depalpur Rd, Khudian Khas, Pakistan","30.9931531","74.2901392","Real estate consultant","main Depalpur Rd","مھر ریاض","1","1",,,,,,
+"XXPC+9W2, Chunian, Pakistan","31.001946","73.9833438","Real estate agent","XXPC+9W2","جاوید چونڈی RealEstate",,"0",,,,,,
+"6FPV+Q2R, Pathanwala, Pakistan","31.2369861","74.4925248","Commercial real estate agency","6FPV+Q2R","CH. Estate chudhary bholla meo",,"0",,,,,,
+"Chak No 56/27 post office bara ghar Nankana sahib, Nankana Sahib, 39100, Pakistan","31.2276895","73.6432688","Homeowners' association","Chak No 56/27 post office bara ghar Nankana sahib","Rana Shabbir Numberdar Sons House","5","3","3","0","0","0","0","39100"
+"7J6M+F8F Shah pura, awana, Pakistan","31.2611814","73.6332926","Condominium complex","7J6M+F8F Shah pura","Malik Talib Awan Hawali","3","1","0","0","0","1","0",
+"6M7X+8J2, Kot Tahir, Pakistan","31.2132666","73.6990159","Apartment complex","6M7X+8J2","Haider Rehmani",,"0",,,,,,
+"6J9H+XCH, Bara Ghar, Pakistan","31.2199486","73.6285981","Housing complex","6J9H+XCH","Javeed Tori",,"0",,,,,,
+"6JC9+87R pul, Bara Ghar, Pakistan","31.2208649","73.6181528","Housing society","6JC9+87R pul","Dhari Lal Khan","4.9","7","6","1","0","0","0",
+"7J3J+P84 P.O Box, Shahpur Awanan Village, Bucheki, Pakistan","31.2542611","73.6308204","Housing society","7J3J+P84 P.O Box, Shahpur Awanan Village","Shahpura Awan'an","5","1","1","0","0","0","0",
+"7M6C+Q6F, Kot Namdar, Pakistan","31.2619252","73.6705405","Dairy farm","7M6C+Q6F","Rana Taimour Dairy Farm",,"0",,,,,,
+"7M57+G3G, Kot Namdar, Pakistan","31.258815","73.6626877","Housing society","7M57+G3G","Bhatian da Thatha",,"0",,,,,,
+"7J3M+C2F, Shahpur Awanan Village, Pakistan","31.2535514","73.6325358","Apartment complex","7J3M+C2F","Malik Talib Awan",,"0",,,,,,
+"Kot Tahir, Pakistan","31.2129974","73.6806536","Dairy farm",,"Javed umerhayat62 Dairy farm",,"0",,,,,,
+"Bucheki, Pakistan","31.2227076","73.6771272","Farm",,"Dera Chaudhary Sajjad ul hassan","1","1","0","0","1","0","0",
+"P5W7+CJJ, Harchuke Hithar, Pakistan","30.7460852","74.1640043","Farm","P5W7+CJJ","Chief Warrant Officer Habib Ullah Siddiqui Farm House","5","2","2","0","0","0","0",
+"Q574+Q6F, Mahmud Khokhar, Pakistan","30.7644402","74.1555581","Dairy farm","Q574+Q6F","Malik Sajid Ali Khokhar","2.7","3","1","0","1","0","1",
+"Q6Q2+8CF, Dhonwali, Pakistan","30.7883","74.2010568","Housing society","Q6Q2+8CF","Dera Ch Zulafqar jutt","5","1","1","0","0","0","0",
+"Q56J+34, Qaim Shah Wala, Pakistan","30.7601253","74.1803151","Housing society","Q56J+34","کوٹ عبدالغفور میو.",,"0",,,,,,
+"74.155032, 30.750935, 11 kangan pur, 55000, Pakistan","30.7509067","74.1550291","Housing complex","74.155032, 30.750935, 11 kangan pur","Yousf Bhatti House",,"0",,,,,,"55000"
+"منوڑیاں, Qaim Shah Wala, Pakistan","30.7662362","74.1843125","Housing complex","منوڑیاں","Dera Sardar Liaqat Dogar Chairman","5","6","6","0","0","0","0",
+"Muhala kamal chisti darbar, Nazd ideal, garden housing scheme Kasur, 55050, Pakistan","31.108311","74.470251","Real estate consultant","Muhala kamal chisti darbar, Nazd ideal","Jutt Real Estate Advisor","5","1",,,,,,"55050"
+"Saleem Town Phase 2 Haji Gagan Road, Kasur, 55050, Pakistan","31.1178281","74.4408668","Real estate agency","Saleem Town Phase 2 Haji Gagan Road","Real Estate","5","1",,,,,,"55050"
+"Pattoki - Raiwind Rd, Kot Radha Kishan, Pakistan","31.1704133","74.1071769","Real estate agency","Pattoki - Raiwind Rd","AR PROPERTIES REAL ESTATE AGENCY","5","3",,,,,,
+"Head West On Sahari Road Toward, Depalpur Bypass Rd, Kasur, 50550, Pakistan","31.1113397","74.4192442","Real estate agency","Head West On Sahari Road Toward, Depalpur Bypass Rd","Masha Allah Chishti Estate Advisor",,"0",,,,,,"50550"
+"Alam Banquet Hall, near Street, Kasur, 55050, Pakistan","31.1313663","74.4496361","Real estate agency","Alam Banquet Hall, near Street","Virk Real Estate Advisors",,"0",,,,,,"55050"
+"5C4H+2J4, Khara Rd, near Baypass, Kasur, Pakistan","31.1550211","74.4290767","Real estate consultant","5C4H+2J4, Khara Rd, near Baypass","AL-Madina Real Estate & Builders, Kasur",,"0",,,,,,
+"729R+C82, Multan Rd, پتوكى, 55300, Pakistan","31.2685096","74.0407662","Real estate agency","729R+C82, Multan Rd","Al-Hamd Property Sale Point","3.8","5",,,,,,"55300"
+"Kasur, 55050, Pakistan","31.0111427","74.4618218","Farm",,"مہر حبیب اللہ (ایگریکلچر فارم)","5","1","1","0","0","0","0","55050"
+"2G65+WV, Rafiq Villas, Pakistan","31.0123409","74.5096985","Farm","2G65+WV","Rafiq Agro Farms","5","2","2","0","0","0","0",
+"2GGC+2H5, Fatoohi Wala Rd, Fatoohiwala, Pakistan","31.025138","74.5216101","Condominium complex","2GGC+2H5, Fatoohi Wala Rd","Muhammad Sharif Mate Haveli",,"0",,,,,,
+"Cuhriwala Road, Chuhriwala, Pakistan","31.0156612","74.493546","Apartment building","Cuhriwala Road","Namdar Farm House","5","3","3","0","0","0","0",
+"2FHF+8MJ Tehsil and District Kasur, Village Mian wala, P/O Burj Kalan, Pakistan","31.0283452","74.4741471","Housing complex","2FHF+8MJ Tehsil and District Kasur, Village Mian wala","Maqsood Manzal","5","2","2","0","0","0","0",
+"2FJR+6V6, Burj Kalan, Pakistan","31.0305459","74.4921261","Apartment building","2FJR+6V6","AL Fazal house",,"0",,,,,,
+"Bhedian Usman Wala, Pakistan","30.9792867","74.4345993","Condominium complex",,"home mustafa","3.5","4","2","0","0","0","2",
+"2FJR+6V6, Burj Kalan, Pakistan","31.0305459","74.4921261","Apartment building","2FJR+6V6","Dr khalid Home","5","1","1","0","0","0","0",
+"2GGF+QP8, Fatoohiwala, Pakistan","31.0269044","74.5243188","Dairy farm","2GGF+QP8","Hamza Dairy Farm","4.1","18","11","2","2","2","1",
+"2FGW+VFP, Unnamed Road, Burj Kalan, Pakistan","31.0272156","74.4961899","Farm","2FGW+VFP, Unnamed Road","IBRAHIM CATTLE FARM BURJ KALAN",,"0",,,,,,
+"Burj to Mian Wala Rd, Mian Wala, Pakistan","31.0278627","74.4754216","Apartment building","Burj to Mian Wala Rd","Ghulam Rasool Mehar","4.5","6","3","3","0","0","0",
+"2FHR+WF8, Burj Kalan Rd, Ganda Singh Wala, Pakistan","31.0297975","74.4912009","Housing society","2FHR+WF8, Burj Kalan Rd","M.A House","1","1","0","0","1","0","0",
+"Fatoohi Wala Rd, Fatoohiwala, Pakistan","31.0291074","74.520769","Dairy farm","Fatoohi Wala Rd","Baba G Dairy Farms Fatuhi Wala","5","1","1","0","0","0","0",
+"2G86+GR2 Faheem dairy farm, Rafiq Villas, Pakistan","31.0162654","74.5120189","Dairy farm","2G86+GR2 Faheem dairy farm","Faheem dairy farm","1","1","0","0","1","0","0",
+"2G76+9Q, Rafiq Villas, Pakistan","31.0133954","74.5119361","Dairy farm","2G76+9Q","Mehar Nawaz Dairy",,"0",,,,,,
+"2G35+7V, Jameke, Pakistan","31.0031466","74.509686","Farm","2G35+7V","Rafiq Agro Farms (Field 4)",,"0",,,,,,
+"Rajjiwala, Jutta, Kasur, 55050, Pakistan","31.0024096","74.4263211","Dairy farm","Rajjiwala","Dhillon Cattle & Dairy Farm",,"0",,,,,,"55050"
+"2G28+5VM, Jumay Kay, Pakistan","31.0008426","74.5179368","Housing society","2G28+5VM","Sardar Ahsan Atta Dogar",,"0",,,,,,
+"Noori Wala, Pakistan","30.9872175","74.4305718","Dairy farm",,"Dera Mehar Asad",,"0",,,,,,
+"Pak Valley Housing Scheme, Main Boulevard, Jinnah Garden, Lahore, 12345, Pakistan","31.6032959","74.2338298","Real estate consultant","Pak Valley Housing Scheme, Main Boulevard","Shiraz Marketing And Real Estate","5","37",,,,,,"12345"
+"LG Rd, Lahore, 54000, Pakistan","31.587919","74.2098586","Real estate agency","LG Rd","malik real estate and builder","4.3","4",,,,,,"54000"
+"J649+PQC, Commercial Area, Omega Residencia, Sharaqpur Road, near Faizpur Interchange, Lahore, Pakistan","31.6068102","74.2193946","Real estate agency","J649+PQC, Commercial Area, Omega Residencia, Sharaqpur Road, near Faizpur Interchange","Zenith Realty Advisers","5","1",,,,,,
+"MB 15, Al Jalil Garden Housing Scheme Lahore Al Jalil Garden, 54000, Pakistan","31.6016104","74.2053751","Real estate agency","MB 15, Al Jalil Garden Housing Scheme Lahore Al Jalil Garden","Ali Developers","5","4",,,,,,"54000"
+"Al Noor orchard, Main sharqpur road, near Motorway interchange, Lahore, 54000, Pakistan","31.5652373","74.1791537","Real estate agency","Al Noor orchard, Main sharqpur road, near Motorway interchange","Al Wasey Real Estate & Builders","5","5",,,,,,"54000"
+"J64R+2Q2, Jaranwala-Sharaqpur Rd, Naain Sukh, Shahdara, 54950, Pakistan","31.6050077","74.2419061","Real estate agency","J64R+2Q2, Jaranwala-Sharaqpur Rd","Green View Estate Advisors","5","1",,,,,,"54950"
+"H58G+6XV, Thikriwala, Pakistan","31.5656206","74.1774268","Real estate agency","H58G+6XV","Oriel Marketing","4.6","14",,,,,,
+"H6HP+4X2, lahore multan motorway, Lahore, Pakistan","31.5777619","74.2373909","Real estate agency","H6HP+4X2, lahore multan motorway","Ahsan Real Estate","5","1",,,,,,
+"J624+F22, Wahgrey - Bhagiarwala Rd, Pakistan","31.6011331","74.205005","Real estate agency","J624+F22, Wahgrey - Bhagiarwala Rd","Al Hassan Estate","5","3",,,,,,
+"H58Q+9P3, Lahore-Jaranwala Rd, Ferozewala, Pakistan","31.5658836","74.1893028","Real estate agency","H58Q+9P3, Lahore-Jaranwala Rd","Attari Estate Advisor","5","3",,,,,,
+"H6XF+976, Lahore-Jaranwala Rd, Pakistan","31.5984185","74.2231504","Real estate consultant","H6XF+976, Lahore-Jaranwala Rd","Succee Marketing Consultant","5","2",,,,,,
+"H6Q4+7CH, Al Jalil Garden, Pakistan","31.5881297","74.2060809","Real estate agency","H6Q4+7CH","Zaman Real Estate and Builders","5","5",,,,,,
+"J62M+JHF, Al Rehman Garden Phase 2, Lahore, Pakistan","31.6015747","74.2339184","Real estate consultant","J62M+JHF","Smart marketing","5","1",,,,,,
+"H58G+RC5, Dhamke, Pakistan","31.5670021","74.176096","Real estate consultant","H58G+RC5","Al HAFIZ REAL Estate","5","1",,,,,,
+"Al Jalil Garden Housing Scheme, Sharaqpur, Road, Lahore, 54000, Pakistan","31.5916952","74.2091703","Real estate agency","Al Jalil Garden Housing Scheme, Sharaqpur, Road","Ahmad Estate & Builders","5","1",,,,,,"54000"
+"H5FW+67F, Dhameke, Burj Attari, Sheikhupura, Pakistan","31.5730636","74.1956744","Real estate consultant","H5FW+67F, Dhameke","H&S Holdings Pvt Ltd","5","16",,,,,,
+"Lahore, Jaranwala Road, Thikriwala, Pakistan","31.5618832","74.1803392","Real estate consultant","Lahore, Jaranwala Road","Sadiqi & Fazli Real Estate","5","1",,,,,,
+"H58J+6Q, Thikriwala, Pakistan","31.5655127","74.1819201","Real estate consultant","H58J+6Q","Global Estate Al-Rehman Garden Phase 7","5","1",,,,,,
+"Faiz Pur, Faizpur, Lahore, Pakistan","31.5928309","74.2214408","Real estate agency","Faiz Pur","Waqas Gacha Estate Developers","4.3","6",,,,,,
+"Main Rd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.6009707","74.2336634","Real estate agency","Main Rd","AL-NAFAY REAL ESTATE","5","1",,,,,,
+"GRMJ+VMG, Warburton, Pakistan","31.5346831","73.8317037","Commercial real estate agency","GRMJ+VMG","Mehran Estate Agency","3","1",,,,,,
+"Faroze watwan road chandi cote adda near pso petrolpanp Feroze Watwan،, Pakistan","31.5541251","73.8174966","Property management company","Faroze watwan road chandi cote adda near pso petrolpanp Feroze Watwan،","New Warburton City","5","1",,,,,,
+"GRQJ+V7M MohaAllah Sheikhan, near Hbl, Warburton, 39100, Pakistan","31.5397174","73.8306824","Judicial scrivener","GRQJ+V7M MohaAllah Sheikhan, near Hbl","Real estate & Law firm",,"0",,,,,,"39100"
+"HRQ6+8F6, Faisalabad Rd, Feroze Wattwan, Pakistan","31.5882855","73.8111251","Real estate agency","HRQ6+8F6, Faisalabad Rd","Khan Estate Advisor",,"0",,,,,,
+"Shop no 23 D2 Road, Shaheen Villas, Faisalabd Road bypass, Sheikhupura, Pakistan","31.674726","73.9726831","Real estate agency","Shop no 23 D2 Road, Shaheen Villas, Faisalabd Road bypass","Shaheen Estate Advisors","5","2",,,,,,
+"Ghang road street, 7, Sheikhupura, Pakistan","31.6987946","73.966579","Industrial real estate agency","Ghang road street, 7","Baba g karam elahi estate agency","5","1",,,,,,
+"HMJQ+W7W, Nankana Rd, Mananwala, Pakistan","31.5823625","73.6882085","Real estate agency","HMJQ+W7W, Nankana Rd","Hamza Estate","4","2",,,,,,
+"PX6J+96J, Jinnah Park, Sheikhupura, Pakistan","31.7109674","73.9805088","Real estate consultant","PX6J+96J","Sarfraz Property Dealer-Sheikhupora PAKISTAN","5","2",,,,,,
+"ana, Dera Ch Muhammad NAWAZ Bhatti, Fareed, Village, Warburton, Pakistan","31.5067565","73.7980758","Office space rental agency","ana, Dera Ch Muhammad NAWAZ Bhatti, Fareed","Dera Ch Muhammad NAWAZ Bhatti",,"0",,,,,,
+"Hateem City, Sharaqpur, Pakistan","31.4805957","74.1011042","Real estate agent","Hateem City","Salar Estate & Developers","5","2",,,,,,
+"Head Office, Mandi Faizabad Market Main Lahore-Jaranawala Road Tehsil Nanakana Mirzapur, Pakistan","31.431876","74.01048","Real estate agency","Head Office, Mandi Faizabad Market Main Lahore-Jaranawala Road Tehsil Nanakana Mirzapur","ZA Managements and Consultancy","4","1",,,,,,
+"Bhikhi Rd, Sheikhupura, 39350, Pakistan","31.7005428","73.9805388","Real estate consultant","Bhikhi Rd","Malik bagga property dealer","5","7",,,,,,"39350"
+"PW9X+QGG, Sargodha Road, New Civil Lines Sheikhupura, Pakistan","31.719438","73.9488294","Real estate agency","PW9X+QGG, Sargodha Road","Royal Real Estate",,"0",,,,,,
+"M34G+43, Nurpur Virkan, Pakistan","31.6553743","74.0751967","Real estate agency","M34G+43","Pak saifi estate wapda town Sheikhupura","5","3",,,,,,
+"Ravi links estate and builders, Lahore, Pakistan","31.5903776","74.2494848","Real estate consultant","Ravi links estate and builders","Ravi Links Estate & Builders","5","8","8","0","0","0","0",
+"Faizpur, Lahore, Pakistan","31.6055597","74.2192336","Industrial real estate agency",,"Century marketing","4.3","4","3","0","0","0","1",
+"H6RX+6F3, Main Blvd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5905225","74.2486615","Real estate agency","H6RX+6F3, Main Blvd","Hussain Real Esate","5","1","1","0","0","0","0",
+"omega residencia, Sheikhupura - Sharaqpur Rd, Lahore, 54000, Pakistan","31.6057034","74.2192422","Real estate agency","omega residencia, Sheikhupura - Sharaqpur Rd","Omega Residencia Lahore - Wall Real Estat","4.1","616","362","98","67","63","26","54000"
+"Fairpur Interchange, Al jalil Garden, near M2 Moterway, Pakistan","31.5995434","74.2067104","Real estate consultant","Fairpur Interchange, Al jalil Garden, near M2 Moterway","Al Jalil Garden - Wall Real Estate","4.4","5","4","0","0","0","1",
+"Al Noor Orchard, 7A Commercial, Main Boulevard, Al Noor Orchard, Main Sharaqpur Road, Lahore H56J+MCR 7A Commercial, Main Boulevard, Main Sharaqpur Road, Lahore, 39460, Pakistan","31.5616786","74.1809629","Real estate agency","Al Noor Orchard, 7A Commercial, Main Boulevard, Al Noor Orchard, Main Sharaqpur Road, Lahore H56J+MCR 7A Commercial, Main Boulevard, Main Sharaqpur Road","Madina Estate Advisors Al Noor Orchard","4.9","15","14","1","0","0","0","39460"
+"Al Rehman Garden Phase 2, Lahore, 39350, Pakistan","31.6012436","74.2336228","Real estate consultant",,"Ahsan Real Estate","4.8","14","12","1","0","1","0","39350"
+"GRVG+PV6, Warburton, Pakistan","31.5442956","73.8271438","Country house","GRVG+PV6","Mastri arshad javed","4.3","3","2","0","0","1","0",
+"GRMP+87C, Warburton, Pakistan","31.5339304","73.8355973","Housing complex","GRMP+87C","Sandrana house sandrana market sandrana town Bazaar Malik ishaq sandrana","5","1","1","0","0","0","0",
+"Abad, 1 Haqam, Mandi, Warburton, 39180, Pakistan","31.5327675","73.8620057","Dairy farm","Abad, 1 Haqam","Ch Bashir Gujjar Farm","5","2","2","0","0","0","0","39180"
+"GRQJ+GRR Makkah Colony, Warburton, Pakistan","31.5388592","73.832003","Housing complex","GRQJ+GRR Makkah Colony","GM ANJUM","5","1","1","0","0","0","0",
+"GRX7+63, Warburton, Pakistan","31.5480852","73.8126668","Aquaculture farm","GRX7+63","انس فروٹ فارم","5","3","3","0","0","0","0",
+"GRQM+W7J, Sandrana Town, Warburton, Pakistan","31.5398349","73.8331341","Apartment building","GRQM+W7J","Malik Usman Sandrana","1","1","0","0","1","0","0",
+"GRC9+FQ2 mustafa abbad, Warburton, Pakistan","31.5211313","73.8194056","Apartment building","GRC9+FQ2 mustafa abbad","dera umer naseer sandrana advڈیرہ عمرنصیرسندرانہ ایڈووکیٹ","5","7","7","0","0","0","0",
+"GRMG+GV, Warburton, Pakistan","31.5332925","73.8276614","Apartment building","GRMG+GV","Master Tahir Mehmood",,"0",,,,,,
+"GRQM+W7J, Warburton, Pakistan","31.5398349","73.8331341","Housing complex","GRQM+W7J","Taimoor Nasir home",,"0",,,,,,
+"GRMJ+Q3F, Warburton, Pakistan","31.5344455","73.8301569","Housing society","GRMJ+Q3F","Sandrana Town Warburton City","3.8","5","3","0","1","1","0",
+"Sandrana house, police station, Warburton, Pakistan","31.5355411","73.826907","Housing complex","Sandrana house, police station","Mohsin Jameel Sandrana",,"0",,,,,,
+"kalma chowk, nanakana road, Warburton, Pakistan","31.5376753","73.8314647","Housing complex","kalma chowk, nanakana road","BAHIRE SENTRY HOME",,"0",,,,,,
+"bahu Road, Warburton, Pakistan","31.5345863","73.8323815","Housing complex","bahu Road","Chaudhry Muhammad Ali 🏠 چوہدری محمد علی","5","1","1","0","0","0","0",
+"Warburton, Pakistan","31.5477267","73.8292548","Housing society",,"کوٹ کرم دین چک نمبر 575 گ۔ب واربرٹن( ڈیرہ کرم دین جٹ چھنجر)","5","15","15","0","0","0","0",
+"Al-Jalil Garden, Main Boulevard, Main Lahore Sharaqpur Rd, Lahore, Pakistan","31.5993237","74.2074203","Real estate agency","Al-Jalil Garden, Main Boulevard, Main Lahore Sharaqpur Rd","City Deal Estate","5","1","1","0","0","0","0",
+"Jaslani Village, near Mandi, Warburton, Pakistan","31.50822","73.8536545","Farm","Jaslani Village, near Mandi","Rai Zohaib Farm House","5","1","1","0","0","0","0",
+"Plaza No. 92, Hassan Commercial Zone, Al Rehman Garden Phase 2, Lahore, 54950, Pakistan","31.5906625","74.2505467","Real estate consultant","Plaza No. 92, Hassan Commercial Zone","Al-Haram Real Estate & Builders","5","2","2","0","0","0","0","54950"
+"GV74+RM5, Jaslani Kalan, 39180, Pakistan","31.514516","73.856722","Dairy farm","GV74+RM5","Lazzat Dairy","4","4","3","0","1","0","0","39180"
+"office, Al Rehman Garden Phase 2 Gate 1, No1 Main Sharaqpur Road, Lahore, 54000, Pakistan","31.6019433","74.2336747","Real estate agency","office, Al Rehman Garden Phase 2 Gate 1, No1 Main Sharaqpur Road","Hassan Associates Real Estate","5","6","6","0","0","0","0","54000"
+"Main Sharaqpur Road, Nain Sukh Rd, Stop Naain Sukh, Lahore, 54950, Pakistan","31.6095373","74.2484261","Real estate agency","Main Sharaqpur Road, Nain Sukh Rd","Etihad estate & builders","5","11","11","0","0","0","0","54950"
+"GRMF+5C3, Warburton, Pakistan","31.532896","73.8235591","Housing society","GRMF+5C3","Ali House",,"0",,,,,,
+"Gate No 1, Al Rehman Garden Phase 2, Pakistan","31.600999","74.2339161","Industrial real estate agency","Gate No 1","A Rehmat Estate & Builders","4.5","2","1","1","0","0","0",
+"H58Q+933, Lahore-Jaranwala Rd, Burj Attari, Pakistan","31.5658834","74.1876829","Real estate agency","H58Q+933, Lahore-Jaranwala Rd","Burhan Real Estate","5","1","1","0","0","0","0",
+"J624+2XR, Pakistan","31.6001167","74.2074052","Real estate agency","J624+2XR","Al Fateh real estate & builder","5","2","2","0","0","0","0",
+"Al Jalil Garden housing Scheme, Faizpur, interchange, Pakistan","31.5925041","74.2096666","Real estate agency","Al Jalil Garden housing Scheme","Build Earth Estate & Developers","5","2","2","0","0","0","0",
+"25 main boulevard Al jalil garden, Lahore, Pakistan","31.5922041","74.2142316","Real estate agency","25 main boulevard Al jalil garden","Al-Fateh Real estate","5","6","6","0","0","0","0",
+"H6RX+7R7, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5906513","74.249553","Real estate agency","H6RX+7R7","Bin Yousaf Real Estate and Builders","5","4","4","0","0","0","0",
+"49-Hassan commercial, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5902004","74.2481676","Real estate agency","49-Hassan commercial","Allah Hoo real estate","5","2","2","0","0","0","0",
+"J62M+9C5, Main Rd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.6008969","74.2336188","Real estate consultant","J62M+9C5, Main Rd","M Burhan Real Estate","5","1","1","0","0","0","0",
+"H56J+HC7 alnoor orchard, Sharqpur road, Sharaqpur, Pakistan","31.5614206","74.1810544","Real estate consultant","H56J+HC7 alnoor orchard, Sharqpur road","Empire Marketing&BUILDERS","5","1","1","0","0","0","0",
+"UWWCO, Varat, Lahore, 54000, Pakistan","31.6019926","74.2528498","Industrial real estate agency","UWWCO","Al Janat Estate Agency","4.3","3","2","0","0","1","0","54000"
+"H6G3+R79, Burj Attari, Pakistan","31.5770297","74.2032261","Real estate agency","H6G3+R79","Amjad & son's Real Estate","2.5","2","0","1","1","0","0",
+"HV56+44C, Panj Hatti, 39100, Pakistan","31.5583223","73.8599995","Housing complex","HV56+44C","Rai Zeeshan Kharal’s KINGDOM ️","5","3","3","0","0","0","0","39100"
+"GRPH+5MC, Warburton, Pakistan","31.535433","73.8291333","Apartment building","GRPH+5MC","ABBAS ALI AWAN ADVOCATE HIGH COURT HOME","5","1","1","0","0","0","0",
+"Hakim Aabad (Hata, Khushi Ram, Warburton, Pakistan","31.5339547","73.8616705","Housing complex","Hakim Aabad (Hata, Khushi Ram","Hakim Aabad (Dera CH Anwar Gujjar Numberdar","5","3","3","0","0","0","0",
+"Mehndi, Gali Chaudhary Abdul Rehman Gujjar Wali, Chowk, Warburton, 39180, Pakistan","31.537915","73.8317143","Public housing","Mehndi, Gali Chaudhary Abdul Rehman Gujjar Wali, Chowk","Residential",,"0",,,,,,"39180"
+"Gate 1, Al Rehman Garden Phase 2 Near Faizpur Interchange, Main Boulevard, Al Rehman Garden Phase 2, Lahore, Pakistan","31.6006231","74.2339167","Real estate agency","Gate 1, Al Rehman Garden Phase 2 Near Faizpur Interchange, Main Boulevard","Al Rehman Real Estate","5","8","8","0","0","0","0",
+"J649+5W6, Lahore, Pakistan","31.6054187","74.2197602","Real estate consultant","J649+5W6","Al-ghani Estate","5","1","1","0","0","0","0",
+"Phool mandi chowk, Shahdara Town, Lahore, Pakistan","31.6106229","74.2510406","Real estate consultant","Phool mandi chowk","ZB Corporation","5","3","3","0","0","0","0",
+"J649+PMV, Pakistan","31.6062555","74.2191578","Real estate agency","J649+PMV","Punjab Real Estate & Builders","3","2","1","0","1","0","0",
+"H6V7+3XX, Jaranwala Rd, Lahore, Pakistan","31.5927484","74.2149712","Real estate consultant","H6V7+3XX, Jaranwala Rd","City Estate & Builders","5","1","1","0","0","0","0",
+"J624+673, Ferozewala, Pakistan","31.600504","74.2056657","Real estate consultant","J624+673","Al۔Nafay Real Estate","5","1","1","0","0","0","0",
+"Near Motorway Faizpur Interchange, Main sharqpur Road, Lahore, Pakistan","31.6065388","74.219227","Real estate consultant","Near Motorway Faizpur Interchange, Main sharqpur Road","Sulehri Estate and Marketing","5","1","1","0","0","0","0",
+"J64X+56H, Nain Sukh Rd, Naain Sukh, Lahore, Pakistan","31.6054384","74.2481248","Real estate agency","J64X+56H, Nain Sukh Rd","Ahmad estate advisor","4","1","0","1","0","0","0",
+"Park Lane City, Head Office: Main Boulevard, Main Sharqpur Road, Lahore, 39460, Pakistan","31.6012228","74.2273298","Real estate agency","Park Lane City, Head Office: Main Boulevard, Main Sharqpur Road","Park Lane City - EZ Real Estate","4.3","12","9","1","2","0","0","39460"
+"H56H+JQV Al Noor, Orchard Housing Scheme, Lahore, Pakistan","31.5616128","74.1794174","Real estate agency","H56H+JQV Al Noor","Al-Fajar Real Estate","4","2","1","0","0","1","0",
+"J64M+5VC, Jinnah Garden, Sheikhupura, Pakistan","31.6054438","74.2346476","Real estate agency","J64M+5VC","Al Fatah Estate","5","1","1","0","0","0","0",
+"J669+8GX, Unnamed Road, Bher, Pakistan","31.6108673","74.2188582","Real estate agency","J669+8GX, Unnamed Road","Mohsin Estate","4.6","8","6","1","0","1","0",
+"Main multan Road, Lahore, Pakistan","31.5655254","74.1764502","Real estate agency","Main multan Road","Basharat Estate and Builders","5","9","9","0","0","0","0",
+"J624+7GP, Faiz Pur Khu, Lahore, 54000, Pakistan","31.6007198","74.2063155","Real estate consultant","J624+7GP, Faiz Pur Khu","Goraya Estate and builders Authorised","4.5","4","3","0","0","1","0","54000"
+"Office # 37B, Main Boulevard Park Lane City Lahore, Opposite Al Rehman Gardens, sharqpur-Jaranwala, A, Lahore, 54000, Pakistan","31.6056076","74.2271425","Real estate consultant","Office # 37B, Main Boulevard Park Lane City Lahore, Opposite Al Rehman Gardens, sharqpur-Jaranwala, A","Park Lane City Lahore (CENTURY MARKETING & DEVELOPER'S)","4.4","5","3","1","0","1","0","54000"
+"Lahore to, Al Rehman Garden Phase 2 Near Faizpur Interchange, Block C, Al-Noor Orchard, 3-KM, Sharaqpur Rd, Al Rehman Garden Phase 2, Lahore, 54000, Pakistan","31.5971397","74.2333395","Real estate agency","Lahore to, Al Rehman Garden Phase 2 Near Faizpur Interchange, Block C, Al-Noor Orchard, 3-KM, Sharaqpur Rd","The SRG Group - Real Estate Consultant & Builders","4","2","1","0","0","1","0","54000"
+"Phase 7, Site office, Al Rehman Garden, Office no 9 HR Estate & Builders, Lahore, 39460, Pakistan","31.5660259","74.1863639","Real estate agency","Phase 7, Site office, Al Rehman Garden, Office no 9 HR Estate & Builders","HR Estate & Builders ARG Ph 7","5","1","1","0","0","0","0","39460"
+"Al Noor Orchards 3 km from, Al Rehman Garden Phase 2 Near Faizpur Interchange, Main Boulevard, Motorway(M2, Main Sheikhupura - Sharaqpur Rd, D Block Lahore, 54000, Pakistan","31.5971397","74.2333395","Real estate consultant","Al Noor Orchards 3 km from, Al Rehman Garden Phase 2 Near Faizpur Interchange, Main Boulevard, Motorway(M2, Main Sheikhupura - Sharaqpur Rd","Botala Real Estate and Builders","5","1","1","0","0","0","0","54000"
+"J62M+9HM, Al Rehman Garden Phase 2, Lahore, 54000, Pakistan","31.6009651","74.2339162","Real estate consultant","J62M+9HM","Al Zain Real Estate","3.7","3","2","0","1","0","0","54000"
+"Sharqpur shadman enclave gate no 3, Lahore, 39460, Pakistan","31.5824533","74.2070396","Real estate agency","Sharqpur shadman enclave gate no 3","Ali Real Estate","5","5","5","0","0","0","0","39460"
+"Zarkhaiz, Al Noor Orchard, Sharaqpur Road, Near Motorway Interchange Lahore - Sheikhupura Motorway, 54000, Pakistan","31.5661705","74.1761452","Real estate agency","Zarkhaiz, Al Noor Orchard, Sharaqpur Road, Near Motorway Interchange Lahore - Sheikhupura Motorway","Zarkhaiz Properties & Marketing","5","4","4","0","0","0","0","54000"
+"Omega Residencia, Lahore, 54000, Pakistan","31.604663","74.2194384","Real estate consultant","Omega Residencia","Omega Residencia Lahore Raza Property Marketing","4.6","17","14","1","0","1","1","54000"
+"J62Q+P89, Naain Sukh, Lahore, Pakistan","31.6017758","74.2383533","Real estate agency","J62Q+P89","Al Hermain Estate & Builders","5","1","1","0","0","0","0",
+"Main Boulevard, Main Boulevard, Al Rehman Garden Phase 2, Lahore, 54000, Pakistan","31.600632","74.2335568","Real estate consultant","Main Boulevard, Main Boulevard","Suffah Associates & Marketing","5","1","1","0","0","0","0","54000"
+"Main Blvd, Lahore, Pakistan","31.5910688","74.2484931","Real estate agency","Main Blvd","Waleed Real Estate","3.7","3","2","0","1","0","0",
+"H6W5+XG, Al Jalil Garden, Pakistan","31.5974049","74.2087197","Real estate consultant","H6W5+XG","Sher Ali Real Estate and Builders Al Jalil Garden Buy Property Dealers","5","1","1","0","0","0","0",
+"48 Rose Commercial Block AlJalil Garden Lahore Aljalil Garden, Lahore, 57000, Pakistan","31.5930963","74.2106203","Real estate agency","48 Rose Commercial Block AlJalil Garden Lahore Aljalil Garden","Ittefaq Real Estate & Builders",,"0",,,,,,"57000"
+"Near Motorway, Al Rehman Garden Phase 2 Near Faizpur Interchange, Omega Residencia, Main Sharqpur Road, Lahore, Pakistan","31.6051119","74.2197251","Real estate consultant","Near Motorway, Al Rehman Garden Phase 2 Near Faizpur Interchange, Omega Residencia, Main Sharqpur Road","Hajvery Real Estate & Builders","4","1","0","1","0","0","0",
+"Office # Al Jalil Garden, 14 Main Blvd, Lahore, Pakistan","31.5928997","74.2104618","Real estate consultant","Office # Al Jalil Garden, 14 Main Blvd","Ranjha Estate Al Jalil Garden","4.8","5","4","1","0","0","0",
+"H6X6+VQ8, Ferozewala, Pakistan","31.5996636","74.2119458","Real estate consultant","H6X6+VQ8","Bakhsh Town Office.","4.5","2","1","1","0","0","0",
+"Al Noor Orchard 3Km From Faizpur Interchange (M2) Motorway Main Sharaqpur, Road, Lahore, 54000, Pakistan","31.5682202","74.1765593","Real estate consultant","Al Noor Orchard 3Km From Faizpur Interchange (M2) Motorway Main Sharaqpur, Road","Medaan Properties SMC PVT LTD","5","5","5","0","0","0","0","54000"
+"H57P+QH7, Thikriwala, Pakistan","31.5644203","74.1864155","Real estate agency","H57P+QH7","Chauhan Real Estate",,"0",,,,,,
+"Executive Office #15, Grand Boulevard Al Jalil Garden, Faizpur, Interchange, 54000, Pakistan","31.5978157","74.2086674","Real estate agency","Executive Office #15, Grand Boulevard Al Jalil Garden","The A Team Real Estate Dealers","5","8","8","0","0","0","0","54000"
+"Rehman City Phase 4, Sagiya Pull, near water Land Park, Lahore, 00000, Pakistan","31.5774501","74.2550642","Real estate agency","Rehman City Phase 4, Sagiya Pull, near water Land Park","Real Estate & Developer","4.8","5","4","1","0","0","0","00000"
+"Al Qayyum Garden, Burj Attari, Sharaqpur, Pakistan","31.57439","74.2025151","Real estate agency","Al Qayyum Garden","Bin Qasim Estate","5","1","1","0","0","0","0",
+"J649+7VQ, Lahore Sharaqpur Rd, Sharaqpur, Pakistan","31.6057053","74.2197201","Real estate agency","J649+7VQ, Lahore Sharaqpur Rd","Saim ReReal Estate",,"0",,,,,,
+"D Al Rehman Garden Phase 2, Lahore, 54000, Pakistan","31.601361","74.2336277","Industrial real estate agency",,"Direct Deals Marketing","5","1","1","0","0","0","0","54000"
+"shop no, 9 C N Block Market Rd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5955602","74.2326108","Real estate consultant","shop no, 9 C N Block Market Rd","Pak Madina Real Estate",,"0",,,,,,
+"Al Jalil Garden, Lahore, 54000, Pakistan","31.5930762","74.2113438","Real estate agency","Al Jalil Garden","ALPHA CONSULTANT REAL ESTATE","3.4","5","2","1","1","0","1","54000"
+"CM 36 Main Boulevard Shadman Enclave Gate # 2 Sharaqpur Road, 54000, Pakistan","31.5823991","74.2106704","Real estate agency","CM 36 Main Boulevard Shadman Enclave Gate # 2 Sharaqpur Road","Mughal Estate & Builders","4","1","0","1","0","0","0","54000"
+"H56H+FJP, Sharaqpur road, Sheikhupura, Pakistan","31.561223","74.1790817","Real estate agency","H56H+FJP, Sharaqpur road","CPM Click Property Management","5","3","3","0","0","0","0",
+"Plot 6b, Main Sharaqpur Road, Main Bolevard, Commercial Dhameke, Sheikhupura, Pakistan","31.5612693","74.1805712","Industrial real estate agency","Plot 6b, Main Sharaqpur Road, Main Bolevard, Commercial Dhameke","Faisal Associates Al Noor Orchard","5","1","1","0","0","0","0",
+"43,44, Commercial,Rose Block AL-JALIL Garden Housing Scheme, Lahore, 54500, Pakistan","31.5930959","74.2110537","Real estate consultant","43,44, Commercial,Rose Block AL-JALIL Garden Housing Scheme","MDA Associate's/AL JALIL Garden/Dealer","5","3","3","0","0","0","0","54500"
+"H56J+P64, Dhameke, Pakistan","31.5617666","74.180573","Real estate consultant","H56J+P64","City Marketing Al-Noor Orchard","5","4","4","0","0","0","0",
+"PHGG+PRF, Safdarabad, Pakistan","31.7268893","73.5769268","Real estate agency","PHGG+PRF","Rafique & Sons","5","1",,,,,,
+"Rayan Marketing Al Rehman Garden Phase 2 Sharaqpur, Rode, Lahore, Pakistan","31.6009605","74.2336269","Real estate agency","Rayan Marketing Al Rehman Garden Phase 2 Sharaqpur","Rayan Marketing","5","3","3","0","0","0","0",
+"Chattha Colony No 2, Begum Kot Shahdara Town, Lahore, Pakistan","31.609111","74.2541434","Real estate agency","Chattha Colony No 2","Basra Estate",,"0",,,,,,
+"Al Rehman Garden Phase 2, Hassan Commercials, Gate no.4, Lahore, 54560, Pakistan","31.5904893","74.2502162","Real estate agency","Al Rehman Garden Phase 2, Hassan Commercials, Gate no.4","Heera Real Estate & Builders",,"0",,,,,,"54560"
+"H6RQ+J9X, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5916026","74.2384758","Real estate agency","H6RQ+J9X","Gohar Real Estates",,"0",,,,,,
+"Office # 104-D, Gate 1 Main Blvd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.6000205","74.2337775","Real estate agent","Office # 104-D, Gate 1 Main Blvd","Direction Marketing Network | Real Estate Consultants","5","4","4","0","0","0","0",
+"Safdarabad, Pakistan","31.7252701","73.5766167","Real estate agency",,"Toor Property Dealer","2","1",,,,,,
+"Main sharqpur road, Al Noor Orchard, Sharaqpur, 39460, Pakistan","31.560711","74.1809741","Real estate agency","Main sharqpur road","Al Rehman Real Estate & Builders",,"0",,,,,,"39460"
+"J686+8V4, Thatha, Khuda Yar Sheikhupura, 39250, Pakistan","31.6157589","74.2122086","Real estate agency","J686+8V4, Thatha","CHADHAR ESTATE ADVISOR","3","4","2","0","2","0","0","39250"
+"PHMH+QF5, Unnamed Road, Saeed Nagar Safdarabad, Pakistan","31.7343998","73.5787231","Real estate consultant","PHMH+QF5, Unnamed Road","Safdarabad Green Property Advisor and Builders","5","1",,,,,,
+"Main Bazaar Rd, Safdarabad, 39540, Pakistan","31.7293399","73.5762656","Mobile money agent","Main Bazaar Rd","Shani MC","5","3",,,,,,"39540"
+"J742+V72, Sagian Wala Bypass Rd, Naain Sukh, Shahdara, Pakistan","31.6071995","74.250502","Real estate agency","J742+V72, Sagian Wala Bypass Rd","Saiban Realestate",,"0",,,,,,
+"Civil hospital road, near TMA office, Safdarabad, 39540, Pakistan","31.7255734","73.5770801","Real estate agent","Civil hospital road, near TMA office","Real estate marketing advisor",,"0",,,,,,"39540"
+"H58G+77F, Pakistan","31.5656778","74.1756746","Real estate agency","H58G+77F","Al karam Real Estate",,"0",,,,,,
+"Usman Real Estate-29 Gate#2, Shadman Enclave, Sharqpur Road, near Faizpur Interchange, Lahore, Pakistan","31.5824319","74.20992","Real estate consultant","Usman Real Estate-29 Gate#2, Shadman Enclave, Sharqpur Road, near Faizpur Interchange","Usman Real Estate","3","2","1","0","1","0","0",
+"P92P+W4V, Sangla Hill, Pakistan","31.7023688","73.3852896","Real estate consultant","P92P+W4V","Taj Property Concern","5","2",,,,,,
+"P94R+34R Al noor Garden, Shahkot, Pakistan","31.7052312","73.3902581","Real estate agency","P94R+34R Al noor Garden","Vip Realestate",,"0",,,,,,
+"H5CW+9GW, Burj Attari, Pakistan","31.5675787","74.1920551","Real estate consultant","H5CW+9GW","Takbeer Estate",,"0",,,,,,
+"Manan Wala, Pakistan","31.5861481","73.6890902","Real estate agency",,"Al-Hussaini Property Dealer",,"0",,,,,,
+"H48Q+PC Khanuwal, Pakistan","31.5667696","74.138531","Real estate consultant","H48Q+PC Khanuwal","West Marina Lahore","4.5","2","1","1","0","0","0",
+"F494+FVC, Jaranwala-Sharaqpur Rd, Sharaqpur, Sheikhupura, 39460, Pakistan","31.4686751","74.1071452","Real estate agency","F494+FVC, Jaranwala-Sharaqpur Rd, Sharaqpur","Bhatti Property Dealer","5","2",,,,,,"39460"
+"J64V+HG4, Jaranwala-Sharaqpur Rd, Naain Sukh, Shahdara, 54950, Pakistan","31.6063997","74.2438407","Real estate agency","J64V+HG4, Jaranwala-Sharaqpur Rd","Al-Haq Estate",,"0",,,,,,"54950"
+"J6R6+74V, Lahore-Islamabad Mtwy, city Society, koatAbullah, Pakistan","31.6407308","74.2102865","Real estate agency","J6R6+74V, Lahore-Islamabad Mtwy","Daily Deals Real Estate & Lahore Store",,"0",,,,,,
+"H58M+Q87 Al Rehman Garden, Lahore, Pakistan","31.5669217","74.1833083","Real estate agency","H58M+Q87 Al Rehman Garden","Real Estate Marketing Solution",,"0",,,,,,
+"On the way to Safdara bad road, Shahkot, Pakistan","31.5841672","73.4866583","Real estate rental agency","On the way to Safdara bad road","Rental property FOR SCHOOL,COLLEGE",,"0",,,,,,
+"Main Boulevard, Valley, Lahore, 60800, Pakistan","31.6057271","74.2347098","Real estate consultant","Main Boulevard","REVOLUTION MARKETING",,"0",,,,,,"60800"
+"P98G+M8Q, Railway Station Rd, Sangla Hill, Pakistan","31.7167148","73.3758719","Real estate consultant","P98G+M8Q, Railway Station Rd","Yasir irfan property dealer",,"0",,,,,,
+"Al Rehman Garden Phase 2 Near Faizpur Interchange، Omega residenc Near, Lahore, Pakistan","31.6056521","74.2187443","Real estate agency","Al Rehman Garden Phase 2 Near Faizpur Interchange، Omega residenc Near","New Al Madina Real Estate",,"0",,,,,,
+"PHJH+554, Safdarabad Road, Ward Number 8 Khanqah Dogran, Pakistan","31.7303897","73.5779472","Real estate developer","PHJH+554, Safdarabad Road","Mian Afzal Stamp Vonder and Property dealers",,"0",,,,,,
+"Office No 76,77 (Gate No 1), Al-Rehman Garden Phase 2, Main Sharaqpur, Road, Lahore, 54500, Pakistan","31.601731","74.2336582","Real estate agent","Office No 76,77 (Gate No 1), Al-Rehman Garden Phase 2, Main Sharaqpur, Road","Bin Ghani Estate Adviser & Developers",,"0",,,,,,"54500"
+"H6RX+699, Main Blvd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5905477","74.2484852","Real estate consultant","H6RX+699, Main Blvd","FAIZI REAL ESTATE",,"0",,,,,,
+"J63G+7XC, Pakistan","31.6031983","74.2273815","Real estate consultant","J63G+7XC","ABM Marketing","5","4","4","0","0","0","0",
+"Al Rehman Garden Phase 2 Near Faizpur Interchange, OMEGA VILLAS Road M-2, Lahore, Pakistan","31.6022368","74.221478","Real estate consultant","Al Rehman Garden Phase 2 Near Faizpur Interchange, OMEGA VILLAS Road M-2","Al Kareem Estate & Dovelper",,"0",,,,,,
+"Al qayyum garden, Burj Attari - Sheikhupura-Sharaqpur Link Rd, Burj Attari, Pakistan","31.5745401","74.2023838","Real estate consultant","Al qayyum garden, Burj Attari - Sheikhupura-Sharaqpur Link Rd","Sher ali Real Estate","2.8","5","1","1","2","1","0",
+"Al Hafiz Real Estate Hassan Commercial Gate no 4, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5903352","74.2499718","Real estate agency","Al Hafiz Real Estate Hassan Commercial Gate no 4","Al Hafiz Real Estate",,"0",,,,,,
+"J62M+FF7, Al Rehman Garden Phase 2, Lahore, Pakistan","31.6011687","74.2336699","Real estate consultant","J62M+FF7","Al Khaliq Estate And Builders","1","1","0","0","1","0","0",
+"H6J5+XCJ, Pakistan","31.5824599","74.2085796","Real estate agency","H6J5+XCJ","Data real estate",,"0",,,,,,
+"Al Noor Orchard, D Block Main Rd, Lahore, 54000, Pakistan","31.5628317","74.181209","Real estate agency","Al Noor Orchard, D Block Main Rd","Al noor orchard Realtors",,"0",,,,,,"54000"
+"H58R+XJF, Mian sharqpur road, lahore sheikhupura road, near motorway intechange, Lahore, Pakistan","31.5674253","74.1915553","Real estate agency","H58R+XJF, Mian sharqpur road, lahore sheikhupura road, near motorway intechange","Crown real estate",,"0",,,,,,
+"H6V6+6GX Al Jalil Garden, Main Boulevard, Phase 1 Lahore, Pakistan","31.5931033","74.2113474","Real estate consultant","H6V6+6GX Al Jalil Garden, Main Boulevard","Goraya Estate & Builders","3","2","1","0","1","0","0",
+"H56H+WQW, Unnamed Road, Pakistan","31.5623665","74.1794644","Real estate agency","H56H+WQW, Unnamed Road","The palm Estate",,"0",,,,,,
+"H6H5+3G2, Chabeel, Pakistan","31.5776375","74.2087656","Real estate consultant","H6H5+3G2","AL - ASAR PROPERTIES",,"0",,,,,,
+"Main Road Gate No 1, 12345, Pakistan","31.6013138","74.2338975","Real estate consultant","Main Road Gate No 1","Ali Real Estate","4.3","6","3","2","0","1","0","12345"
+"J62M+5H3, Main Rd, Naain Sukh, Lahore, Pakistan","31.6003875","74.2339159","Real estate agency","J62M+5H3, Main Rd","Al Khan Real Estate",,"0",,,,,,
+"J63H+62R, Pakistan","31.6031212","74.227516","Real estate consultant","J63H+62R","Bismillah Estate Center",,"0",,,,,,
+"J639+XWR, Unnamed Road, Pakistan","31.6049752","74.219766","Real estate agency","J639+XWR, Unnamed Road","Sesa Real Estate & Builder",,"0",,,,,,
+"Al Noor Orchard, Main Boulevard, C, Lahore, 54000, Pakistan","31.5666415","74.1758479","Industrial real estate agency","Al Noor Orchard, Main Boulevard, C","Al Noor Orchard",,"0",,,,,,"54000"
+"J624+M49 Al Hamd estate, Al Jalil Garden, Pakistan","31.6016502","74.2053687","Real estate consultant","J624+M49 Al Hamd estate","Al Hamd real estate",,"0",,,,,,
+"Al Fatah Real Estate, Al Rehman Garden, near M2 Motorway Faizpur Interchange, phase 7 Lahore, 54000, Pakistan","31.5663995","74.1850717","Real estate agent","Al Fatah Real Estate, Al Rehman Garden, near M2 Motorway Faizpur Interchange","Al Fatah Real Estate",,"0",,,,,,"54000"
+"H58G+77F, Pakistan","31.565653","74.175459","Real estate agency","H58G+77F","IH ESTATE AND BUILDERS",,"0",,,,,,
+"Naain Sukh, Lahore, Pakistan","31.6029457","74.2366034","Real estate agency",,"Khoob Estate Agency",,"0",,,,,,
+"H6J4+XW6, Lahore-Jaranwala Rd, Pakistan","31.5824098","74.2072735","Real estate agency","H6J4+XW6, Lahore-Jaranwala Rd","Al Amin Real Estate",,"0",,,,,,
+"H6RV+GWV, Al Rehman Garden Phase 2, Lahore, Pakistan","31.591372","74.244812","Real estate agency","H6RV+GWV","al raziq estate",,"0",,,,,,
+"H57J+24M, Lahore, Pakistan","31.5625794","74.1803057","Real estate consultant","H57J+24M","HASSAN REAL ESTATE",,"0",,,,,,
+"Al Noor orchard A Block Extension, Container market, Lahore, 54000, Pakistan","31.567097","74.1763444","Real estate agency","Al Noor orchard A Block Extension, Container market","RDM Inn Realty A trusted real estate agency",,"0",,,,,,"54000"
+"H6F3+M97, Burj Attari, Pakistan","31.5741507","74.203408","Real estate consultant","H6F3+M97","Zmakka Real Estate Consultants and Builders","3","4","1","1","1","0","1",
+"Wall Real Estate Al Jalil Garden main Boulevard Sharaq pur, Road, Lahore, 52302, Pakistan","31.5928735","74.2104751","Real estate agency","Wall Real Estate Al Jalil Garden main Boulevard Sharaq pur, Road","ApnaPlots","4","4","3","0","1","0","0","52302"
+"shrarqpur road shadman enclave gate no #2, 39460, Pakistan","31.5824223","74.2087093","Real estate agency","shrarqpur road shadman enclave gate no #2","ZZ Realtors",,"0",,,,,,"39460"
+"H6RX+5MX, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5904878","74.2492331","Real estate agency","H6RX+5MX","Green Properties",,"0",,,,,,
+"H6M3+VX, Rana Bhatti, Pakistan","31.5846311","74.2049893","Real estate consultant","H6M3+VX","Jahangir Estate & Builders",,"0",,,,,,
+"H6F3+R2, Burj Attari, Pakistan","31.5745098","74.202517","Real estate consultant","H6F3+R2","Bajwa Real Estate & builder's",,"0",,,,,,
+"J649+5W7, Unnamed Road, Pakistan","31.6054189","74.2197997","Real estate consultant","J649+5W7, Unnamed Road","Omega Residencia Lahore alghani Estate","5","1","1","0","0","0","0",
+"H57P+WQP, Thikriwala, Pakistan","31.5648375","74.1869531","Real estate consultant","H57P+WQP","Al Rehman Garden Phase 7 Booking Office","4.4","7","6","0","1","0","0",
+"Shadman Enclave, M Block Round About, Gate#1, Lahore Sharqpur, Road, Sheikhupura, Pakistan","31.5843764","74.2125141","Real estate agency","Shadman Enclave, M Block Round About, Gate#1, Lahore Sharqpur, Road","Humayl Real Estate",,"0",,,,,,
+"Pak Valley, main sharaqpur road, near Al Rehman Garden Phase 2 Near Faizpur Interchange, Jinnah Garden, Lahore, Pakistan","31.6045625","74.2341875","Real estate consultant","Pak Valley, main sharaqpur road, near Al Rehman Garden Phase 2 Near Faizpur Interchange","AL-HADI ESTATE",,"0",,,,,,
+"3G4W+Q8W, Bhedian Kalan - Sheikhpur Rd, Mahlem Kalan, Pakistan","31.0569752","74.5458295","Real estate agency","3G4W+Q8W, Bhedian Kalan - Sheikhpur Rd","ندیم پیٹی میکر مہالم کلاں تحصیل اینڈ ڈسٹرکٹ قصور",,"0",,,,,,
+"Shadman enclave, near faizpur, Shadman enclave, interchange, 39460, Pakistan","31.5844072","74.2126682","Industrial real estate agency","Shadman enclave, near faizpur","Adan Developer",,"0",,,,,,"39460"
+"Faizpur, Faiz Pur, Sheikhupura, 39350, Pakistan","31.5976143","74.2219971","Real estate consultant","Faizpur, Faiz Pur","New Metro City Lahore Booking Office - Sharaqpur Branch Globe Estate",,"0",,,,,,"39350"
+"4FJ6+X8X, Kasur, Pakistan","31.1324922","74.4608574","Real estate agency","4FJ6+X8X","Pinpoint Property Channel","5","2",,,,,,
+"H7X3+HHJ, Road, Saggian, Lahore, Pakistan","31.5989768","74.2538429","Real estate agency","H7X3+HHJ, Road","Huzaifa Estate",,"0",,,,,,
+"4F67+24Q, Rail Rd, Kasur, Pakistan","31.1100806","74.462857","Real estate agent","4F67+24Q, Rail Rd","Shahbaz Developers kasur","5","1",,,,,,
+"H59G+3R7, Lahore-Jaranwala Rd, Burj Attari, Pakistan","31.5676706","74.1770378","Real estate consultant","H59G+3R7, Lahore-Jaranwala Rd","Property Garden",,"0",,,,,,
+"H58P+H6, Thikriwala, Pakistan","31.5661471","74.1858542","Real estate consultant","H58P+H6","Al Rehman garden phase 7 Butt Estate",,"0",,,,,,
+"Main Boulevard Adams, Housing, Lahore, 39250, Pakistan","31.5840852","74.2053786","Real estate agency","Main Boulevard Adams","Adams Housing Lahore | Pakistan Estate Linker",,"0",,,,,,"39250"
+"no.4, Hassan Commercial Gate, Plaza number 21,22, Al Rehman Garden Phase 2, Lahore, 54000, Pakistan","31.5903627","74.2502362","Real estate agency","no.4, Hassan Commercial Gate, Plaza number 21,22","Basharat Estate and Builders",,"0",,,,,,"54000"
+"J649+6P2, Pakistan","31.6055244","74.2192504","Real estate consultant","J649+6P2","PROPERTY MANAGER OMEGA RESIDENCIA LAHORE",,"0",,,,,,
+"Park lane city, main boulevard, Lahore, Pakistan","31.602726","74.2272307","Real estate agency","Park lane city, main boulevard","Hafiz Abdul Malik office",,"0",,,,,,
+"Al Rehman, Lahore-Jaranwala Rd, phase 7, Thikriwala, Pakistan","31.5642053","74.1866325","Real estate consultant","Al Rehman, Lahore-Jaranwala Rd","Man O Salawa Associate",,"0",,,,,,
+"J722+PXR, Naain Sukh, Lahore, Pakistan","31.601357","74.2525933","Real estate agency","J722+PXR","Mian ashfaq and sons",,"0",,,,,,
+"Al Rehman Garden Phase 2 Near Faizpur Interchange, 3km Sheikhupura - Sharaqpur Rd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5971397","74.2333395","Real estate agent","Al Rehman Garden Phase 2 Near Faizpur Interchange, 3km Sheikhupura - Sharaqpur Rd","RAJH MARK REALTORS",,"0",,,,,,
+"J62M+JHF, Main Rd, Al Rehman Garden Phase 2, Lahore, Pakistan","31.601576","74.233938","Real estate agency","J62M+JHF, Main Rd","ABDULLAH ESTATE & builders",,"0",,,,,,
+"H56J+F8P, Sharaqpur, Pakistan","31.5612046","74.1808178","Real estate consultant","H56J+F8P","Sheza Marketing Real Eatate Al Noor Orchard Lahore",,"0",,,,,,
+"H6G2+638, near faiz pur interchange, Burj Attari, Lahore, Pakistan","31.5755283","74.2002007","Real estate consultant","H6G2+638, near faiz pur interchange","Al Rehman estate Alqayum garden",,"0",,,,,,
+"H6X4+JQG, Wahgrey - Bhagiarwala Rd, Pakistan","31.5990542","74.2069668","Real estate agent","H6X4+JQG, Wahgrey - Bhagiarwala Rd","Azan Real Estate",,"0",,,,,,
+"Babu Abdul, Gate 4 Rasheed Road, near Al Rehman Garden Phase 2, Lahore, Pakistan","31.5894778","74.2525802","Real estate agency","Babu Abdul, Gate 4 Rasheed Road, near Al Rehman Garden Phase 2","Al Rasheed Estate and Builders",,"0",,,,,,
+"Faizpure Interchange, Main Boulevard, Al Jalil Garden, Pakistan","31.601601","74.2053713","Real estate developer","Faizpure Interchange, Main Boulevard","AL JALIL GARDEN housing scheme/BUY PROPERTY Dealers","3.5","8","5","0","3","0","0",
+"H57P+WQP, Thikriwala, Pakistan","31.5656669","74.1882183","Real estate consultant","H57P+WQP","miracle city Al Rehman garden phase 7","4.7","3","2","1","0","0","0",
+"H58H+4R7, Unnamed Road, Pakistan","31.5652755","74.1795409","Real estate agent","H58H+4R7, Unnamed Road","Saleem Hussain Real Estate Advisor - 3KM Main Sharaqpur Road Lahore",,"0",,,,,,
+"Omega Residencia, near Al Rehman Garden Phase 2 Near Faizpur Interchange, Lahore, Pakistan","31.6067342","74.2234331","Real estate consultant","Omega Residencia, near Al Rehman Garden Phase 2 Near Faizpur Interchange","ALWASAY MARKETING",,"0",,,,,,
+"نیا اڈا فیض عام گلی نزد ولید بک ڈپو, Khudian Khas, Pakistan","30.9823795","74.2734239","Real estate consultant","نیا اڈا فیض عام گلی نزد ولید بک ڈپو","Prime Property Naama",,"0",,,,,,
+"7C37+5G, Mustafabad, Pakistan","31.252913","74.4138303","Real estate agency","7C37+5G","IK property real estate",,"0",,,,,,
+"Park Lane City, Main Boulevard, Sharqpur Road, Lahore, 54000, Pakistan","31.6018034","74.2271247","Property management company","Park Lane City, Main Boulevard, Sharqpur Road","ZAMEEN O JAIDAD Marketing & Developers",,"0",,,,,,"54000"
+"Al Noor, Road, Orchard Housing Scheme, Sharaqpur, Pakistan","31.5663145","74.1761587","Real estate consultant","Al Noor, Road","S.M Real Estate",,"0",,,,,,
+"J63G+MV7, Lahore, Pakistan","31.6041686","74.227171","Real estate agency","J63G+MV7","Subhan Ali Office",,"0",,,,,,
+"Rajuwal, Pakistan","30.8735636","74.2904412","Housing society",,"Rajowal Nou Foji Colony","4.8","6","5","1","0","0","0",
+"Jodhwala, Pakistan","30.9074375","74.2751875","Agricultural product wholesaler",,"IMDAD ALI ORGANIC FARMS","5","11","11","0","0","0","0",
+"Plaza no 9, Hassan commercial Rehman, Al Rehman Garden Phase 2, Lahore, Pakistan","31.5904306","74.2509226","Real estate consultant","Plaza no 9, Hassan commercial Rehman","Metaverse Marketing",,"0",,,,,,
+"Sharqpur road shadman enclave housing scheme gate no 2 Lahore, 39460, Pakistan","31.5819954","74.20974","Real estate agency","Sharqpur road shadman enclave housing scheme gate no 2 Lahore","As Marketing",,"0",,,,,,"39460"
+"Main Sheikhupura - Sharaqpur Road, Sheikhupura, Pakistan","31.5680034","74.1767709","Real estate agency","Main Sheikhupura - Sharaqpur Road","Ali Marketing",,"0",,,,,,
+"Main Boulevard Al-Rehman Garden Phase 7, Sharaqpur, Road, Lahore, Pakistan","31.566052","74.1863229","Real estate agency","Main Boulevard Al-Rehman Garden Phase 7, Sharaqpur, Road","Man o Salwa Associates",,"0",,,,,,
+"H6RX+3CH, Lahore, Pakistan","31.5901823","74.2486167","Real estate agency","H6RX+3CH","Hafsa Plaza",,"0",,,,,,
+"H6J5+XH, Kot Nur Sha, Pakistan","31.5824852","74.2089929","Real estate agency","H6J5+XH","IMN Marketing",,"0",,,,,,
+"C Block Main Boulevard Al Noor Orchard, Main Sharaq Pur, Road, Lahore, Pakistan","31.5652628","74.1788628","Property investment company","C Block Main Boulevard Al Noor Orchard, Main Sharaq Pur, Road","House of Property Realtors & Marketing","5","1","1","0","0","0","0",
+"J649+7Q, Lahore, Pakistan","31.6056309","74.2192716","Industrial real estate agency","J649+7Q","4 Star Marketing Omega Residencia Lahore","2.5","2","0","1","1","0","0",
+,"31.4829403","74.3343893","Real estate consultant",,"Wahid.pk Lahore (Sell, Buy or Rentout Free)",,"0",,,,,,
+,"31.5925554","74.2339184","Real estate consultant",,"Beta marketing and homes",,"0",,,,,,
+"WQMF+VWG, Ajnianwala, Pakistan","31.9349742","73.7742771","Real estate agency","WQMF+VWG","Engineer Property Wala","4","1",,,,,,
+"Sheikhupura, Pakistan","31.7166855","73.9850854","Real estate agency",,"Sheikhupura Real Estate & Property Group","5","1",,,,,,
+"10 CC, X Block Housing Colony, Sheikhupura, Pakistan","31.7042372","74.0216966","Real estate agency","10 CC","Shan Real Estate","5","2",,,,,,
+"P2R4+2GC, Sheikhupura, Pakistan","31.7400572","74.0062746","Real estate agency","P2R4+2GC","Ferozi Real Estate","3.4","8",,,,,,
+"PX6R+QJ8, Lahore Rd, Sheikhupura, Pakistan","31.7119133","73.9915842","Industrial real estate agency","PX6R+QJ8, Lahore Rd","Al Karam Estates","5","1",,,,,,
+"Office 10A, Pearl One tower, Lavandus Block Bahria Town, Lahore, 53720, Pakistan","31.3630661","74.1833792","Commercial real estate agency","Office 10A, Pearl One tower","Ali Saeed Enterprises","5","16",,,,,,"53720"
+"Hafizabad - Sheikhupura Rd, Ajnianwala, Pakistan","31.9436081","73.7703368","Real estate agent","Hafizabad - Sheikhupura Rd","Fazal e Haq Estate Adviser Ajnianwala",,"0",,,,,,
+"19 Quaid Commercial, near Eiffel tower, Bahria Town, Lahore, 54770, Pakistan","31.3574481","74.1851222","Real estate agency","19 Quaid Commercial, near Eiffel tower","PROPERTY INN (PVT) LTD","4.9","62",,,,,,"54770"
+"56-B Commercial Zone, Main boulevard, Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3712654","74.1866836","Real estate agency","56-B Commercial Zone, Main boulevard","Titanium Group Pvt. Limited","4.6","124",,,,,,"53720"
+"QX2C+MQG, royal oaks residencia hiran minar interchange, near moterway, Sheikhupura, 39350, Pakistan","31.7516999","73.9719685","Real estate consultant","QX2C+MQG, royal oaks residencia hiran minar interchange, near moterway","Tariq Group ( Royal Oaks Residencia Sheikhupur)","4.5","6",,,,,,"39350"
+"ہجویری یونیورسٹی, Sheikhupura, Pakistan","31.7248849","73.9308763","Real estate consultant","ہجویری یونیورسٹی","Madina Marketing Sheikhupura","5","1",,,,,,
+"E, 35- A Main Blvd, Sector Lavandus Block Bahria Town, Lahore, 53720, Pakistan","31.3639456","74.1860804","Real estate consultant","E, 35- A Main Blvd","Land Master","5","47",,,,,,"53720"
+"Office # 1, Albaari Residencia, 2KM from Batti Chowk, near Motorway Interchange, Sheikhupura, 39350, Pakistan","31.7329829","74.0012228","Real estate agent","Office # 1, Albaari Residencia, 2KM from Batti Chowk, near Motorway Interchange","Al Razziq Real Estate & Builders","5","2",,,,,,"39350"
+"Plot no 90-A, C Chambelli Block Sector C Bahria Town, Lahore, 54660, Pakistan","31.3703965","74.1855439","Real estate agency","Plot no 90-A","EXPERT EDGE REAL ESTATE","5","6",,,,,,"54660"
+"No 1st flour, 962M+RV6, commercial 25, Lahore, 55150, Pakistan","31.352063","74.234688","Real estate consultant","No 1st flour, 962M+RV6, commercial 25","Us Associates and Builder Al Kabir Town","5","10",,,,,,"55150"
+"Defence Colony, Sheikhupura, 54000, Pakistan","31.7059366","74.0118758","Real estate consultant",,"Al bari Resdencia skp Ittefaq Real estate","4.4","13",,,,,,"54000"
+"58-A, Nishtar Block, Main Boulevard, Lavandus Block Bahria Town, Lahore, Punjab Pakistan Lavandus, Block, Lahore, 53720, Pakistan","31.362061","74.1860849","Real estate agency","58-A, Nishtar Block, Main Boulevard, Lavandus Block Bahria Town, Lahore, Punjab Pakistan Lavandus, Block","Land Holders","5","9",,,,,,"53720"
+"PXCP+94M Palm Real Estate, Sheikhupura, Pakistan","31.7209521","73.985298","Real estate agency","PXCP+94M Palm Real Estate","The palm Estate",,"0",,,,,,
+"QX2C+WQ8 Hiran Minar, Sheikhupura, 39350, Pakistan","31.7522941","73.9719566","Real estate consultant","QX2C+WQ8 Hiran Minar","Royal Oaks Residencia","4.6","5",,,,,,"39350"
+"A-Block Commercial, Al-Kabir Town, Phase II, Main Raiwind Rd, opp. Lake City, Lahore, Pakistan","31.3521553","74.2365958","Real estate agency","A-Block Commercial, Al-Kabir Town, Phase II, Main Raiwind Rd, opp. Lake City","Y&Y Real Estate Consultants","5","1",,,,,,
+"Interchange, Near Hiran Minar, Hafizabad Rd, Sheikhupura, Pakistan","31.7349527","73.9598345","Industrial real estate agency","Interchange, Near Hiran Minar, Hafizabad Rd","Summit Estate & Builders (Minar Housing City)","5","3",,,,,,
+"12.5 KM MAIN RAIWIND ROAD, near RING ROAD, Shahanshah Town, Lahore, Pakistan","31.3721859","74.2320062","Real estate consultant","12.5 KM MAIN RAIWIND ROAD, near RING ROAD","HQ Enterprises","5","4",,,,,,
+"1st Floor 92-B Commercial, Lahore, 53720, Pakistan","31.363548","74.1875536","Real estate consultant","1st Floor 92-B Commercial","TITANIUM PROPERTIES PRIVATE LIMITED","4.8","41",,,,,,"53720"
+"4-C C, Commercial Zone Sector C Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3727434","74.1853696","Real estate agency","4-C C","DEAL LAND REAL ESTATE AND BUILDERS","4.9","17",,,,,,"53720"
+"962P+W44, Paji, Pakistan","31.352274","74.2353282","Real estate consultant","962P+W44","Star Links Real Estate","5","3",,,,,,
+"2-B Commerical, Near Talwar chowk, Sector C Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3767713","74.1864762","Industrial real estate agency","2-B Commerical, Near Talwar chowk","Sky Realtors","5","6",,,,,,"53720"
+"Phase 1, Silver Origin Developers, Al Kabir Town, 1KM Main Blvd, off Raiwind Road, Tarogill, 55150, Pakistan","31.3522776","74.2354337","Industrial real estate agency","Phase 1, Silver Origin Developers, Al Kabir Town, 1KM Main Blvd, off Raiwind Road","silver developers","5","30",,,,,,"55150"
+"13 A Raiwind Rd, alkabir town phase 2 Lahore, Pakistan","31.3522845","74.2348347","Real estate agency","13 A Raiwind Rd","MAX REAL ESTATE","5","5",,,,,,
+"198 B Block, sher shah coloney, Raiwind Rd, Lahore, Pakistan","31.3501512","74.2328274","Real estate agency","198 B Block, sher shah coloney, Raiwind Rd","Al hafiz real eatate & Builders","5","1",,,,,,
+"Al-Kabir Town, 21-B Commercial Area, Mian Boulevard, Phase 2 Raiwind Rd, Lahore, 55150, Pakistan","31.3518733","74.2351002","Real estate agency","Al-Kabir Town, 21-B Commercial Area, Mian Boulevard, Phase 2 Raiwind Rd","GRAND LINKS REAL ESTATE & DEVELOPERS","5","3",,,,,,"55150"
+"E, Apartment 201 Second Floor Nishtar Commercial Plaza No. 6, Bahria Town, Lahore, 54000, Pakistan","31.3618023","74.1868594","Real estate consultant","E, Apartment 201 Second Floor Nishtar Commercial Plaza No. 6","GPN Consultant","4.9","16",,,,,,"54000"
+"First Floor, 9-AA, Near Surahi Chowk, D Bahria Town, Lahore, 53720, Pakistan","31.373825","74.1729951","Industrial real estate agency","First Floor, 9-AA, Near Surahi Chowk","IGNITE REALTORS & BUILDERS","5","8",,,,,,"53720"
+"98 B, Sector C Commercial Area Bahria Town, Lahore, 53720, Pakistan","31.3712491","74.1873917","Real estate agent","98 B","Optimal Estate","4.9","50",,,,,,"53720"
+"VRWR+J89, Unnamed Road, Sheikhupura, Pakistan","31.8965404","73.8408517","Housing complex","VRWR+J89, Unnamed Road","ڈیرہ بہادر دا","5","1","1","0","0","0","0",
+"VVF6+V2, Jhabran Village, Pakistan","31.8747339","73.8601033","Farm","VVF6+V2","Sabeeh ullha dairy and cattle farming",,"0",,,,,,
+"VV83+RM4, Hafizabad Road, Jhabran, Pakistan","31.8670124","73.854214","Housing society","VV83+RM4, Hafizabad Road","AL RASHEED Canal View","4","1","0","1","0","0","0",
+"VV67+3C4, Jhabran, Pakistan","31.860139","73.8635663","Housing society","VV67+3C4","Jhabran (Ahmad Zaman)","3.9","49","25","10","6","3","5",
+"25 km Jandiala Rd, Jhabran, Pakistan","31.8894113","73.832386","Dairy farm","25 km Jandiala Rd","Interloop Dairies limited","4.5","129","93","21","7","5","3",
+"Near Bhakewana Road, Jhabran, Pakistan","31.8571569","73.8635593","Apartment building","Near Bhakewana Road","Rana Taimour house",,"0",,,,,,
+"VRWH+RP, Kair Wala Deera, Pakistan","31.8970674","73.8293337","Farm","VRWH+RP","Zafar dairy&Fish Farm",,"0",,,,,,
+"Jhabran, Pakistan","31.8563125","73.8453125","Dairy farm",,"Rajpoot Dairy farm","5","3","3","0","0","0","0",
+"VV58+HF6, Jhabran, Pakistan","31.8589101","73.8662","Condominium complex","VV58+HF6","Moonhouse",,"0",,,,,,
+"VRWR+F88, Sheikhupura, Pakistan","31.896157","73.8408407","Housing complex","VRWR+F88","ڈیرہ تصدق حسین",,"0",,,,,,
+"VRMP+WM3, Street No2, behind national floor mills, Nazir, Sheikhupura, Pakistan","31.8847612","73.8366851","Housing complex","VRMP+WM3, Street No2, behind national floor mills","Haji's complex",,"0",,,,,,
+"VVR7+6WP, Jhabran, Pakistan","31.8905928","73.8648358","Housing complex","VVR7+6WP","M Tufail Gujjar's House",,"0",,,,,,
+"VR9P+H49, Sheikhupura, Pakistan","31.8689158","73.8353694","Housing complex","VR9P+H49","Dera Khetran Wala","5","1","1","0","0","0","0",
+"VRJ7+WC8, Kakar Gill Road, Jhabran Village, Pakistan","31.8822766","73.813578","Cattle farm","VRJ7+WC8, Kakar Gill Road","SHAREEF RANCH & CATTLE FARM",,"0",,,,,,
+"NEW LAHORE CITY Canal Bank Road, Lahore, Pakistan","31.3411332","74.1506381","Real estate consultant","NEW LAHORE CITY Canal Bank Road","ALBROOJ associates","4.8","12","10","1","0","1","0",
+"84WR+JXX 1 at, New Lahore city, Round About, Lahore, Pakistan","31.3466086","74.1424795","Real estate consultant","84WR+JXX 1 at, New Lahore city, Round About","Al RAHEEM Estate","4.8","8","6","2","0","0","0",
+"C-32 M7, Lake City Main Blvd, Block M 7 Lake City, Lahore, 54000, Pakistan","31.3529931","74.2493187","Real estate agency","C-32 M7, Lake City Main Blvd","Consult N Deal","4.7","176","139","27","2","7","1","54000"
+"963W+8XQ, Block M 7 Lake City, Lahore, Pakistan","31.3533274","74.2474928","Industrial real estate agency","963W+8XQ","Ayyan Property links","4.6","9","6","2","0","1","0",
+"25,26 A Side, Commercial Area Sector C Bahria Town, Lahore, 54000, Pakistan","31.3740746","74.1856792","Real estate agency","25,26 A Side","Ali Saqlain Real Estate and Builders","4.4","97","74","8","8","6","1","54000"
+"Globe Heights, 33 Quaid Block Commercial, Bahria Town, Lahore, Pakistan","31.3574187","74.1838685","Real estate agency","Globe Heights, 33 Quaid Block Commercial","Globe Estate & Builders (Head Office)","4.5","114","90","8","5","8","3",
+"32/7 Main Blvd, Block M 7 Lake City, Lahore, Pakistan","31.3530607","74.2493545","Real estate consultant","32/7 Main Blvd","AAS PROPERTIES","4.5","76","50","19","1","4","2",
+"4-Nishtar Block, Sector E, Bahria Town Main Blvd, Lahore, 54000, Pakistan","31.3619363","74.1869343","Real estate agency","4-Nishtar Block, Sector E, Bahria Town Main Blvd","Dealmakers","4.6","22","18","2","1","1","0","54000"
+"VVJF+P75, Unnamed Road, Sheikhupura, Pakistan","31.881758","73.873229","Dairy farm","VVJF+P75, Unnamed Road","ڈیرہ حاجی منیر احمد کمبوہ","4.2","6","4","0","0","1","1",
+"VV85+2FR, Jhabran, Pakistan","31.8653938","73.8582536","Apartment building","VV85+2FR","Dera Baba Haji Lal Din",,"0",,,,,,
+"VR4R+G86, Sadokheana, Pakistan","31.8562857","73.8407649","Dairy farm","VR4R+G86","HH DAIRY FARM","1.5","2","0","0","1","0","1",
+"VR4R+C73, Sadokheana, Pakistan","31.8560035","73.8406774","Housing complex","VR4R+C73","DERA, RIZWAN BHATTI",,"0",,,,,,
+"Dera wanwala p/o mandi jhabbran distt, Sheikhupura, Pakistan","31.8894244","73.8638117","Cattle farm","Dera wanwala p/o mandi jhabbran distt","Abrar Gujjar",,"0",,,,,,
+"Kakar Gill Road, Fatehpuri, 54000, Pakistan","31.8633846","73.8420312","Farm","Kakar Gill Road","Dera patwariyan",,"0",,,,,,"54000"
+"House No.14, Eden Lane Villas II, Main Boulevard, Eden Lane Villas 2, Lahore, 54000, Pakistan","31.3803096","74.2532914","Real estate agency","House No.14, Eden Lane Villas II, Main Boulevard","Green Tree Estate Advisors","5","2","2","0","0","0","0","54000"
+"968Q+RQ3, Block H Fazaia Housing Society, Lahore, Pakistan","31.3670028","74.2394344","Real estate consultant","968Q+RQ3","Emaan Estate & Developers","5","1","1","0","0","0","0",
+"D 53, main boulevard, New Lahore City Rd, Lahore, 54000, Pakistan","31.3389093","74.1529543","Real estate agent","D 53, main boulevard, New Lahore City Rd","Malahim Real Estate","4.8","11","10","0","0","1","0","54000"
+"C - 36 - 5 Main Blvd, Block M 7 Lake City, Lahore, 54000, Pakistan","31.3536613","74.245937","Real estate consultant","C - 36 - 5 Main Blvd","Lahore Property Point","4.5","38","27","5","1","5","0","54000"
+"222-A Main Commercial Market, C, Bahria Town, Lahore, 53720, Pakistan","31.370778","74.1849514","Real estate agency","222-A Main Commercial Market, C","Aiwa Properties","5","8","8","0","0","0","0","53720"
+"168 A side Commercial, Sector C Gulmahar Block Sector C Bahria Town, Lahore, 54000, Pakistan","31.3758653","74.184904","Real estate consultant","168 A side Commercial","Saigal Realtors","5","8","8","0","0","0","0","54000"
+"111/A Comercial Palaza, Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3720402","74.1845503","Real estate agency","111/A Comercial Palaza","(JPN) Jannat Property Network","4.8","17","16","0","1","0","0","53720"
+"C-36, 13 Main Blvd, Block M 7 Lake City, Lahore, 55150, Pakistan","31.3538271","74.2453822","Real estate consultant","C-36, 13 Main Blvd","Muqaddim Real Estate","4.9","14","13","1","0","0","0","55150"
+"8-commercial, Sector E Rafi Block Bahria Town, Lahore, 54000, Pakistan","31.3661202","74.186666","Real estate agency","8-commercial","Athar Associates","4.1","40","28","3","8","0","1","54000"
+"Main Boulevard 37, New Lahore City Rd, D Block Lahore, 53720, Pakistan","31.3393361","74.1518496","Commercial real estate agency","Main Boulevard 37, New Lahore City Rd","AD Estate & Builders","4.6","7","5","1","0","1","0","53720"
+"11KM, Adda Lahore Park, Main Raiwind Rd, Kot Bagh, Lahore, Pakistan","31.381046","74.2298519","Real estate consultant","11KM, Adda Lahore Park, Main Raiwind Rd","Sajjad Estate","5","1","1","0","0","0","0",
+"C, 163A HM plaza, Sector Bahria Town, Lahore, 53720, Pakistan","31.3765925","74.1853622","Real estate agency","C, 163A HM plaza","Business Center Titanium Agency","5","19","19","0","0","0","0","53720"
+"96HJ+W7J, Lahore, Pakistan","31.3798312","74.2306347","Real estate agency","96HJ+W7J","Arz e Pak Real Estate","4.7","6","4","2","0","0","0",
+"84RX+R8G, Unnamed Road, Lahore, Pakistan","31.3420599","74.1483343","Real estate consultant","84RX+R8G, Unnamed Road","AjWA REAL ESTATE (New Lahore City)","4.5","2","1","1","0","0","0",
+"Sector C Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3720404","74.187348","Real estate consultant",,"SK Property Consultant Bahria Town","5","4","4","0","0","0","0","53720"
+"C-2-8, Business bay, Block M 1 Lake City, Lahore, Pakistan","31.3551098","74.2404093","Real estate consultant","C-2-8, Business bay","Pioneer properties","5","6","6","0","0","0","0",
+"86JH+8XQ, Lahore, Pakistan","31.3308466","74.2299726","Real estate agency","86JH+8XQ","Globe Estate and Builders (Dream housing)","5","13","13","0","0","0","0",
+"1 A, Lahore, 51000, Pakistan","31.3305181","74.2325914","Real estate agency","1 A","Dr HM Real Estate Group","5","7","7","0","0","0","0","51000"
+"16-B Commercial AWT, PH 2 Jati Umra Rd, Lahore, 54000, Pakistan","31.3544648","74.2163417","Real estate agent","16-B Commercial AWT, PH 2 Jati Umra Rd","Capital Estate","3.8","4","2","1","1","0","0","54000"
+"c36, 10 Main Blvd, Block M 7 Lake City, Lahore, Pakistan","31.3537421","74.2456598","Real estate agency","c36, 10 Main Blvd","MOAZZAM ESTATE","4","4","3","0","1","0","0",
+"Sector C Commercial Area Sector C Bahria Town, Lahore, Punjab 53720, Lahore, 54000, Pakistan","31.3721265","74.1873756","Real estate agency","Sector C Commercial Area Sector C Bahria Town, Lahore, Punjab 53720","Earth Links Real Estate Consultants Architects and Engineers","4.4","36","25","6","2","1","2","54000"
+"133 Main Commercial, Block B Awt Housing Scheme Phase 2 AWT Phase 2, Lahore, 54000, Pakistan","31.3559708","74.2147982","Real estate consultant","133 Main Commercial","Hashir Estate","4.8","5","4","1","0","0","0","54000"
+"103 B main commercial, Block B Awt Housing Scheme Phase 2 AWT Phase 2, Lahore, 55150, Pakistan","31.3555369","74.2150789","Real estate agency","103 B main commercial","Numan Real Estate","5","1","1","0","0","0","0","55150"
+"968H+RWC, Chanar Courts, Lahore, Pakistan","31.3670845","74.2297747","Real estate agency","968H+RWC","Mehar e Azam Real Estate","5","1","1","0","0","0","0",
+"97G2+7RX, Edenabad, Lahore, Pakistan","31.3757284","74.2520987","Real estate agency","97G2+7RX","Rafay Estate & Builders","4.6","10","8","1","0","0","1",
+"13-B, Main Boulevard, Raiwind Rd, opposite Lake City, Phase II Al Kabir Town, Lahore, Pakistan","31.3526422","74.2338961","Real estate consultant","13-B, Main Boulevard, Raiwind Rd, opposite Lake City","Golden Grounds Real Estate Developers (Pvt)Ltd.","5","2","2","0","0","0","0",
+"Raiwind Rd, Kot Araian, Lahore, Pakistan","31.3336496","74.2346673","Commercial real estate agency","Raiwind Rd","AL AHAD ESTATE & property Adviser","5","2","2","0","0","0","0",
+"Town, Plaza No.14-B Ground Floor Sector, E Bahria, Bahria Town, Lahore, 53720, Pakistan","31.3654545","74.1867798","Real estate consultant","Town, Plaza No.14-B Ground Floor Sector, E Bahria","IJ Estate & Builders","5","3","3","0","0","0","0","53720"
+"9-C Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3725925","74.1851308","Real estate developer",,"Jotana Properties","4.6","22","19","1","2","0","0","53720"
+"Chamru Pur Shahanshah Town, Lahore, Pakistan","31.37219","74.23171","Real estate agency",,"Mashallah Estate Centre","4","26","14","2","1","7","2",
+"955P+PP3, Lilic Block Bahria Town, Lahore, 53720, Pakistan","31.3592544","74.1868111","Real estate consultant","955P+PP3","Bahria Town Property Dealers - Real Estate Consultant","5","8","8","0","0","0","0","53720"
+"New Lahore City Rd, Lahore, Pakistan","31.3425728","74.1487614","Real estate agency","New Lahore City Rd","best Choice Real Estate","5","2","2","0","0","0","0",
+"PRQJ+J4J, Farooqabad, Pakistan","31.7390799","73.8302599","Real estate agency","PRQJ+J4J","Al-Khan Properties","4.5","2",,,,,,
+"Main Raiwind Rd, adjacent Rosa Blanca Country Club, Lahore, Pakistan","31.3503925","74.2379793","Real estate agency","Main Raiwind Rd, adjacent Rosa Blanca Country Club","Ittehad property Advisor & Builder's . Ch Wasim shahzad (CEO)","5","2","2","0","0","0","0",
+"PWH5+QHX, N-60, Machikay, Pakistan","31.7294939","73.9089856","Real estate agency","PWH5+QHX, N-60","Gujjar Brothers Commission Shop","5","1",,,,,,
+"PX6X+7RP, Sheikhupura, Pakistan","31.7107087","73.9995768","Real estate agency","PX6X+7RP","Abdullah Traders","3.9","38",,,,,,
+"P252+HPH, Service Rd, Sultanpura, Sheikhupura, Pakistan","31.7089423","74.001862","Real estate agency","P252+HPH, Service Rd","Labbaik Estate لبیک اسٹیٹ","5","2",,,,,,
+"P239+X6M, Unnamed Road, Housing Colony Sheikhupura, Pakistan","31.7049711","74.0180445","Real estate consultant","P239+X6M, Unnamed Road","Nasheman Property Advisor","4.5","2",,,,,,
+"66-B, Main, Commercial Area Sector C Bahria Town, Lahore, 54000, Pakistan","31.3697437","74.1866626","Property management company","66-B, Main","Dayim Marketing Head Office","4.8","50","44","4","2","0","0","54000"
+"Interchange, 753 Block P Lahore Motorway City kot Abdul Malik, Lahore, Pakistan","31.6393198","74.2095495","Real estate agency","Interchange, 753 Block P Lahore Motorway City kot Abdul Malik","Rehman Real Estate","5","2",,,,,,
+"alwahab garden, N-5 Shop#36, Main Boulevard Gulberg, Muridke, Pakistan","31.8251875","74.2483573","Real estate agency","alwahab garden, N-5 Shop#36, Main Boulevard Gulberg","AL-Rehman Real Estate","5","1",,,,,,
+"954Q+R39, Lilic Block Bahria Town, Lahore, 53720, Pakistan","31.3570181","74.1877406","Real estate consultant","954Q+R39","Talha Real Estate Consultant Bahria Town","5","1","1","0","0","0","0","53720"
+"H55J+MJ4 Muhammad REAL Estat, Sheikhupura, Pakistan","31.5591352","74.1815634","Commercial real estate agency","H55J+MJ4 Muhammad REAL Estat","Muhammad real estate","5","2",,,,,,
+"86JH+6VH, Kot Araian, Lahore, Pakistan","31.3305556","74.2297322","Real estate consultant","86JH+6VH","Mayo estate","5","1","1","0","0","0","0",
+"Main Boulevard, West, Marina, 54000, Pakistan","31.5616781","74.1795248","Real estate consultant","Main Boulevard","Right Key Properties West Marina","5","4",,,,,,"54000"
+,"31.7109632","74.0109872","Real estate agency",,"MashaAllahestateagency",,"0",,,,,,
+"Main ahdian road, Lahore, Pakistan","31.6936876","74.2945678","Real estate agency","Main ahdian road","SKY real estate","5","2",,,,,,
+"52 Kamran Commercial, S.A Gardens, Phase 2 Kala Shah Kaku, 54700, Pakistan","31.724906","74.2671077","Real estate agency","52 Kamran Commercial, S.A Gardens","R Ally's Realtors","5","1",,,,,,"54700"
+"Office # 01, 3rd Floor, 21-A Main Blvd N, Commercial Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3745838","74.1856468","Property management company","Office # 01, 3rd Floor, 21-A Main Blvd N","AL AREESH Marketing | Real Estate Agency in Bahria Town","5","7","7","0","0","0","0",
+"40 A, Broadway Commercial Al Kabir Town, Phase 2 Lahore, Pakistan","31.3533632","74.2343704","Real estate consultant","40 A, Broadway Commercial Al Kabir Town","Bodla Ventures","5","1","1","0","0","0","0",
+"PWH8+849, Sargodha Rd, Machikay, Pakistan","31.728295","73.9153569","Real estate agent","PWH8+849, Sargodha Rd","Rana Trade & Property Dealer",,"0",,,,,,
+"Main Blvd, Block M 7 Lake City, Lahore, Pakistan","31.3532142","74.248421","Real estate consultant","Main Blvd","Rajput Estate Agency","4","4","2","1","0","0","1",
+"13-KM, Opp Lake City, Raiwind Road, Lahore, Pakistan., Raiwind Rd, Pakistan","31.3535953","74.2367625","Real estate agency","13-KM, Opp Lake City, Raiwind Road, Lahore, Pakistan., Raiwind Rd","Hope Real Estate & Marketing","5","3","3","0","0","0","0",
+"Phase 1, Al Kabir Town, 1KM Main Blvd, off Raiwind Road, Tarogill, Lahore, Pakistan","31.3638464","74.2144332","Real estate consultant","Phase 1, Al Kabir Town, 1KM Main Blvd, off Raiwind Road","Al Kabir Town (Pvt.) Ltd","4.1","698","389","142","45","94","28",
+"C-20/2 Mainboulevard, Block M 1 Lake City, Lahore, 57000, Pakistan","31.3540584","74.2477858","Real estate consultant","C-20/2 Mainboulevard","Sallar Consultants and Developers","4.8","4","3","1","0","0","0","57000"
+"84RX+JGF, Lahore, Pakistan","31.3415504","74.1487895","Real estate consultant","84RX+JGF","FOUR STAR REAL ESTATE","4.7","3","2","1","0","0","0",
+"96JJ+35R, Raiwind Rd, near Lahore Park, Lahore, 54500, Pakistan","31.3802329","74.2303867","Real estate agency","96JJ+35R, Raiwind Rd, near Lahore Park","M.S Estate.eaden chowk militarye accountes college road lahore","4.1","9","5","1","0","2","1","54500"
+"97M3+45G, Alternate Raiwind Rd, Eden Lane Villas 2 Lahore, Pakistan","31.3828049","74.2529667","Real estate consultant","97M3+45G, Alternate Raiwind Rd","Apna Estate","4","13","7","3","2","1","0",
+"Plaza No 196-A G/F, Sector C, Commercial Gulmahar Block Sector C Bahria Town, Lahore, 53720, Pakistan","31.3747321","74.1842651","Real estate agency","Plaza No 196-A G/F, Sector C","Prestige Real Estate Developers","5","3","3","0","0","0","0","53720"
+"Al Kabir Town Phase 2، near Y & Y Real estate consultants, Pakistan","31.3522976","74.2343523","Real estate consultant","Al Kabir Town Phase 2، near Y & Y Real estate consultants","Welcome Welcome Estate","3","1","0","0","0","1","0",
+"Office No. 1 Plaza No. 10 Al Kabir Town Phase 2 Lahore, Raiwind, 54000, Pakistan","31.3522878","74.2349706","Real estate consultant","Office No. 1 Plaza No. 10 Al Kabir Town Phase 2 Lahore","MAJID KHAN ASSOCIATES Al Kabir Town","4.8","4","3","1","0","0","0","54000"
+"Al Kabir Town, 10-A Main Boulevard, Raiwind Rd, Phase II Lahore, 54000, Pakistan","31.3521655","74.2350173","Real estate consultant","Al Kabir Town, 10-A Main Boulevard, Raiwind Rd","Property Spot","4","2","1","0","0","1","0","54000"
+"168-A Side Commercial, c, near Talwar Chowk, Lahore, Pakistan","31.3758541","74.1849086","Real estate consultant","168-A Side Commercial, c, near Talwar Chowk","Property Deals","5","1","1","0","0","0","0",
+"Al Kabir Town Phase II, Jinnah Commercial Raiwind Rd, Lahore, 55150, Pakistan","31.3516003","74.2371587","Real estate agency","Al Kabir Town Phase II, Jinnah Commercial Raiwind Rd","Globe Estate & Builders (Al Kabir Town Branch Office)","5","3","3","0","0","0","0","55150"
+"95C5+3H4, Jhuggian, Lahore, Pakistan","31.3701359","74.1589668","Real estate consultant","95C5+3H4","S.A Estate & Builders","4.4","5","4","0","0","0","1",
+"B, 23 Main Boulevard Al-Kabir Town, Raiwind Rd, Lahore, 54000, Pakistan","31.3518552","74.2349596","Real estate agency","B, 23 Main Boulevard Al-Kabir Town, Raiwind Rd","Al-Hadi Associates & Builders","5","4","4","0","0","0","0","54000"
+"Main boulevard, Lahore, 54000, Pakistan","31.3429738","74.1481769","Real estate consultant","Main boulevard","AQ Properties",,"0",,,,,,"54000"
+"Plot No C35/2, Main Blvd, Block M 7 Lake City, Lahore, Pakistan","31.3533075","74.2475182","Real estate consultant","Plot No C35/2, Main Blvd","Enem Estates","4","2","1","0","0","1","0",
+"38-A Raiwind Rd, Commercial Safari Garden Block A Sua Aasil, Lahore, Pakistan","31.3689001","74.2325105","Real estate consultant","38-A Raiwind Rd","Sher-e-Rabbani Estate & Builder's","5","1","1","0","0","0","0",
+"phase 2, Laliani, Bismillah Housing, main Lahore – Kasur Rd, Mustafa Abad, 55110, Pakistan","31.2373812","74.4172418","Real estate agent","phase 2, Laliani, Bismillah Housing, main Lahore – Kasur Rd","Al Awan Associates","5","4",,,,,,"55110"
+"6CP8+FJ, Mustafabad, Pakistan","31.2376427","74.4157561","Real estate consultant","6CP8+FJ","Al-Raziq Associates & Builders, Bismillah Phase-II","5","1",,,,,,
+"6CP8+W8C, Lahore – Kasur Rd, Mustafabad, Pakistan","31.2373165","74.4157553","Real estate consultant","6CP8+W8C, Lahore – Kasur Rd","Muhammad Real Estate","5","1",,,,,,
+"26 km main, Lahore – Kasur Rd, Atto Asal, Lahore, 54000, Pakistan","31.2673274","74.4123288","Real estate agency","26 km main, Lahore – Kasur Rd","Hadi Royles Constraction PVT LTD.","5","1",,,,,,"54000"
+"31 11Main Boulevard, Block M 7 Lake City, Lahore, 54000, Pakistan","31.3532369","74.2482067","Real estate consultant","31 11Main Boulevard","Meraki Realtors and Builders","4","1","0","1","0","0","0","54000"
+"7C68+HR2, Service Rd, Mustafa Abad, Pakistan","31.261378","74.417025","Real estate agency","7C68+HR2, Service Rd","Rafiq Estate","5","2",,,,,,
+"Plot 476, Block B Fazaia Housing Society, Lahore, Pakistan","31.3765799","74.2393881","Real estate consultant","Plot 476","Falcon Estate & Builders","5","1","1","0","0","0","0",
+"Mustafabad, Pakistan","31.2624909","74.4112252","Real estate agency",,"Best Real Estate Advisors","4.2","5",,,,,,
+"86JJ+637 sn marketing, Raiwind Rd, Dream housing society site, Lahore, Pakistan","31.3305498","74.2301563","Real estate consultant","86JJ+637 sn marketing, Raiwind Rd","Sn marketing and developer","5","2","2","0","0","0","0",
+"7C5J+43F, Mustafabad, Pakistan","31.2578228","74.4301683","Real estate consultant","7C5J+43F","New Abadi Mustafabad Homes","5","1",,,,,,
+"967J+CWV, Mirza Farm house Adda Plot aroundabout, Chanar Courts, Lahore, Pakistan","31.3636226","74.2322989","Real estate consultant","967J+CWV, Mirza Farm house Adda Plot aroundabout","Mirza Estate & Mirza Enterprises","4","2","1","0","0","1","0",
+"37, Aa Block Sector D Bahria Town, Lahore, Pakistan","31.3741061","74.1697225","Real estate consultant","37","Agency 101","5","1","1","0","0","0","0",
+"bismillah housing society Phase 2 Kasur, 55110, Pakistan","31.2365517","74.4165211","Real estate agency",,"Shaukat Estate","5","1",,,,,,"55110"
+"Phase 2 #55 C, Block Commercial Mian Boulevard, Lahore, Pakistan","31.3412047","74.1505098","Real estate consultant","Phase 2 #55 C, Block Commercial Mian Boulevard","Rehman Estate Developers",,"0",,,,,,
+"Agency 313 F/F 40 C, A Side Commercial C, Sector C Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3726656","74.1849151","Real estate agency","Agency 313 F/F 40 C, A Side Commercial C","Agency 313 Pvt Ltd","5","3","3","0","0","0","0","53720"
+"57-D Commercial Bismillah Housing Scheme, Phase-2 Lilyani, Mustafabad, 54000, Pakistan","31.2381704","74.4168842","Real estate agency","57-D Commercial Bismillah Housing Scheme, Phase-2 Lilyani","Five Star Estate and Builders","5","1",,,,,,"54000"
+"84RX+PC3, Unnamed Road, Lahore, Pakistan","31.3417698","74.1485514","Real estate consultant","84RX+PC3, Unnamed Road","Tariq Group","3.3","3","0","1","0","2","0",
+"6CQ8+2V2, Lahore – Kasur Rd, Mustafa Abad, Pakistan","31.237665","74.417226","Real estate agency","6CQ8+2V2, Lahore – Kasur Rd","New international marketing services","5","1",,,,,,
+"32-Commercial Usman Block , Al-Kabir Town, phase 2 Lahore, 55150, Pakistan","31.345839","74.2334245","Real estate agency","32-Commercial Usman Block , Al-Kabir Town","Ahmed Associates-Real Estate & Builders","5","2","2","0","0","0","0","55150"
+"number D, commercial zone plaza, Bismillah housing society phase 2 D-block, 60, Commercial zone, Mustafabad, 55110, Pakistan","31.2380065","74.4170885","Real estate agency","number D, commercial zone plaza, Bismillah housing society phase 2 D-block, 60","Hadi Estate","5","1",,,,,,"55110"
+"6CP8+M32, 141 D Main Blvd, Bismillah Housing Society Phase 2, Pakistan","31.2371366","74.414652","Real estate consultant","6CP8+M32, 141 D Main Blvd","Bhatti Real Estate & Builders","5","1",,,,,,
+"C, 225-B 2nd Floor, Tulip Block, opposite Grand Mosque, Sector Bahria Town, Lahore, 53720, Pakistan","31.3683866","74.1872527","Real estate consultant","C, 225-B 2nd Floor, Tulip Block, opposite Grand Mosque","HRU Developers","5","4","4","0","0","0","0","53720"
+"174, Office # 27, 11nd Floor, Hassan Center, Main Lahore – Kasur Rd, Ichhra Lahore, Pakistan","31.2713504","74.4122929","Real estate agency","174, Office # 27, 11nd Floor, Hassan Center, Main Lahore – Kasur Rd","Property Boom","5","1",,,,,,
+"31°14'12, Bismillah housing phase 2 Plaza # 50 H.A Real Estate lahore kasur road, 4""N 74°25, 25.4""E Lahore, 54000, Pakistan","31.2382372","74.416139","Real estate agency","31°14'12, Bismillah housing phase 2 Plaza # 50 H.A Real Estate lahore kasur road, 4""N 74°25","H.A REAL ESTATE","5","32",,,,,,"54000"
+"commercial zone plaza, 48 D, Mustafabad, 55110, Pakistan","31.2381337","74.4160357","Real estate consultant","commercial zone plaza, 48 D","Real estate Bismilliah Housing Society Phase 2","5","1",,,,,,"55110"
+"Kot Araian, 54000, Pakistan","31.3402826","74.2326228","Real estate consultant",,"Rana Associate Araiyain","4.5","4","3","0","0","1","0","54000"
+"6CVC+RMQ, Lahore – Kasur Rd, Pakki Haveli, 55050, Pakistan","31.2445869","74.4217458","Real estate agency","6CVC+RMQ, Lahore – Kasur Rd","Al-Naqeeb Estate Agency","1","1",,,,,,"55050"
+"Adda plot Round About, 13 KM Raiwind Rd, Block K Fazaia Housing Society, Lahore, Pakistan","31.3654848","74.2334802","Industrial real estate agency","Adda plot Round About, 13 KM Raiwind Rd","Jahangir Estate & Builders","4","2","1","0","0","1","0",
+"6CP8+W8J, Lahore – Kasur Rd, Bismillah Housing Society phase-2, Pakistan","31.2373428","74.4157502","Real estate agent","6CP8+W8J, Lahore – Kasur Rd","Friends Estates",,"0",,,,,,
+"D Block Lahore, Pakistan","31.238","74.4171479","Real estate agency",,"Toor Real Estate & Builders",,"0",,,,,,
+"Gulbahar Block, Haider Street ,Sector C, C Bahria Town, Lahore, 53720, Pakistan","31.3785639","74.1949016","Real estate consultant","Gulbahar Block, Haider Street ,Sector C","HZ Co. Real Estate Consultant & Builders","5","3","3","0","0","0","0","53720"
+"7C5F+969, Sarhaali Rd, Mustafabad, Pakistan","31.2584214","74.4231222","Real estate consultant","7C5F+969, Sarhaali Rd","Master property channel",,"0",,,,,,
+"Main Blvd, Raiwind Rd, Dream Housing Society Lahore, 55150, Pakistan","31.330876","74.2284339","Real estate consultant","Main Blvd, Raiwind Rd","Fabulous Marketing","5","6","6","0","0","0","0","55150"
+"Plaza 40, St A, Commercial Zone Sector C Commercial Area Sector C Bahria Town, Lahore, 54000, Pakistan","31.3727348","74.1847532","Real estate agency","Plaza 40, St A","Future links Real Estate & Builders","5","1","1","0","0","0","0","54000"
+"AWT, 74 B Block Main Blvd, 2 Phase, Lahore, 55150, Pakistan","31.3546257","74.2153395","Real estate consultant","AWT, 74 B Block Main Blvd, 2 Phase","United Associates & Consultants","5","1","1","0","0","0","0","55150"
+"3km jati umrah road main gate, raiwind road, Sui Gas Phase-2, Lahore, Pakistan","31.3435784","74.212277","Real estate agency","3km jati umrah road main gate, raiwind road","MZ Real Estate & Consultants","4.3","3","2","0","0","1","0",
+"1st Floor, C, 156-A, Sector Sector C Bahria Town, Lahore, 54000, Pakistan","31.3769061","74.1851182","Real estate consultant","1st Floor, C, 156-A","SJ Marketing (Investment Consultancy Firm)","5","11","11","0","0","0","0","54000"
+"76 C MAIN COMMERCIAL BOULEVERED, PHASE 2,ZAITOON NEW, 53720, Pakistan","31.3400491","74.1524624","Real estate agent","76 C MAIN COMMERCIAL BOULEVERED, PHASE 2,ZAITOON NEW","V-LINKS MARKETING","5","3","3","0","0","0","0","53720"
+"plot no 80, Alif Holdings, AR 8, Sector E block rafi Bahria Town, Lahore, Pakistan","31.365148","74.1873897","Real estate agent","plot no 80, Alif Holdings, AR 8","Royal Location - A real estate & Builder - Property Bahria Town","5","5","5","0","0","0","0",
+"commercial zone plaza, 60, Commercial zone, Mustafabad, 55110, Pakistan","31.2380189","74.4170476","Real estate agency","commercial zone plaza, 60","Al Hamd Real Estate",,"0",,,,,,"55110"
+"Bismillah housing society, ph2 Mustafabad, Pakistan","31.2378279","74.4157522","Real estate agency","Bismillah housing society","MashaAllah Real Estate",,"0",,,,,,
+"C 31, 18 Commercial Main Blvd, Block M 7 Lake City, Lahore, Pakistan","31.3533559","74.2473053","Real estate agency","C 31, 18 Commercial Main Blvd","Zamil Real Estate",,"0",,,,,,
+"84RX+JGH, Lahore, Pakistan","31.3415605","74.1488646","Real estate agency","84RX+JGH","PEARL REAL ESTATE","3","1","0","0","0","1","0",
+"97J3+46Q Royal Group, Real Estate Consultants, Khayaban-e-Jinnah, Eden Lane Villas 2 Lahore, Pakistan","31.3803387","74.2531197","Real estate agency","97J3+46Q Royal Group, Real Estate Consultants, Khayaban-e-Jinnah","Royal Group Real Estate Consultants","2.3","4","0","1","1","0","2",
+"9-A, 1st/F Main Commercial Al-Kabir Town, Raiwind Rd, Phase 2 Lahore, 54000, Pakistan","31.3522886","74.2351103","Property management company","9-A, 1st/F Main Commercial Al-Kabir Town, Raiwind Rd","Dayim Marketing Al Kabir Town Office","5","11","11","0","0","0","0","54000"
+"E, EIFFEL HIGHT BUILDING 17'18 BAHRIA HOME, FACING EIFFEL TOWER, SECTOR Bahria Town, Lahore, 53720, Pakistan","31.3547652","74.1838233","Real estate consultant","E, EIFFEL HIGHT BUILDING 17'18 BAHRIA HOME, FACING EIFFEL TOWER","AL-Hadi Associates & Builders Corporate Office","4.5","11","9","1","1","0","0","53720"
+"Al-kabir, 26/B Main commercials Al-kabir ph2, Raiwind Rd, ph2 Lahore, 54000, Pakistan","31.3520581","74.234224","Real estate consultant","Al-kabir, 26/B Main commercials Al-kabir ph2, Raiwind Rd","Growth Marketing","5","1","1","0","0","0","0","54000"
+"1 D commercial, 2 new, Phase Lahore, 55555, Pakistan","31.3420824","74.1483275","Real estate consultant","1 D commercial, 2 new","Az Group Estate And Builders","2","1","0","0","0","0","1","55555"
+"213 A Commercial C, Sector C Chambelli Block Sector C Bahria Town, Lahore, 53720, Pakistan","31.370018","74.1847039","Real estate agency","213 A Commercial C","Gold Key Real Estate & Builder",,"0",,,,,,"53720"
+"95CF+J3R, Overseas B Overseas Block Sector D Bahria Town, Lahore, 53720, Pakistan","31.3715939","74.1726598","Real estate agency","95CF+J3R","Shahroz Real Estate Consultant Bahria Town",,"0",,,,,,"53720"
+"Office No. 5 Lords Estate Etihad Town, Main Raiwind Rd, Kot Araian, Lahore, Pakistan","31.3427971","74.2384414","Real estate agency","Office No. 5 Lords Estate Etihad Town, Main Raiwind Rd","Lords Real Estate Etihad Town",,"0",,,,,,
+"6CPC+GM6, Main Blvd, Pakistan","31.236294","74.421625","Real estate consultant","6CPC+GM6, Main Blvd","Dada Associates & Builders",,"0",,,,,,
+"Block, Corner, Plot # 19 Road, near Sharif Medical Hospital, Jati Umrah Block E Sui Gas Phase-2, Lahore, 56000, Pakistan","31.3419653","74.1914238","Real estate agency","Block, Corner, Plot # 19 Road, near Sharif Medical Hospital","Sui Gas Phase-2 Canal Estate","5","1","1","0","0","0","0","56000"
+"6CP8+JCW Al-Rehman Real Estate, Kasur, Pakistan","31.2366083","74.4160793","Property investment company","6CP8+JCW Al-Rehman Real Estate","𝗔𝗟-𝗥𝗘𝗛𝗠𝗔𝗡 𝗘𝗦𝗧𝗔𝗧𝗘 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦","5","1","1","0","0","0","0",
+"Army Welfare Trust Housing Scheme-Phase II, Adda Plot Post Office, Raiwind Rd, Thoker Niaz Baig, Lahore, Pakistan","31.3582862","74.2354641","Real estate agency","Army Welfare Trust Housing Scheme-Phase II, Adda Plot Post Office, Raiwind Rd","AWT Real Estate","5","1","1","0","0","0","0",
+"Mustafa Abad, Kasur, Pakistan","31.2634332","74.4136018","Real estate consultant","Mustafa Abad","Ali Estate Agency",,"0",,,,,,
+"86RQ+XM3 Etihad Town, Raiwind Rd, Kot Araian, Lahore, 54000, Pakistan","31.3423849","74.2391597","Real estate agency","86RQ+XM3 Etihad Town, Raiwind Rd","GM Real Estate Solutions",,"0",,,,,,"54000"
+"6CPF+RH6, Service Road, Kasur, Pakistan","31.2370325","74.4239062","Housing development","6CPF+RH6, Service Road","Al-RAHEEM REAL ESTATE","3.8","5","2","0","0","3","0",
+"85QX+JFX, Sui Gas Phase-2, Lahore, Pakistan","31.3391132","74.1987298","Real estate consultant","85QX+JFX","Reyan Estate",,"0",,,,,,
+"mid way comercial, Al Kabir town, 21 c, phase 2 Lahore, 55150, Pakistan","31.344886","74.232474","Real estate agency","mid way comercial, Al Kabir town, 21 c","Property Partners Real estate and Builders",,"0",,,,,,"55150"
+"7C59+43R, Sarhali Road Mustafabad near Ferozpur road lhr, Mustafabad, kasur, Pakistan","31.257869","74.4176263","Marketing agency","7C59+43R, Sarhali Road Mustafabad near Ferozpur road lhr","Pakistan Real Estate","3","1","0","0","0","1","0",
+"Lalyani, Toll plaza, Mustafa Abad, Lahore, Kasur, 53000, Pakistan","31.2362755","74.422582","Property investment company","Lalyani, Toll plaza, Mustafa Abad, Lahore","Bismillah Society Phase2 - Property Expert","4.7","13","12","0","1","0","0","53000"
+"E, Iqbal Block Commercial, 112-A St 3-A, Lavandus Block Bahria Town, Lahore, 54000, Pakistan","31.3642966","74.1853722","Real estate consultant","E, Iqbal Block Commercial, 112-A St 3-A","AUZBER Consultants Private Limited","4.3","7","5","0","0","1","1","54000"
+"86JJ+5H3, Raiwind Rd, Lahore, Pakistan","31.3303863","74.2314137","Real estate consultant","86JJ+5H3, Raiwind Rd","Jahangir Estate & Builders Dream Housing Scheme La","5","1","1","0","0","0","0",
+"7C2H+WFC, Unnamed Road, Mustafa Abad, Pakistan","31.2523246","74.4286337","Real estate auctioneer","7C2H+WFC, Unnamed Road","عدنان ابراہیم ہاؤس",,"0",,,,,,
+"95GF+3C2, Aa Block Sector D Bahria Town, Lahore, 53720, Pakistan","31.3751358","74.1735139","Real estate agency","95GF+3C2","Real Estate Advisory Services Expert",,"0",,,,,,"53720"
+"7C77+56G, Mustafa Abad, Pakistan","31.2629266","74.4130655","Association / Organization","7C77+56G","Best Real estate",,"0",,,,,,
+"56 Iqbal Commercial Sector E, E Bahria Town, Lahore, 53720, Pakistan","31.3647789","74.1855789","Real estate consultant","56 Iqbal Commercial Sector E","TRUST LINKS","5","1","1","0","0","0","0","53720"
+"Lalyani, D Block 38# plaza Bismillah Housing Scheme Phase2 Mustafabad, Kasur, Pakistan","31.2373152","74.4156923","Property investment company","Lalyani, D Block 38# plaza Bismillah Housing Scheme Phase2 Mustafabad","U Builders & Real Estate Advisors",,"0",,,,,,
+"C, 175 B 3rd Floor, Jasmine Block, Sector Commercial, Lahore, 53720, Pakistan","31.3747837","74.1870958","Real estate consultant","C, 175 B 3rd Floor, Jasmine Block","Habibi Holdings","5","6","6","0","0","0","0","53720"
+"7C59+MQM, Sarhaali Rd, Mustafa Abad, Pakistan","31.2592106","74.4194094","Property administration service","7C59+MQM, Sarhaali Rd","Arshman Estate & Developers",,"0",,,,,,
+"6CP8+M32, Main Blvd, Pakistan","31.2366352","74.4151412","Housing society","6CP8+M32, Main Blvd","Saeed Sons Marketing","5","2","2","0","0","0","0",
+"Service Road, Mustafa Abad, Pakistan","31.2501525","74.4191955","Police officers' housing","Service Road","Muhammad Musa Tayyab Hans","5","3","3","0","0","0","0",
+"Khawab Saraye farmhouse, Khawab Saraye Road, Mustafabad, 55110, Pakistan","31.2668269","74.4087962","Farm","Khawab Saraye farmhouse, Khawab Saraye Road","Khawab Saraye Farmhouse","4.8","16","14","1","0","1","0","55110"
+"Mustafa Abad Daftu Rd, Mustafa Abad, Pakistan","31.2528056","74.4078194","Real estate developer","Mustafa Abad Daftu Rd","Head office Al Hayat town phase 3",,"0",,,,,,
+"HAMZA HOMES, A, HOUSING SOCIETY Mustafabad, Pakistan","31.2467459","74.4248786","Housing development","HAMZA HOMES, A","HAMZA HOMES HOUSING SOCIETY","5","1","1","0","0","0","0",
+"7C48+2WF, Mustafa Abad Daftu Rd, Mustafa Abad, Pakistan","31.2550544","74.4173031","Housing development","7C48+2WF, Mustafa Abad Daftu Rd","Kakkar Khan House","5","1","1","0","0","0","0",
+"Lahore – Kasur Rd, Mustafa Abad, 55050, Pakistan","31.2582658","74.4170711","Property management company","Lahore – Kasur Rd","Malab Estate adviser",,"0",,,,,,"55050"
+"69XV+X9C feroz por road, Lalyani dafto road, Mustafa Abad, Pakistan","31.249935","74.3933933","Property management company","69XV+X9C feroz por road, Lalyani dafto road","Deen garden & housing scheem","4.5","2","1","1","0","0","0",
+"69VH+WX2, Daftu, Pakistan","31.2447729","74.3798839","Housing complex","69VH+WX2","ہاشــــــــم علی رضـــوی","4.5","4","3","0","0","1","0",
+"7C78+F72 sardar estate, Service Road, Mustafa Abad, Pakistan","31.2636259","74.4156347","Property maintenance","7C78+F72 sardar estate, Service Road","Sardar Estate","3.6","9","5","0","2","1","1",
+"Main Blvd, phase 1 Block A Fazaia Housing Society, Lahore, 42000, Pakistan","31.3688174","74.2407806","Real estate consultant","Main Blvd","Ranjha Estate Fazaia Housing Society","4","4","1","2","0","1","0","42000"
+"Bal wala market, Sundar Raiwind Rd, near PSO pump, Nai abadi Dhupsari, Lahore, Pakistan","31.332919","74.1446987","Real estate agent","Bal wala market, Sundar Raiwind Rd, near PSO pump","Profitable Properties Estate & Developers",,"0",,,,,,
+"27 B Broadway Commercial, Lahore, Pakistan","31.3533195","74.2356691","Real estate agency","27 B Broadway Commercial","PAK NEXUS REAL ESTATE",,"0",,,,,,
+"962P+RMF Al Kabir Town, Phase 2 Lahore, 54000, Pakistan","31.3520655","74.2366778","Real estate consultant","962P+RMF Al Kabir Town","SA Real Estate & Builders",,"0",,,,,,"54000"
+"Office # 01, Main Raiwind Rd, near Ring-Road, Chamru Pur Shahanshah Town, Lahore, 55073, Pakistan","31.3718889","74.2321075","Real estate consultant","Office # 01, Main Raiwind Rd, near Ring-Road","FM Property Group",,"0",,,,,,"55073"
+"97J2+FX3, Eden Lane Villas 2 Lahore, Pakistan","31.3811402","74.2524157","Real estate consultant","97J2+FX3","Saad Estate",,"0",,,,,,
+"94HV+H34, Lahore, Pakistan","31.3788852","74.1427032","Real estate agency","94HV+H34","Ameer Real Estate",,"0",,,,,,
+"962P+P7P Al Kabir Town, Raiwind Rd, phase II Lahore, Pakistan","31.3518911","74.2355913","Real estate consultant","962P+P7P Al Kabir Town, Raiwind Rd","Mahmood Estate",,"0",,,,,,
+"Office 12 c block main boulevard, New Lahore City Rd, commercial zone, Pakistan","31.341143","74.151382","Real estate consultant","Office 12 c block main boulevard, New Lahore City Rd","Zam zam real Estate &Builders",,"0",,,,,,
+"86RX+P8P, Khanepal, Lahore, Pakistan","31.3418457","74.2483291","Real estate consultant","86RX+P8P","Mahmood Estate",,"0",,,,,,
+"86Q4+H5X, Sui Gas Phase-2, Lahore, Pakistan","31.3389873","74.2054722","Real estate consultant","86Q4+H5X","Iconic Citi Estates (Pvt) Limited","3.7","3","1","1","0","0","1",
+"Abad, near Akhwat university, Mustafa, lilyani, 55110, Pakistan","31.2636132","74.4074465","Property management company","Abad, near Akhwat university","Sisa Garden","4.5","11","7","2","0","2","0","55110"
+"Al-kabir town phase2, A, Lahore, 54000, Pakistan","31.3532743","74.2346489","Real estate agency","Al-kabir town phase2, A","AL-siraj real estate",,"0",,,,,,"54000"
+"C Block, al kabir town, phase 2 Lahore, Pakistan","31.3482106","74.2334678","Real estate agency","C Block, al kabir town","UMAR REAL ESTATE",,"0",,,,,,
+"7C2C+P2W, Service Road, Mustafa Abad, Pakistan","31.2518586","74.4200808","Farm","7C2C+P2W, Service Road","NAEEM MALIK JEE","5","1","1","0","0","0","0",
+"Street 1 sirhali road, Kasur, Pakistan","31.2590428","74.4299504","Housing society","Street 1 sirhali road","My homes phase 2","4.6","15","12","2","1","0","0",
+"Canal Bank Rd, Chimbranwali Jhuggi, Lahore, 54000, Pakistan","31.3596918","74.1472465","Real estate consultant","Canal Bank Rd","Zaman sons estate & builders",,"0",,,,,,"54000"
+"6CMG+QVW, Service Rd, Kasur, Pakistan","31.2344843","74.4272125","Dairy farm","6CMG+QVW, Service Rd","Zahra Agro Dairy","5","4","4","0","0","0","0",
+"NFC Housing Society (Phase II), Lahore, Pakistan","31.363589","74.1488245","Real estate agency",,"Virk Real Estate",,"0",,,,,,
+"7C2Q+W3C, Kasur, Pakistan","31.2523176","74.4376352","Housing society","7C2Q+W3C","Raheem Garden Housing Scheme","4.3","3","2","0","0","1","0",
+"86R5+8H3, Rd, Jati Umrah Lahore, Pakistan","31.3407676","74.208931","Real estate consultant","86R5+8H3, Rd","Reyan estate jati umra","2","1","0","0","0","0","1",
+"13, Overseas Enclave Overseas A Sector B Bahria Town, Lahore, 53720, Pakistan","31.3786076","74.1748509","Real estate consultant","13","Front Marketing Real Estate Advisory Services",,"0",,,,,,"53720"
+"Grinkot, 54000, Pakistan","31.225393","74.4553238","Farm",,"Ali Dairy & Cattle Farm","3","2","1","0","1","0","0","54000"
+"Multan Rd, NFC Phase II, Lahore, 54000, Pakistan","31.3632159","74.1492213","Real estate agency","Multan Rd","Gwadar Real","1","1","0","0","1","0","0","54000"
+"792Q+3W, Daftuh Village, Pakistan","31.250139","74.389801","Housing development","792Q+3W","Al Muqeet Developers",,"0",,,,,,
+"84RX+PC3, D block Main boulevard, New Lahore City Rd, commercial Zone Lahore, Pakistan","31.3418706","74.148591","Real estate agency","84RX+PC3, D block Main boulevard, New Lahore City Rd","SN real estate",,"0",,,,,,
+"Chinar Bagh Housing Society, Raiwind Rd, Commercial Lahore, 54000, Pakistan","31.3312082","74.2486065","Real estate agency","Chinar Bagh Housing Society, Raiwind Rd","Haris Real Estate Advisor",,"0",,,,,,"54000"
+"7C82+84, Mustafabad, Pakistan","31.2658129","74.4003222","Housing society","7C82+84","Greenford Farms","5","1","1","0","0","0","0",
+"69WG+JG6, Unnamed Road, Daftuh Village, Pakistan","31.2465382","74.3762573","Housing complex","69WG+JG6, Unnamed Road","Rana Ahmad Hassan","5","3","3","0","0","0","0",
+"Lahore – Kasur Rd, Mustafa Abad, Pakistan","31.2536168","74.419055","Farm","Lahore – Kasur Rd","IQBAL PALACE","4.1","138","81","15","13","28","1",
+"mustafa abad lalyani new dafto Road dafto, Road, Mustafa Abad, 55110, Pakistan","31.2577464","74.420412","Property administration service","mustafa abad lalyani new dafto Road dafto, Road","IK property",,"0",,,,,,"55110"
+"69WH+Q8, Daftuh Village, Pakistan","31.2469516","74.3782406","Apartment building","69WH+Q8","Awais Chisti","1","1","0","0","1","0","0",
+"Bismillah Housing Society Phase II, Mustafabad, Lilyani 2 Lahore – Kasur Rd, Lahore, 54000, Pakistan","31.2362142","74.4249635","Housing society","Bismillah Housing Society Phase II, Mustafabad, Lilyani 2 Lahore – Kasur Rd","Bismillah Housing Scheme Phase 2","4.4","102","77","9","7","7","2","54000"
+"6CW4+6GH, Mustafabad, Pakistan","31.2455529","74.4063576","Housing society","6CW4+6GH","Ali Garden Mustafabad","4","1","0","1","0","0","0",
+"House E223, Street 6, Lahore, 54000, Pakistan","31.2143594","74.4290693","Dairy farm","House E223, Street 6","Kahoot Farm","4.5","2","1","1","0","0","0","54000"
+"Lalyani, Sarhali Khurd, 43-KM Ferozpur Road, Mustafabad, Pakistan","31.2549484","74.4476402","Dairy farm","Lalyani, Sarhali Khurd, 43-KM Ferozpur Road","Puriteez Pvt Limited.","4.7","3","2","1","0","0","0",
+"Lahore, Kasur Road, Mustafa Abad, Pakistan","31.2563447","74.4171602","Housing society","Lahore, Kasur Road","New Sharqi Abadi","3","2","1","0","1","0","0",
+"6CPF+RPV, Lilyani, Lahore – Kasur Rd, Lahore, 55110, Pakistan","31.2371023","74.4242962","Apartment building","6CPF+RPV, Lilyani, Lahore – Kasur Rd","Munir Mughal Aray Wala",,"0",,,,,,"55110"
+"69WH+XVX, Road Mustafa Abad Daftu Rd, Mustafa Abad, Pakistan","31.2477614","74.3800202","Housing society","69WH+XVX, Road Mustafa Abad Daftu Rd","Haveli Gujarah wali","3","1","0","0","0","1","0",
+"69VM+9HP, Daftuh Village, Pakistan","31.2434649","74.3839558","Farm","69VM+9HP","Zam Zam Poultries","5","1","1","0","0","0","0",
+"7C5C+35V, Mustafa Abad, Pakistan","31.2577464","74.420412","Apartment building","7C5C+35V","Shell petrol pump near tower wale gle",,"0",,,,,,
+"ABM Holdings, 224B, Sector C Tulip Block Sector C Bahria Town, Lahore, 54000, Pakistan","31.3684135","74.1872542","Real estate consultant","ABM Holdings, 224B","ABM Holdings","4.1","20","14","1","4","1","0","54000"
+"86XM+3FH, Commercial#3 Usman Block Alkabir Town Phase 2, Lahore, Pakistan","31.3476826","74.2337256","Industrial real estate agency","86XM+3FH","HAYAT Realty & Constructions",,"0",,,,,,
+"E, Hateem Heights 33 Nishter Commercial Sector E, Bahria Town Main Blvd, Sector Lahore, 54000, Pakistan","31.3583133","74.1861348","Real estate agency","E, Hateem Heights 33 Nishter Commercial Sector E, Bahria Town Main Blvd","Afzal Real Estate Consultant",,"0",,,,,,"54000"
+"2km Sheliz Avenue, off Raiwind Road, near Ring Road Interchange, Block A Fazaia Housing Society, Lahore, Pakistan","31.3689001","74.2325105","Real estate consultant","2km Sheliz Avenue, off Raiwind Road, near Ring Road Interchange","Lahore Realtors and Builders",,"0",,,,,,
+"97M3+64W, Raiwind Road, Eden Lane Villas 2 Lahore, 54000, Pakistan","31.3833747","74.2526973","Real estate consultant","97M3+64W, Raiwind Road","Propex associates",,"0",,,,,,"54000"
+"Office J17, Raiwind Rd, Chinar Bagh, Lahore, 54000, Pakistan","31.3583045","74.2354687","Real estate consultant","Office J17, Raiwind Rd","Mirza Real Estate & Builders",,"0",,,,,,"54000"
+"Main Boulevard, Office #16, Block D, New Lahore City Rd, Lahore, Pakistan","31.3417352","74.1489179","Real estate agency","Main Boulevard, Office #16, Block D, New Lahore City Rd","Mastwaar Group Real Estate & Builder's","1","1","0","0","1","0","0",
+"Raiwind Rd, Block A Fazaia Housing Society, Lahore, 54000, Pakistan","31.3689001","74.2325105","Real estate agency","Raiwind Rd","Estate Marketing",,"0",,,,,,"54000"
+"J 17 main commercial, Raiwind Rd, Chinar Bagh, Lahore, Pakistan","31.3306157","74.233204","Real estate agency","J 17 main commercial, Raiwind Rd","Salman Estate and construction company",,"0",,,,,,
+"Defence Rd, Lahore, 54400, Pakistan","31.381432","74.2331185","Real estate consultant","Defence Rd","MeriZameen Real Estate Marketing Company Lahore Pakistan",,"0",,,,,,"54400"
+"Office no 1 C Block Commercial Market New lahore city, Phase 2 Lahore, Pakistan","31.3412437","74.1504688","Real estate consultant","Office no 1 C Block Commercial Market New lahore city","Estate One Marketing and Builders",,"0",,,,,,
+"Building 11 , Block B AL Kabir Town Phase 2, Raiwind Rd, Lahore, 54000, Pakistan","31.3520515","74.2368052","Real estate agency","Building 11 , Block B AL Kabir Town Phase 2, Raiwind Rd","AQA Real Estate and Marketing",,"0",,,,,,"54000"
+"Lake, C-36-6,Man Boulevard Raiwind Road, main boulevard, city, Lahore, 55150, Pakistan","31.3537671","74.2455275","Industrial real estate agency","Lake, C-36-6,Man Boulevard Raiwind Road, main boulevard","Real Estate & builders",,"0",,,,,,"55150"
+"38 Edenabad D Block D, Lahore, 56000, Pakistan","31.3757371","74.252461","Real estate consultant","38 Edenabad D Block D","HS Estate",,"0",,,,,,"56000"
+"Block B Awt Housing Scheme Phase 2 AWT Phase 2, Lahore, Pakistan","31.3546875","74.2160625","Real estate agency",,"Azeem Real Estate",,"0",,,,,,
+"Office No. 06 Aftab Heights 10, 11-A Commercial, Main Blvd, Al-Kabir Town, Lahore, 54000, Pakistan","31.3527376","74.2347149","Real estate agency","Office No. 06 Aftab Heights 10, 11-A Commercial, Main Blvd","Az Estate & Builders",,"0",,,,,,"54000"
+,"31.4829403","74.3343893","Real estate consultant",,"Freinds Property Network",,"0",,,,,,
+"H, 157, Sui Gas Phase-2, Lahore, 54000, Pakistan","31.3446936","74.1776903","Industrial real estate agency","H, 157","IBRAHEEM REAL ESTATE",,"0",,,,,,"54000"
+"ALKABIR TOWN PHASE 2 E BLOCK MAIN RAIWIND ROAD DISTT LAHORE E, Lahore, 54000, Pakistan","31.3434112","74.2302206","Real estate agency","ALKABIR TOWN PHASE 2 E BLOCK MAIN RAIWIND ROAD DISTT LAHORE E","TAIMOOR REAL ESTATE AND BUILDERS",,"0",,,,,,"54000"
+"5B commercial, AWT Phase 2, Lahore, Pakistan","31.3545025","74.2154122","Real estate consultant","5B commercial","Naveed Real Estate","5","1","1","0","0","0","0",
+"85MX+FCM, Sharif Medical City Rd, Jati Umrah Lahore, Pakistan","31.3337026","74.1985511","Real estate consultant","85MX+FCM, Sharif Medical City Rd","Shahid estate advisor",,"0",,,,,,
+"Commercial Zone D Park, Sector C Commercial Area Sector C Bahria Town, Lahore, 53720, Pakistan","31.3724367","74.185739","Real estate agency","Commercial Zone D Park","Beyanah Real Estate & Developers",,"0",,,,,,"53720"
+"226-A C, near Grand Mosque, Commercial Zone Sector C Cc Block Sector D Bahria Town, Lahore, 53720, Pakistan","31.3742257","74.179336","Real estate consultant","226-A C, near Grand Mosque","Aasheyana.com",,"0",,,,,,"53720"
+,"31.462109","74.2013362","Real estate agency",,"Tawaqal Real Estate",,"0",,,,,,
+"969M+H26, Raiwind Rd, Block A Fazaia Housing Society, Lahore, Pakistan","31.3689001","74.2325105","Real estate consultant","969M+H26, Raiwind Rd","LAL ESTATE",,"0",,,,,,
+"955G+7XF, Bahria Town Main Blvd, Bahria Town, Lahore, Pakistan","31.3577382","74.1782612","Real estate developer","955G+7XF, Bahria Town Main Blvd","BROTHERS REALTORS",,"0",,,,,,
+"B Block Main Canal Road, NFC Housing Society (Phase II), Lahore, 54500, Pakistan","31.3600132","74.1477178","Real estate agency","B Block Main Canal Road","Fahad Estate","5","6","6","0","0","0","0","54500"
+"Al-Kabir Town, 26-B Commercial Area, Mian Boulevard, Raiwind Rd, Phase 2 Lahore, 55150, Pakistan","31.351831","74.2343066","Real estate agency","Al-Kabir Town, 26-B Commercial Area, Mian Boulevard, Raiwind Rd","Sports City","4.1","1068","578","205","67","166","52","55150"
+"Commercial Zone Sector C Jasmine Block Sector C Bahria Town, Lahore, 54000, Pakistan","31.3726409","74.1869211","Divorce lawyer",,"ADVOCATE and LEGAL CONSULTANT",,"0",,,,,,"54000"
+"HMQR+53M, Nankana Rd, Madina Colony, Mananwala, 39170, Pakistan","31.5879635","73.6901787","Real estate agency","HMQR+53M, Nankana Rd","Chishti Property Advisors & Dealers","4.5","4",,,,,,"39170"
+"Karkun Rd, Mananwala, 39170, Pakistan","31.5872873","73.6763141","Real estate agency","Karkun Rd","Asif Sheikh Property Advisor & Dealers","5","1",,,,,,"39170"
+"HPQ4+27X, Lahore - Sheikhupura - Faisalabad Rd, Mananwala, Pakistan","31.5876063","73.7057385","Real estate agency","HPQ4+27X, Lahore - Sheikhupura - Faisalabad Rd","Trade Centerٹریڈسنٹرمانانوالہ",,"0",,,,,,
+"FP26+868, Housing Colony Rd, Nankana Sahib, Pakistan","31.4507888","73.7105718","Real estate agency","FP26+868, Housing Colony Rd","Punjab properties service",,"0",,,,,,
+"CPX6+MX9, Housing Colony, Nankana Sahib, Pakistan","31.4491611","73.7124708","Real estate agency","CPX6+MX9","Khawaja property advisor",,"0",,,,,,
+"HMWW+X3Q, Manawala - Farooq Abad Rd, Jiwan City road, Mananwala, Pakistan","31.5974589","73.6952457","Real estate agency","HMWW+X3Q, Manawala - Farooq Abad Rd, Jiwan City road","Sultani Trading & Construction company",,"0",,,,,,
+"Malianwali Ck 537 District Sheikhpura 18, Mananwala, 39170, Pakistan","31.5820847","73.7379828","Retail space rental agency","Malianwali Ck 537 District Sheikhpura 18","Easeypisa",,"0",,,,,,"39170"
+"HRVM+MJ2, Feroze Wattwan, 39181, Pakistan","31.5941454","73.8340191","Property management company","HRVM+MJ2","New Wafi City","5","7","7","0","0","0","0","39181"
+"Faisalabad Rd, Sheikhupura, 39350, Pakistan","31.5904363","73.8129868","Property management company","Faisalabad Rd","Hafiz international Property Adviser",,"0",,,,,,"39350"
+"Nazray da Kot, Feroze Wattwan, Pakistan","31.5737869","73.7452017","Farm","Nazray da Kot","Chaudhry Saif Farms","5","2","2","0","0","0","0",
+"Jhalar Shama, Sheikhupura, Pakistan","31.6149383","73.7833772","Housing complex","Jhalar Shama","Jhalar Shama, Sheikhupura, Punjab","4","1","0","1","0","0","0",
+"Division Lahore, Mananwala, 39350, Pakistan","31.5795183","73.7333798","Dairy farm","Division Lahore","Diary farm","5","1","1","0","0","0","0","39350"
+"Feroze Wattwan, Pakistan","31.5879213","73.7996711","Housing society",,"Ahsan Watto FarmHouse","5","1","1","0","0","0","0",
+"HPPJ+MWV, Wadi Umtryanwali, Pakistan","31.586865","73.7328935","Apartment building","HPPJ+MWV","Chaudary Mukthar House",,"0",,,,,,
+"HRPM+CP4, Unnamed Road, Ghullah Wattwan, Pakistan","31.5860099","73.8343193","Housing society","HRPM+CP4, Unnamed Road","Saad Attiq Watto","3.7","3","1","0","0","2","0",
+"HQ88+8PX, Walgan Sohail, Pakistan","31.565874","73.766866","Housing society","HQ88+8PX","Nawab Maan House","5","1","1","0","0","0","0",
+"Ferozewattan, Sheikhupura, Pakistan","31.5824241","73.8198341","Dairy farm",,"WATTOO AGRICULTURAL FARMHOUSE AND DAIRY MILK","5","1","1","0","0","0","0",
+"Feroze Wattwan, 39180, Pakistan","31.5904667","73.8119523","Villa",,"Dera Malik Ahmad Khan Wattoo","5","10","10","0","0","0","0","39180"
+"HQQ3+38P, Taali Chak, Pakistan","31.5863488","73.7527567","Housing society","HQQ3+38P","TANI CHAK","4","2","1","0","0","1","0",
+"HRV7+FFQ, Feroze Wattwan, Pakistan","31.5937155","73.8135987","Apartment building","HRV7+FFQ","Hafiz ans wattoo",,"0",,,,,,
+"HRV8+6JM, Adda Ferozwatwan warburton road, near petrol pump, Sheikhupura, Pakistan","31.5930852","73.8165393","Land allotment","HRV8+6JM, Adda Ferozwatwan warburton road, near petrol pump","Makhah develpors",,"0",,,,,,
+"HQ87+6HG, Walgan Sohail, Pakistan","31.5655665","73.7639658","Housing complex","HQ87+6HG","Maan’s House",,"0",,,,,,
+"3XV5+FHW Changa Manga Forest Park, Rd, Changa Manga, Pakistan","31.0937309","73.9589444","Real estate agency","3XV5+FHW Changa Manga Forest Park, Rd","Abdullah Estate Advisor","5","3",,,,,,
+"33X8+2M7, Pattoki - Raiwind Rd, opp. MICT DRY PORT, Bhuchoki Mahja, Lahore, Pakistan","31.097535","74.066673","Real estate agency","33X8+2M7, Pattoki - Raiwind Rd, opp. MICT DRY PORT","Hopes For Hope","5","1",,,,,,
+"Unnamed Road, Kot Radha Kishan, Pakistan","31.1724191","74.0975068","Real estate agency","Unnamed Road","Ameer Real Estate","5","1",,,,,,
+"5476+C85, Mir Sahib Rd, Kot Radha Kishan, Pakistan","31.1635145","74.110854","Real estate consultant","5476+C85, Mir Sahib Rd","Imaan Estate Agency","5","2",,,,,,
+"Multan Rd, near UBL Bank, Pattoki, 55300, Pakistan","31.0293624","73.8526357","Real estate agent","Multan Rd, near UBL Bank","Kamboh Real Estate, Pattoki","5","7",,,,,,"55300"
+"AH2, Pakistan","31.0445279","73.8594234","Real estate agency","AH2","Etihad real estate (Pattoki Office)","5","1",,,,,,
+,"31.0877983","73.963405","Flour mill",,"Al-Hussain Super store","5","2",,,,,,
+"3 11, Kot Radha Kishan, 54000, Pakistan","31.1637368","74.105466","Real estate agency","3 11","Real estate",,"0",,,,,,"54000"
+"Nil, Main Multan Rd, near Bhadian, Pattoki, 55360, Pakistan","31.0249373","73.8479128","Real estate agency","Nil, Main Multan Rd","Ibrahim Nursary Farm & Real State",,"0",,,,,,"55360"
+"4X77+CJR, Chak 33, Pakistan","31.1136221","73.9640215","Apartment building","4X77+CJR","Chuhan House","5","1","1","0","0","0","0",
+"4WXQ+F4, Deewan Wala, Pakistan","31.1486875","73.9378125","Farm","4WXQ+F4","D2 Haji Ghulam Rasool","5","1","1","0","0","0","0",
+"4W2W+33G, Pakistan","31.1001961","73.9452056","Housing development","4W2W+33G","Mian Ashraf Farm House",,"0",,,,,,
+"Pattoki - Raiwind Rd, Pakistan","31.1142655","74.0127524","Ranch","Pattoki - Raiwind Rd","Poultry Farm","4.2","5","4","0","1","0","0",
+"4XGC+69G, Phulliani, Pakistan","31.1255669","73.9709577","Dairy farm","4XGC+69G","نوید بھٹی ڈیری فارم","5","3","3","0","0","0","0",
+"42GM+658, Bhoe Asal, Pakistan","31.1255414","74.0329499","Apartment building","42GM+658","Sandhu market",,"0",,,,,,
+"42GM+658 Tibba, Colony, Bhoe Asal, Pakistan","31.1255414","74.0329499","Housing society","42GM+658 Tibba, Colony","Rana Rizwan Home",,"0",,,,,,
+"Jamber kalan kasur Jamber, 55250, Pakistan","31.0949066","73.9421591","Farm","Jamber kalan kasur Jamber","Khokhar Zarai Farm Haji Zulfiqar Ali Khokhar",,"0",,,,,,"55250"
+"Phulliani, 53720, Pakistan","31.1316548","73.9753936","Farm",,"BANTH ZARAI FARMS",,"0",,,,,,"53720"
+"4W8Q+RWX, Kot Haji Jalal, Pakistan","31.1171147","73.9398648","Housing society","4W8Q+RWX","Rahmani hauos",,"0",,,,,,
+"42RP+R72, Pattoki, Pakistan","31.1420089","74.0356443","Dairy farm","42RP+R72","Asim Dairy Form","3","2","0","1","0","0","1",
+"42FG+VG9, Bhoe Asal, Pakistan","31.1241682","74.026598","Farm","42FG+VG9","Rana Faisal Atta Chacki bhoe asal punjab",,"0",,,,,,
+"4XWH+5G2, Pattoki, Pakistan","31.1453917","73.9787542","Condominium complex","4XWH+5G2","Pattoki kasur panjab",,"0",,,,,,
+"42P4+XRF, Pandit Wala, Pakistan","31.1374268","74.0070599","Ranch","42P4+XRF","Bhoe Asal Poultry Farm","4.1","11","6","2","1","2","0",
+"4W6R+H66, ملتان روڈ, Changa Manga, Pakistan","31.1114031","73.9405277","Farm","4W6R+H66, ملتان روڈ","Techno Shed Ch Poultry Farm","5","1","1","0","0","0","0",
+"Muridke, Pakistan","31.8117616","74.2594519","Real estate agency",,"Jutt Property Dealer","5","1",,,,,,
+"Pakistan","31.7139039","74.3822281","Real estate agency",,"Chohan Estate Agency","5","1",,,,,,
+"V876+3Q5, Unnamed Road, Lahore, Pakistan","31.8626353","74.3119689","Real estate agency","V876+3Q5, Unnamed Road","Ikram Associates",,"0",,,,,,
+"13, Labor Colony, Muridke, 39010, Pakistan","31.7722786","74.2665374","Real estate agency","13","AlGhosia Estate Advisors","4.9","41",,,,,,"39010"
+"GT Rd, Faisal Colony Muridke, 39000, Pakistan","31.7899216","74.2563274","Real estate agency","GT Rd","Lucky Estate Agency","5","1",,,,,,"39000"
+"Main Boulevard, Supreme City Muridke, 39000, Pakistan","31.8248504","74.2468082","Real estate consultant","Main Boulevard","Team Estate & Builders (Supreme City)","5","22",,,,,,"39000"
+"Shop no.33 first floor main bolevard, S.A Gardens, phase 2 Kala Shah Kaku, 04233, Pakistan","31.7250367","74.266682","Real estate agency","Shop no.33 first floor main bolevard, S.A Gardens","Munnawar Real estate and builders","5","3",,,,,,"04233"
+"Zafar Colony Muridke, Pakistan","31.8148501","74.2666852","Real estate agency",,"Madina Estate Agency","3.9","7",,,,,,
+"P74C+QJ5, GT Rd, Kala Shah Kaku, Pakistan","31.7068773","74.2716172","Real estate agency","P74C+QJ5, GT Rd","Ashfaq Cheema Real Estate","5","1",,,,,,
+"Office No, 14 SA Garden Rd, Kala Shah Kaku, 05499, Pakistan","31.7246775","74.2666176","Real estate consultant","Office No, 14 SA Garden Rd","Mian Estate Advisor","5","1",,,,,,"05499"
+"Mashallah Markete, 39 Sheikhupur Road, near Football Academy shop, Mohalla Gaddafi Park Muridke, Pakistan","31.8090314","74.2503443","Real estate agency","Mashallah Markete, 39 Sheikhupur Road, near Football Academy shop","Abdulla Real State & Property Dealer","5","2",,,,,,
+"Chaura Rajputan, Pakistan","31.8629242","74.3091803","Real estate agency",,"Agha Estate Agency",,"0",,,,,,
+"29-C S.A Gardens, phase-II Kamran Block Kala Shah Kaku, Pakistan","31.7334445","74.2641673","Real estate consultant","29-C S.A Gardens","Al-Ansaar Property and Legal Advisor","5","1",,,,,,
+"Darood Shareef wali building Corporation, chowk, near MY PETROLEUM pump, Data Gunj Buksh Town, Lahore, 54000, Pakistan","31.5740145","74.2943779","Real estate agency","Darood Shareef wali building Corporation, chowk, near MY PETROLEUM pump","APNA GHAR REAL ESTATE AND LAW FIRM ®","5","15",,,,,,"54000"
+"P7J7+9PP, Kala Shah Kaku, Pakistan","31.7309592","74.2643404","Industrial real estate agency","P7J7+9PP","MASHA ALLAH REAL ESTATE ARCHITECTURE AND BUILDERS.","5","1",,,,,,
+"Office # 2, zam zam city, Lahore, Pakistan","31.6425087","74.4852796","Real estate agency","Office # 2, zam zam city","Urzam Marketing & Real Estate","5","1",,,,,,
+"Canal Rd, Ghousia Colony Ghausia Colony, Muridke, 39000, Pakistan","31.8054165","74.2486646","Real estate agency","Canal Rd","Royal Estate Agency Muridke","4","1",,,,,,"39000"
+"RC84+5R3, Shamke, Pakistan","31.8153952","74.4070444","Real estate developer","RC84+5R3","China Town Lahore",,"0",,,,,,
+"R8QV+JQW, Unnamed Road, Pakistan","31.8391119","74.3444539","Farm","R8QV+JQW, Unnamed Road","Moosa Dairy and Fish farm","5","1","1","0","0","0","0",
+"Q8VV+X4V, Dera Bashir Mehr, Pakistan","31.794994","74.3428072","Housing development","Q8VV+X4V","Kot Araian","5","1","1","0","0","0","0",
+"R987+5C, Lambre, Pakistan","31.815418","74.363516","Farm","R987+5C","Khuda Bakhsh Farms","4.9","8","7","1","0","0","0",
+"Q9WV+8X, Mahaj, Pakistan","31.7956206","74.3947323","Farm","Q9WV+8X","Warraich agri and dairy farm","3.5","2","1","0","0","0","1",
+"Sheikhupura Teh. Feroozwala, Lambre, Pakistan","31.8176717","74.3594396","Cattle farm","Sheikhupura Teh. Feroozwala","Zafar Dairy Farm","5","3","3","0","0","0","0",
+"Q9XW+CH2, Mahaj, Pakistan","31.7985765","74.3957272","Apartment building","Q9XW+CH2","Ch ahtisham virk","1","1","0","0","1","0","0",
+"1 A, Muridke, 39000, Pakistan","31.8199487","74.3607631","Fish farm","1 A","Ahad Gujjar Fish Farms","5","1","1","0","0","0","0","39000"
+"R9M4+6Q, Lambre, Pakistan","31.8330556","74.3569444","Housing society","R9M4+6Q","Kot Rahim Buksh",,"0",,,,,,
+"Q9X2+75F, Pakistan","31.7981991","74.3504314","Livestock breeder","Q9X2+75F","Fatima Traders Live Stock",,"0",,,,,,
+"R8QV+JQW, Narowal Road Link Road, lambrey, Muridke, 39000, Pakistan","31.8355421","74.3516657","Farm","R8QV+JQW, Narowal Road Link Road","Moosa Dairy and Fish farm",,"0",,,,,,"39000"
+"R953+J5F, Old Narang / Manawala Rd, Pakistan","31.8090588","74.3529213","Fish farm","R953+J5F, Old Narang / Manawala Rd","muhammad ali fish hatchrie","4.3","3","2","0","0","1","0",
+"Dera Ch Sattar, Jajja, 39350, Pakistan","31.8330552","74.4112049","Dairy farm","Dera Ch Sattar","Dera Ch Sattar Jajja",,"0",,,,,,"39350"
+"62W3+584, Dina Nath, Pakistan","31.2453852","74.0033128","Real estate consultant","62W3+584","Ghani Property Advisor","5","1",,,,,,
+"Blue Town With Smart Features, Manga Mandi, Lahore, Pakistan","31.2959808","74.0601323","Construction company","Blue Town With Smart Features","Beyanah Real Estate & Developers","5","2",,,,,,
+"84G6+GQ Fahad Estate, Phase II P&D, Shamkay Bhattian, Pakistan","31.3264218","74.1113944","Real estate consultant","84G6+GQ Fahad Estate","Fahad Estate & Builders","5","3",,,,,,
+"36 A, near Manga Mandi, Wapda Employees Cooperative Housing Society, Pakistan","31.2661066","74.0470027","Real estate consultant","36 A, near Manga Mandi","Clarent Pvt, Ltd.","5","6",,,,,,
+"84H6+F8M, Canal Bank Rd, Shamkay Bhattian, Lahore, Pakistan","31.3287204","74.110808","Real estate consultant","84H6+F8M, Canal Bank Rd","Jawad Real Estate","5","1",,,,,,
+"732P+465 Rana House Near Dhariwal, Dhariwal Kasur, Lahore, Pakistan","31.2502712","74.0856174","Real estate consultant","732P+465 Rana House Near Dhariwal","Rana Ijaz Property Adviser رانا اعجاز پراپرٹی اڈوئزر","5","3",,,,,,
+"6RXV+669, Shaukatabad, Pakistan","31.2479274","73.8426686","Low income housing program","6RXV+669","Hassan karyana store",,"0",,,,,,
+"7R5G+4F7, Unnamed Road, Dhup Sari, Pakistan","31.2577906","73.8261596","Dairy farm","7R5G+4F7, Unnamed Road","General Najeeb Ullah Fish & Dairy Farm","4","2","1","0","0","1","0",
+"6V96+F8W, Balloki, Pakistan","31.2187254","73.8608315","Farm","6V96+F8W","ZULFIQAR FISH TRADER",,"0",,,,,,
+"6VW3+7J8, Maliwala, Pakistan","31.2456697","73.8540801","Apartment building","6VW3+7J8","Residence of Ahsan Arshad Punjab Police","5","2","2","0","0","0","0",
+"5 KM, Head Balloki - Mor Khunda Road, VillageWazir Pur, Wazirpur, Pakistan","31.258087","73.8489436","Farm","5 KM, Head Balloki - Mor Khunda Road, VillageWazir Pur","Mian Jee Farm House","4.7","3","2","1","0","0","0",
+"5 KM, Head Balloki - Mor khunda Road, Pakistan","31.2612018","73.8521257","Farm","5 KM, Head Balloki - Mor khunda Road","MIAN JEE FARMS 3","3.5","2","1","0","0","0","1",
+"6RG3+X9, Thatha, Taurian, Pakistan","31.2274371","73.8034371","Dairy farm","6RG3+X9, Thatha","Tauri Jatt cattle Farm",,"0",,,,,,
+"Jatri, Pakistan","31.2304205","73.8535106","Farm",,"Farm","4","1","0","1","0","0","0",
+"7R3H+R49, Qila Noor Pur, Pakistan","31.2545331","73.8278658","Dairy farm","7R3H+R49","Chaudhary dairy farm",,"0",,,,,,
+"7R8M+QMC, Ganeshpur, Pakistan","31.266931","73.8341496","Dairy farm","7R8M+QMC","حویلی لالہ مشتاق","5","7","7","0","0","0","0",
+"6RP9+8J, Watwan, Pakistan","31.2358368","73.8191228","Farm","6RP9+8J","RANA DAIRY FARM HOUSE 2",,"0",,,,,,
+"6RWJ+HV, Qila Noor Pur, Pakistan","31.24644","73.832129","Dairy farm","6RWJ+HV","Al ghaffar dairy farm 2",,"0",,,,,,
+"6RRW+9G2, Jatri, Pakistan","31.2393351","73.8454551","Dairy farm","6RRW+9G2","RANA DAIRY FARM HOUSE 1",,"0",,,,,,
+"6RHH+5V9, Ganeshpur, Pakistan","31.2279186","73.8297269","Dairy farm","6RHH+5V9","Rao Malook Dairy farm",,"0",,,,,,
+"6RVW+RRX, Jatri, Pakistan","31.2446158","73.8470943","Housing complex","6RVW+RRX","Dr shaukat Ali kharal","3.5","2","1","0","0","0","1",
+"Block C office 17/18, Punjab, Al-Haram Garden, Pakistan","31.3223301","74.3645876","Industrial real estate agency","Block C office 17/18, Punjab","میاں اسٹیٹ ایڈوائزر اینڈ بلڈرز الحرم گارڈن آفس","5","11",,,,,,
+"Safari Rd, Lahore, Pakistan","31.2974248","74.3470238","Industrial real estate agency","Safari Rd","میاں اسٹیٹ ایڈوائزر اینڈ بلڈرز سفاری آفس","5","12",,,,,,
+"3-km, Off Ferozepur Road, Sue Asil, Lahore, 54000, Pakistan","31.3014507","74.362906","Real estate consultant","3-km, Off Ferozepur Road","Comfort Marketing","5","1",,,,,,"54000"
+"Lahore, 54000, Pakistan","31.2990677","74.3463057","Real estate agency",,"Urban Pacific Real Estate","5","3",,,,,,"54000"
+"A1 Main Boulevard Commercial No 7, Lahore, Pakistan","31.3255311","74.3710963","Real estate agent","A1 Main Boulevard Commercial No 7","Dream Homes Marketing","4.3","12",,,,,,
+"Lahore, Pakistan","31.3204149","74.3669126","Real estate agency",,"46-A Afzal Sanndhu Estate","4","1",,,,,,
+"89C7+4HF Rohi Nala, Main Asal Suleman Road, near Al Haram Garden, Lahore, Pakistan","31.3203125","74.3639375","Real estate agency","89C7+4HF Rohi Nala, Main Asal Suleman Road, near Al Haram Garden","Khalid Zahoor Estate","5","1",,,,,,
+"78Q7+5X7, Ladheke Road, Lahore, Pakistan","31.2879012","74.314921","Real estate agency","78Q7+5X7, Ladheke Road","TARIQ Estas","2.3","3",,,,,,
+"78XW+WGV, Sue-e-Asal Road, Sue Asil, Lahore, Pakistan","31.2998654","74.34631","Real estate agency","78XW+WGV, Sue-e-Asal Road","Hajvery Associates Real Estate & Builders","5","2",,,,,,
+"Block, 33 C Commercial Safari Garden Housing Scheme Sue E Asal Raiwind Road, C, Lahore, 54000, Pakistan","31.3034839","74.3435167","Real estate agency","Block, 33 C Commercial Safari Garden Housing Scheme Sue E Asal Raiwind Road, C","Property Master Estate & Builders","5","1",,,,,,"54000"
+"Sue-e-Asal Road, Lahore, Pakistan","31.3048715","74.3788314","Real estate agency","Sue-e-Asal Road","99-Real Estate","4","4",,,,,,
+"89CJ+88V, Central Park Housing Scheme, Lahore, Pakistan","31.3208723","74.3807822","Real estate consultant","89CJ+88V","Ilyas Properties","5","3",,,,,,
+"78WC+FJC, Bahria Education & Medical City, Lahore, Pakistan","31.2961906","74.3215163","Real estate agency","78WC+FJC","Mian Arshad Associates","5","2",,,,,,
+"Opst.Safari garden housing scheme sua, Sue-e-Asal Road, Lahore, Pakistan","31.2975341","74.3471874","Real estate agency","Opst.Safari garden housing scheme sua, Sue-e-Asal Road","Sakhi Properties","3","1",,,,,,
+"190 A-Com. Central Park Housing Society Gate, 3 Lahore – Kasur Rd, Lahore, Pakistan","31.3271908","74.381923","Real estate consultant","190 A-Com. Central Park Housing Society Gate, 3 Lahore – Kasur Rd","REHAN PROPERTIES","5","5",,,,,,
+"Plaza No. 7, G/F , A side Commercial, Bahria Education & Medical City, Lahore, 54000, Pakistan","31.2947774","74.3217294","Real estate consultant","Plaza No. 7, G/F , A side Commercial","Mian Estate Bahria EMC","5","2",,,,,,"54000"
+"30 Block C Al-Haram Garden, main ferozppur road, Lahore, Pakistan","31.3224983","74.3644417","Real estate agency","30 Block C Al-Haram Garden, main ferozppur road","UMER Estate & Builders","2","1",,,,,,
+"4.5KM Sue-e-Asal / Raiwind, Road, near Safari Garden Housing Scheme, Lahore, 54000, Pakistan","31.2975575","74.3475814","Real estate agent","4.5KM Sue-e-Asal / Raiwind, Road, near Safari Garden Housing Scheme","Green World Real Estate","4.8","4",,,,,,"54000"
+"Service Road, 36 B Main Boulevard, central park Lahore, 54000, Pakistan","31.3166956","74.3882003","Real estate agency","Service Road, 36 B Main Boulevard","The Country Real Estate & Builders","5","3",,,,,,"54000"
+"78P6+6C8, Bypass Chowk Khatme Nabuwwat Sue-e-Asal Road RaiwindLahore, Raiwind, Lahore, 54000, Pakistan","31.2855468","74.3110931","Real estate agent","78P6+6C8, Bypass Chowk Khatme Nabuwwat Sue-e-Asal Road RaiwindLahore","Shahab Estate & Builders","5","1",,,,,,"54000"
+"Main boulevard, Central park Block B Central Park Housing Scheme, Lahore, 53100, Pakistan","31.3173781","74.3900355","Real estate agent","Main boulevard","Property Gate Central Park Lahore","5","28","27","1","0","0","0","53100"
+"central park, Main Boulevard B block, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3168346","74.388249","Real estate agency","central park, Main Boulevard B block","Bashir's properties","5","13","13","0","0","0","0",
+"114B Lahore – Kasur Rd, Block B Central Park, Lahore, 54600, Pakistan","31.3163876","74.3897471","Real estate agent","114B Lahore – Kasur Rd","4U Properties","5","16","16","0","0","0","0","54600"
+"Main Boulevard، 7B commercial B، Central Park Lahore, 53100, Pakistan","31.3161016","74.3867946","Real estate agent","Main Boulevard، 7B commercial B","Rehmat Sons Real Estates & Builders","4.9","55","50","4","0","1","0","53100"
+"11B Commercial Main Boulevard, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3162947","74.3871707","Real estate consultant","11B Commercial Main Boulevard","Musa Real Estate&Builders","5","2","2","0","0","0","0",
+"898P+9F8, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3159158","74.3862038","Real estate agency","898P+9F8","Ali Builders & Real estate","4.5","2","1","1","0","0","0",
+"Food St, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3156279","74.3871785","Real estate agency","Food St","Bab E Harmain Real Estate","5","2","2","0","0","0","0",
+"Central Park, 11-B commercial, Block B Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3162856","74.3871678","Real estate agency","Central Park, 11-B commercial","Master Associates","5","1","1","0","0","0","0","54000"
+"Shop#14 BARI AVENUE, 31km Feroz pur road, near MAIN GATE, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3172888","74.3900818","Real estate agency","Shop#14 BARI AVENUE, 31km Feroz pur road, near MAIN GATE","FUTURE ESTATE CENTRAL PARK","5","2","2","0","0","0","0",
+"39, Block B Central Park Housing Scheme, Lahore, Pakistan","31.316812","74.3885933","Real estate agency","39","Al Rehman Estate & Builders","5","2","2","0","0","0","0",
+"Block B Central Park Housing Scheme, Lahore, Pakistan","31.3159702","74.3880391","Real estate consultant",,"Babe Madina Real Estate","3.7","3","1","1","0","0","1",
+"Central park, 101 A Block commercial, Ferozepur Rd, Block A Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3173972","74.3875106","Real estate agency","Central park, 101 A Block commercial, Ferozepur Rd","Suffah Associates","5","5","5","0","0","0","0","54000"
+"bari avenue, office #-08 Lahore – Kasur Rd, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3172605","74.390232","Real estate agency","bari avenue, office #-08 Lahore – Kasur Rd","LUXURY MARKETING","4.3","31","19","5","2","5","0",
+"Block, 2nd Floor, B Food St, Central Park Housing Scheme, Pakistan","31.3161923","74.3885849","Real estate consultant","Block, 2nd Floor, B Food St","MJ Properties","5","4","4","0","0","0","0",
+"47, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3172563","74.3897299","Real estate agency","47","Al Raray Associates","5","3","3","0","0","0","0",
+"62 B Commercial, Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3163553","74.3879837","Real estate agency","62 B Commercial","Ali Bhai Associates","5","6","6","0","0","0","0","54000"
+"near chak 66, Dina Nath, Pakistan","31.2044584","73.931099","Property investment company","near chak 66","Hameed Shafi Farm","5","1","1","0","0","0","0",
+"6W4P+8R7, Phool Nagar, Pakistan","31.205781","73.9370389","Real estate developer","6W4P+8R7","Mian Aslam Astam Farosh",,"0",,,,,,
+"Block B-3 Central Park Housing Scheme, Lahore, Pakistan","31.3160782","74.3865629","Real estate consultant",,"Al BURAQ REAL ESTATE CENTRAL PARK","5","3","3","0","0","0","0",
+"898P+QVF, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3169466","74.3871733","Real estate agency","898P+QVF","Imam Estate & Builder's","4.7","3","2","1","0","0","0",
+"42_A Main Boulevard, Block A Central Park Housing Scheme, Lahore, 54600, Pakistan","31.3173803","74.3883903","Real estate agency","42_A Main Boulevard","Al-maalik Estate","5","2","2","0","0","0","0","54600"
+"898Q+H2X, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3164886","74.3876244","Real estate consultant","898Q+H2X","IR Associates","3.7","3","2","0","1","0","0",
+"Central Park, 105-B Commercial, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3167979","74.3897962","Real estate agency","Central Park, 105-B Commercial","Niazi Real Estate & Builders","5","1","1","0","0","0","0",
+"40 B block, Main Blvd, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3166354","74.3882803","Real estate consultant","40 B block, Main Blvd","AYYAN ESTATE","5","2","2","0","0","0","0",
+"898P+QV6, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3168954","74.3871644","Real estate consultant","898P+QV6","Marketing Expert office","5","2","2","0","0","0","0",
+"35-B Commercial, Central Park Housing Scheme, Lahore, Pakistan","31.3166906","74.3881625","Real estate consultant","35-B Commercial","Euro Estate & Builders","5","6","6","0","0","0","0",
+"37 A commercial، Central Park, Lahore, 54000, Pakistan","31.3171638","74.3877621","Commercial real estate agency","37 A commercial","SAIM ESTATE & DEVELOPERS","3.8","8","5","0","2","1","0","54000"
+"Street 37, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3167319","74.3883603","Real estate agency","Street 37","Focus Real Estate","3","1","0","0","0","1","0",
+"898Q+XV6, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3174075","74.3896528","Real estate agency","898Q+XV6","Moon Estate and Marketing","5","6","6","0","0","0","0",
+"B-63 Furqan Tower Central Park Feroze Pur, Road, Lahore, Pakistan","31.3153216","74.3864954","Real estate consultant","B-63 Furqan Tower Central Park Feroze Pur, Road","Awan Associates","5","2","2","0","0","0","0",
+"95, Block B Central Park Housing Scheme, Lahore, Pakistan","31.316693","74.389622","Real estate consultant","95","Property with abid 1","5","2","2","0","0","0","0",
+"898Q+RM3, AZSERVICES, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3170071","74.389184","Real estate agency","898Q+RM3, AZSERVICES","AZ Services","5","5","5","0","0","0","0",
+"492 G, Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3190571","74.3808761","Real estate agency","492 G","GM House","4.5","2","1","1","0","0","0","54000"
+"15A Main Boulevard, central park Block A Central Park Housing Scheme, Lahore, Pakistan","31.3169564","74.3871232","Real estate agency","15A Main Boulevard","Friends Estate And Marketing",,"0",,,,,,
+"1st Floor, 50-A, Gate no 1 Comercial, Central Park Housing Scheme, Society, Pakistan","31.3176063","74.3890118","Real estate consultant","1st Floor, 50-A, Gate no 1 Comercial","Property Deals Group","3.8","4","2","1","1","0","0",
+"house#16 street#8, near meryem hospital youhana bad, Block C Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3179261","74.3907","Real estate consultant","house#16 street#8, near meryem hospital youhana bad","Etv News International","4.7","3","2","1","0","0","0","54000"
+"Office No 2 Main Boulevard, Main Lahore – Kasur Rd, Central Park Housing Scheme, Lahore, Pakistan","31.3173445","74.3900884","Real estate agency","Office No 2 Main Boulevard, Main Lahore – Kasur Rd","Bari Builders","4.2","17","11","1","0","3","2",
+"898Q+H2X, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3164375","74.3875625","Real estate consultant","898Q+H2X","Smart Property Real Estate Central Park","3.7","3","2","0","1","0","0",
+"14-A , Main Boulevard, Lahore – Kasur Rd, Block A Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3171651","74.3876174","Real estate consultant","14-A , Main Boulevard, Lahore – Kasur Rd","Al-Mughni Builders","5","3","3","0","0","0","0","54000"
+"MOJ ESTATES Plaza No# 36, A Block Main Boulevard, Lahore, 53100, Pakistan","31.3171694","74.3877606","Real estate consultant","MOJ ESTATES Plaza No# 36, A Block Main Boulevard","MOJ ESTATES","4.2","9","6","1","1","1","0","53100"
+"Safari garden housing society Lahore, 05400, Pakistan","31.2990679","74.3463062","Real estate agent",,"JOIYA PROPERTY CHANNEL","5","7","7","0","0","0","0","05400"
+"26 km main Ferozpur Road Lahore، Lahore, Punjab, Block A Central Park Housing Scheme, Lahore, 54000, Pakistan","31.321211","74.3896225","Real estate agent","26 km main Ferozpur Road Lahore، Lahore, Punjab","New Era Real Estate","5","3","3","0","0","0","0","54000"
+"Central Park 37-A Main Boulevard, Lahore – Kasur Rd, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3172228","74.3878091","Real estate agency","Central Park 37-A Main Boulevard, Lahore – Kasur Rd","Iqbal associates",,"0",,,,,,
+"15_B Main boulevard Central Park, Main Ferozepur Rd, Lahore, 42000, Pakistan","31.3164376","74.3874535","Real estate agency","15_B Main boulevard Central Park, Main Ferozepur Rd","Bilal Associate Central Park","4","1","0","1","0","0","0","42000"
+"MJ4H+7F9, Gill Wala, Pakistan","31.655654","73.62875","Housing complex","MJ4H+7F9","Gill house","5","2","2","0","0","0","0",
+"Al-Haram Garden, Housing Society, Lahore, 54000, Pakistan","31.3204225","74.3663789","Real estate agency","Al-Haram Garden","Latif Real Estate",,"0",,,,,,"54000"
+"10A Commercial main boulevard، Ferozepur Road, Block A Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3167623","74.3867323","Real estate agent","10A Commercial main boulevard، Ferozepur Road","Pak Estate & Builders","5","3","3","0","0","0","0","54000"
+"JJCG+GV4, 1st street, Muhammadpura, 39650, Pakistan","31.6212047","73.6271538","Villa","JJCG+GV4, 1st street","Raheel Bhatti house","5","1","1","0","0","0","0","39650"
+"JJGH+GJ8, Muhammadpura, Pakistan","31.6272198","73.6298213","Villa","JJGH+GJ8","Aslam Farm House","5","9","9","0","0","0","0",
+"JMWF+5HW, Chak No 171 Sant Singh Wala, Pakistan","31.6454914","73.6739645","Farm","JMWF+5HW","Chaudhary Ghani Farm","5","1","1","0","0","0","0",
+"Warraich Rd, Adilgarh, Pakistan","31.6645511","73.6190062","Dairy farm","Warraich Rd","Cheema Dairy Farm","4.6","5","4","0","0","1","0",
+"JJFH+3MH, Muhammadpura, Pakistan","31.622932","73.6294086","Apartment building","JJFH+3MH","GADDI BAAN",,"0",,,,,,
+"JJFH+9VP, Muhammadpura, Pakistan","31.6234687","73.6296912","Housing society","JJFH+9VP","Kazmi House",,"0",,,,,,
+"Kachanwali, Pakistan","31.6553328","73.6743884","Housing complex",,"Chet Singhwala","4.1","9","5","1","0","2","1",
+"JJWW+7XW, Rasool Pur Jattan, Pakistan","31.6457489","73.6474554","Horsestable studfarm","JJWW+7XW","Asad Stud Farm","5","3","3","0","0","0","0",
+"Saith street, Garmula, 39540, Pakistan","31.6733841","73.6369157","Dairy farm","Saith street","Sharafats dairy farm",,"0",,,,,,"39540"
+"Mananwala, Sargodha Rd Link, Sunnat Nagar, Pakistan","31.6460138","73.6723401","Housing complex","Mananwala, Sargodha Rd Link","Chak No 171 Sant Singh Wala (Sunnat Nagar)","5","3","3","0","0","0","0",
+"Chak 171 RB, Sawansingwala, PO: 287 RB, Chaitsingwala, 39540, Pakistan","31.6739121","73.6879214","Plant nursery","Chak 171 RB, Sawansingwala, PO: 287 RB","Buland Baksh Nursery Farm","5","8","8","0","0","0","0","39540"
+"Sawan Singh Wala 171RB, PO Chait Singh Wala 287 RB, Safdarabad, Pakistan، Safdarabad, Pakistan, 39531, Pakistan","31.6738205","73.6877492","Farm","Sawan Singh Wala 171RB, PO Chait Singh Wala 287 RB, Safdarabad, Pakistan","Dr Muhammad Din Farms","4.3","7","5","1","1","0","0","39531"
+"JJFJ+7JM, Muhammadpura, Pakistan","31.6232188","73.6315448","Housing complex","JJFJ+7JM","Dar ul Muarif",,"0",,,,,,
+"JJH5+525, Manawala-Safdarabad Rd, Pakistan","31.6278847","73.6076112","Poultry farm","JJH5+525, Manawala-Safdarabad Rd","Mubarak Raza protein Farm","4.7","3","2","1","0","0","0",
+"Sawan Singh Wala, Chak No.171 RB Chak Nahra Road, Mehmoodabad Syedan, Pakistan","31.6731203","73.6876346","Housing society","Sawan Singh Wala, Chak No.171 RB Chak Nahra Road","Ganji hatti",,"0",,,,,,
+"92 Commercial A-1, Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3252627","74.3758399","Real estate consultant","92 Commercial A-1","London Properties & Constructions","4.4","7","6","0","1","0","0","54000"
+"55-A commercial, Central Park Housing Scheme, society, Pakistan","31.317786","74.3894717","Real estate agency","55-A commercial","Ameer Estate Advisor's",,"0",,,,,,
+"number 1, Central Park Gate, Main Boulevard, Main Lahore – Kasur Rd, Lahore, 56400, Pakistan","31.3168597","74.3887209","Real estate agency","number 1, Central Park Gate, Main Boulevard, Main Lahore – Kasur Rd","SAMAR JAVED","4.5","2","1","1","0","0","0","56400"
+"Office 31 A safari garden, Lahore, Pakistan","31.2991264","74.3463014","Real estate consultant","Office 31 A safari garden","Estate Brothers Safari Garden",,"0",,,,,,
+"B48, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3168235","74.3893836","Real estate consultant","B48","Attari Estates And Builders",,"0",,,,,,
+"47, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3172755","74.3897675","Real estate consultant","47","JJ Real Estate",,"0",,,,,,
+"898Q+W99, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3172791","74.3884913","Real estate agency","898Q+W99","Zain Assocciates","3.7","3","2","0","1","0","0",
+"Lahore, Pakistan","31.3198163","74.3906967","Real estate agency",,"Ghausia Estate Agency",,"0",,,,,,
+"41 a gf commercial, Bahria Education & Medical City, Lahore, Pakistan","31.2995391","74.3191542","Real estate agency","41 a gf commercial","Hamad Real Estate","5","7","7","0","0","0","0",
+"78J3+WVH, Sue-e-Asal Road, Ladheke, Pakistan","31.2822963","74.3047059","Real estate agency","78J3+WVH, Sue-e-Asal Road","Habib Sons Real Estate",,"0",,,,,,
+"Sue e Asal Raiwind, Road, Lahore, 53100, Pakistan","31.294856","74.3216151","Real estate consultant","Sue e Asal Raiwind, Road","MOJ ESTATES - Bahria Education City","4.8","9","7","2","0","0","0","53100"
+"899Q+7C8, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3181364","74.3885228","Real estate consultant","899Q+7C8","BILAWAL ESTATE",,"0",,,,,,
+"36, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3166422","74.3882414","Industrial real estate agency","36","Ravian Real Estate",,"0",,,,,,
+"34, Commercial A-Block Al-Haram Garden, Pakistan","31.3238638","74.364865","Property management company","34","786 Al-Noor Associates","5","3","3","0","0","0","0",
+"61-A Commercial central park ferozpur road, Block A Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3180987","74.3893199","Real estate consultant","61-A Commercial central park ferozpur road","Mayaarr Marketing & Developers",,"0",,,,,,"54000"
+"43 A block, Central Park Housing Scheme, Lahore, 40050, Pakistan","31.3174267","74.3884931","Real estate developer","43 A block","Central Associates",,"0",,,,,,"40050"
+"Office # 100, Main Lahore – Kasur Rd, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3166125","74.3899117","Real estate consultant","Office # 100, Main Lahore – Kasur Rd","Al Rehmat Associates Central Park",,"0",,,,,,
+"53-A Commercial Market, Main Boulevards, Block A Central Park Housing Scheme, Lahore, 57000, Pakistan","31.3177381","74.3893762","Real estate agency","53-A Commercial Market, Main Boulevards","Butt Associates",,"0",,,,,,"57000"
+"26km, main Lahore – Kasur Rd, Block B Central Park Housing Scheme, Lahore, 54000, Pakistan","31.3155989","74.3870817","Real estate agency","26km, main Lahore – Kasur Rd","HADII ADVISOR All Services Company",,"0",,,,,,"54000"
+"Plaza 105 A block, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3178515","74.3878708","Real estate agency","Plaza 105 A block","Uk real estate & builers",,"0",,,,,,
+"4.5 km Sue-e-Asal, Raiwind, Road, Lahore, 54600, Pakistan","31.2977408","74.3473439","Real estate consultant","4.5 km Sue-e-Asal, Raiwind, Road","Engineers Property Consultants & Builders",,"0",,,,,,"54600"
+"78W9+FX2, Sue-e-Asal Road, Bahria Education & Medical City, Lahore, 54000, Pakistan","31.294616","74.321713","Real estate agency","78W9+FX2, Sue-e-Asal Road","Naeem Associates And Builders",,"0",,,,,,"54000"
+"28, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3168617","74.3862283","Real estate consultant","28","Sufaid Khan Son's",,"0",,,,,,
+"898R+V4R, Block B Central Park Housing Scheme, Lahore, Pakistan","31.31723","74.3902749","Real estate consultant","898R+V4R","Property Vision","1","1","0","0","1","0","0",
+"194 C Commercial block C 4.5 km Sue-e-Asal/Raiwind, Road, Lahore, Pakistan","31.3044783","74.3398077","Real estate developer","194 C Commercial block C 4.5 km Sue-e-Asal/Raiwind, Road","Sher-E-Rabbani estate & builders","5","1","1","0","0","0","0",
+"80 B commercial, Central Park Housing Scheme, Lahore, Pakistan","31.3157675","74.3881082","Property management company","80 B commercial","AL muizz Developers","5","4","4","0","0","0","0",
+"Central Park, 66-B commercial zone, Lahore, 54000, Pakistan","31.3154338","74.3867527","Real estate agent","Central Park, 66-B commercial zone","Tayyab Associates",,"0",,,,,,"54000"
+"95, Block B Central Park Housing Scheme, Lahore, Pakistan","31.3166307","74.3896538","Real estate agency","95","Al-aziz builders",,"0",,,,,,
+"33, Block A Central Park Housing Scheme, Lahore, Pakistan","31.3167564","74.3858686","Property management company","33","SHEIKH SHAB Real Estate",,"0",,,,,,
+"89CP+32V, Block A Central Park Housing Scheme, Lahore, 90000, Pakistan","31.3202358","74.3850535","Real estate agency","89CP+32V","Central Para Housing Scheme freelance",,"0",,,,,,"90000"
+,"31.3199658","74.3813212","Real estate agency",,"Awan Estates",,"0",,,,,,
+"78XX+22Q, Pandoke, Pakistan","31.2975911","74.3476106","Construction company","78XX+22Q","Rana Property & Real Estate","5","2","2","0","0","0","0",
+"78WV+Q9, Lahore, Pakistan","31.2969851","74.3434844","Corporate office","78WV+Q9","Al Jabbar Real Estate",,"0",,,,,,
+"89CQ+7XP, Block A Central Park Housing Scheme, Lahore, Pakistan","31.320712","74.3899664","Corporate office","89CQ+7XP","ARHUM ESTATE","4.9","7","6","1","0","0","0",
+"4.5 Km Sue-e- Asal Raiwind, Road, Lahore, 54000, Pakistan","31.2977062","74.34673","Real estate agency","4.5 Km Sue-e- Asal Raiwind, Road","Safari Garden Housing Scheme","4.1","656","382","107","51","84","32","54000"
+"Sue-e-Asal Road, Near Ladheke Unche, 9 Kilo metre, off Ferozepur Rd, Lahore, 54000, Pakistan","31.2808455","74.303","Construction company","Sue-e-Asal Road, Near Ladheke Unche, 9 Kilo metre, off Ferozepur Rd","Maan Developers & Real Estate Consultants",,"0",,,,,,"54000"
+"18 A Main Boulevard, Al-Haram Garden, 53100, Pakistan","31.3204738","74.3673648","Property management company","18 A Main Boulevard","Orion Property Consultant","1","1","0","0","1","0","0","53100"
+"66-B Commercial Central Park Housing, Scheme, Lahore, 54600, Pakistan","31.3155035","74.3868716","Real estate developer","66-B Commercial Central Park Housing","Liiamra Group",,"0",,,,,,"54600"
+"B Block, Commercial Market, 104- B Block Central Park Housing Ferozpur Road, Street 1, opposite Food St, Lahore, 54000, Pakistan","31.3169031","74.3897237","Property management company","B Block, Commercial Market, 104- B Block Central Park Housing Ferozpur Road, Street 1, opposite Food St","Usman Associates","5","1","1","0","0","0","0","54000"
+"4.5 K M.SUA ASAL ROAD, near SAFARI GARDEN, Lahore, 53700, Pakistan","31.2974272","74.3458167","Property management company","4.5 K M.SUA ASAL ROAD, near SAFARI GARDEN","AL FATEH ESTATE",,"0",,,,,,"53700"
+"78W9+FX2, District, Sue-e-Asal Road, Bahria Education & Medical City, Lahore, Pakistan","31.2978551","74.3196487","Property management company","78W9+FX2, District, Sue-e-Asal Road","Mahads estate",,"0",,,,,,
+"Shop # 105, Block A Central Park Housing Scheme, Lahore, 53100, Pakistan","31.3186477","74.3844392","Building materials store","Shop # 105","UK construction and real estate","5","11","11","0","0","0","0","53100"
+"Office# Future Homes, Lhr Talal Homes, Lahore, 54000, Pakistan","31.3191782","74.380384","Property management company","Office# Future Homes, Lhr Talal Homes","Talal Homes",,"0",,,,,,"54000"
+"Ferozepur Road, Lahore, Pakistan","31.3091817","74.3638513","Real estate developer","Ferozepur Road","Colors Builders & Developers",,"0",,,,,,
+"Sue-e-Asal Road, Watna, Raiwind, Pakistan","31.2850611","74.2823906","Property administration service","Sue-e-Asal Road","Goraya Estate Village Watna",,"0",,,,,,
+"main Depalpur Rd, Khudian Khas, Pakistan","30.993033","74.2899488","Real estate rental agency","main Depalpur Rd","مھر ریاض Mehar Riaz","5","1",,,,,,
+"Nawaz town Chauk Taragarh Kasur 1, Kasur, 55030, Pakistan","30.9941206","74.3496242","Industrial real estate agency","Nawaz town Chauk Taragarh Kasur 1","Akram nawaz",,"0",,,,,,"55030"
+"opposite police station, Khudian Khas, 55030, Pakistan","30.9883164","74.2768483","Real estate agency","opposite police station","Arshad Property Dealer","4.7","3",,,,,,"55030"
+"Taragarh, chowk, Kasur, Pakistan","30.9933977","74.3525135","Industrial real estate agency","Taragarh, chowk","THE MUSLIMS",,"0",,,,,,
+"New City New City Kasur, Kasur, Pakistan","31.1478895","74.4518327","Real estate consultant",,"seven star estate and builders","5","1",,,,,,
+"59F9+4J9, Kasur - Raiwind Rd, Kasur, Pakistan","31.1727949","74.3691161","Real estate agency","59F9+4J9, Kasur - Raiwind Rd","Ayat Real Estate","5","2",,,,,,
+"4FX2+5P4, New City New City Kasur, Kasur, Pakistan","31.1478814","74.4518322","Industrial real estate agency","4FX2+5P4","AL WAHAB REAL ESTATE AND BUILDERS","4","9",,,,,,
+"49V5+52C, Kasur, Pakistan","31.1429411","74.357518","Real estate consultant","49V5+52C","I J Properties Estate","2","1",,,,,,
+"W9V7+QQQ, Tatti Usman Village Drive, Tatti Usman, Pakistan","30.9447289","74.3653562","Apartment building","W9V7+QQQ, Tatti Usman Village Drive","Mirza Atta Muhammad",,"0",,,,,,
+"Tehsil, Mamman Wala Khurd Post Office, &, Khudian Khas, 55030, Pakistan","30.9634458","74.3786183","Housing society","Tehsil, Mamman Wala Khurd Post Office, &","Mamman Wala Khurd","5","3","3","0","0","0","0","55030"
+"W9JC+JPG, 55010, Pakistan","30.9315669","74.3718162","Orchard","W9JC+JPG","Sardar bagh",,"0",,,,,,"55010"
+"X97F+FR, Gahi Jamun Wala, Pakistan","30.9636268","74.3745178","Housing society","X97F+FR","Dera Malik Muhammad Ayub Khan Maman wala",,"0",,,,,,
+"Main Bouleverd SA Garden, Phase 2 near to Head Office, Pakistan","31.7246895","74.2669741","Real estate agency","Main Bouleverd SA Garden, Phase 2 near to Head Office","Smart City Lahore - Wall Real Estate","4.3","22",,,,,,
+"S.A Gardens Wall Real Estate SA Gardens, Kala Shah Kaku, 54000, Pakistan","31.7246949","74.2668201","Real estate agency","S.A Gardens Wall Real Estate SA Gardens","SA Gardens Lahore - Wall Real Estate (Authorized Dealer)","4.1","69",,,,,,"54000"
+"P7C6+PM6, Kala Shah Kaku, Pakistan","31.7219159","74.2616688","Real estate agency","P7C6+PM6","LAND MARK PROPERTY ADVISORS","5","1",,,,,,
+"Main Boulevard, Office No 3, Zaitoon City Canal Bank Road, 54000, Pakistan","31.3206693","74.1067871","Real estate consultant","Main Boulevard, Office No 3, Zaitoon City Canal Bank Road","City Associates","5","1",,,,,,"54000"
+"S.A Gardens, PHASE 2 Kala Shah Kaku, 39000, Pakistan","31.7336087","74.2640972","Real estate agency","S.A Gardens","Huzaifa Estates Advisor & Developers","5","1",,,,,,"39000"
+"P7F8+V9P, SA Garden Rd, Kala Shah Kaku, Pakistan","31.7247144","74.265962","Real estate agency","P7F8+V9P, SA Garden Rd","Four Brothers Real Estate",,"0",,,,,,
+"Hamza Shoes Market, Shamki Bhattiyan, Shamkay Bhattian, Lahore, 54000, Pakistan","31.3249924","74.1013616","Real estate agency","Hamza Shoes Market, Shamki Bhattiyan","AK Associates","5","1",,,,,,"54000"
+"Main Boulevard Kamran Block, S.A Gardens, Phase II Kala Shah Kaku, 54000, Pakistan","31.7247994","74.2669414","Real estate agency","Main Boulevard Kamran Block, S.A Gardens","Al Hafeez Estate & Developers","5","2",,,,,,"54000"
+"84C4+GVM Zaitoon City Premium Group Office, Lahore, Pakistan","31.3213432","74.1071565","Real estate consultant","84C4+GVM Zaitoon City Premium Group Office","Premium Group","5","8",,,,,,
+"P7F8+VWM, Kala Shah Kaku, Pakistan","31.7247237","74.2672958","Real estate consultant","P7F8+VWM","Shan Real Estate","5","1",,,,,,
+"35 KM Multan Rd, Shamkay Bhattian, Lahore, Pakistan","31.3276821","74.1052795","Real estate agency","35 KM Multan Rd","مدنی ایسوسی ایٹس MADANI ASSOCIATES","5","13",,,,,,
+"PLOT#117,FARIS BLOCK SA GARDENS PHASE 1, Kala Shah Kaku, 39020, Pakistan","31.7332013","74.2631123","Real estate consultant","PLOT#117,FARIS BLOCK SA GARDENS PHASE 1","AMK REAL ESTATE & AND BUILDERS","5","2",,,,,,"39020"
+"8556+WR8, Sundar Raiwind Rd, Mull, Bhai Kot, Lahore, Pakistan","31.308949","74.161159","Real estate consultant","8556+WR8, Sundar Raiwind Rd, Mull","Rath Estate & Developer","4.3","4",,,,,,
+"283-MB, Phase 6 DHA Phase 3, Lahore, Pakistan","31.6733271","74.2810193","Commercial real estate agency","283-MB","TRICO ESTATE","5","1",,,,,,
+"83HM+QV6, Road, Bath, Lahore, Pakistan","31.3294112","74.0846414","Real estate agency","83HM+QV6, Road","United Estates Of Bathanwala","5","1",,,,,,
+"Kala Shah Kaku, Pakistan","31.6871281","74.2396146","Real estate agency",,"Rise Marketing Official","4.8","26",,,,,,
+"P&D, Canal Bank Rd, Phase II Shamkay Bhattian, Lahore, 54000, Pakistan","31.3257935","74.1119158","Real estate agency","P&D, Canal Bank Rd","Friends Real Estate","3","1",,,,,,"54000"
+"P7H8+5Q5, Near SA Gerdan, Main GT Rd, Kala Shah Kaku, Pakistan","31.7278977","74.266989","Real estate agency","P7H8+5Q5, Near SA Gerdan, Main GT Rd","Rehman Estate Advisor","4.8","4",,,,,,
+"832H+X5X Ali Shair Estate Centre, Manga Mandi, Lahore, Pakistan","31.3024787","74.0779924","Real estate agency","832H+X5X Ali Shair Estate Centre","Ali Shair Estate Centre","5","1",,,,,,
+"29, Shoaib Block, S.A Gardens, Kala Shah Kaku, 39020, Pakistan","31.7215813","74.2615223","Real estate agency","29, Shoaib Block, S.A Gardens","Bestbuy Real Estate","5","2",,,,,,"39020"
+"84F6+J4, Shamkay Bhattian, Pakistan","31.3240355","74.1103249","Real estate agency","84F6+J4","Beyanah Real Estate & Developers",,"0",,,,,,
+"majid wala bazar, Rana Town Kala Shah Kaku, 39020, Pakistan","31.6835725","74.2718115","Real estate consultant","majid wala bazar","Hamdan Real Estate and Bricks Company",,"0",,,,,,"39020"
+"8567+GWW, Sharif Medical City Rd, Lahore, Pakistan","31.3113563","74.1648388","Real estate agency","8567+GWW, Sharif Medical City Rd","MS ESTATE",,"0",,,,,,

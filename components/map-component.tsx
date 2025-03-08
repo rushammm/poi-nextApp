@@ -1,128 +1,147 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 import dynamic from 'next/dynamic'
-import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { Loader2 } from 'lucide-react'
-import type { LatLngExpression } from 'leaflet'
-import { fixLeafletIcon, setupLeafletMap } from './leaflet-setup'
+import { fixLeafletIcon } from './leaflet-setup'
+import { BusinessLocation, BUSINESS_COLORS, LAHORE_CENTER, LAHORE_BOUNDS} from '@/utils/businessData'
+import { loadBusinessData } from '@/utils/businessData'
+import L from 'leaflet'
+import 'leaflet.heat'
+import { useMap } from 'react-leaflet'
 
-// Dynamically import Leaflet components to avoid SSR issues
-const MapContainer = dynamic(
-  () => import('react-leaflet').then((mod) => mod.MapContainer),
-  { ssr: false }
-)
-const TileLayer = dynamic(
-  () => import('react-leaflet').then((mod) => mod.TileLayer),
-  { ssr: false }
-)
-const ZoomControl = dynamic(
-  () => import('react-leaflet').then((mod) => mod.ZoomControl),
-  { ssr: false }
-)
-
-// Type for map props
-interface MapComponentProps {
-  year: string
+declare module 'leaflet' {
+  export function heatLayer(
+    latlngs: Array<[number, number, number]>,
+    options?: {
+      minOpacity?: number;
+      maxZoom?: number;
+      max?: number;
+      radius?: number;
+      blur?: number;
+      gradient?: { [key: number]: string };
+    }
+  ): L.Layer;
 }
 
-// Create a dynamic HeatmapLayer component
-const HeatmapLayer = dynamic(() => import('./heatmap-layer'), { ssr: false })
+// Dynamic imports for Leaflet components
+const MapContainer = dynamic(
+  () => import('react-leaflet').then(mod => mod.MapContainer),
+  { ssr: false }
+)
 
-export default function MapComponent({ year }: MapComponentProps) {
-  const mapRef = useRef<L.Map | null>(null)
-  const mapContainerRef = useRef<HTMLDivElement>(null)
+const TileLayer = dynamic(
+  () => import('react-leaflet').then(mod => mod.TileLayer),
+  { ssr: false }
+)
 
-  // Update center coordinates to Lahore, Pakistan
-  const [center] = useState<LatLngExpression>([31.5204, 74.3587])
-  const [zoom] = useState(11) // Slightly adjust zoom level for Lahore
-  const [isLoading, setIsLoading] = useState(true)
-  const [heatmapData, setHeatmapData] = useState<Array<[number, number, number]>>([])
+const Marker = dynamic(
+  () => import('react-leaflet').then(mod => mod.Marker),
+  { ssr: false }
+)
 
+const Popup = dynamic(
+  () => import('react-leaflet').then(mod => mod.Popup),
+  { ssr: false }
+)
+
+const Rectangle = dynamic(
+  () => import('react-leaflet').then(mod => mod.Rectangle),
+  { ssr: false }
+)
+
+// HeatmapLayer component that uses useMap hook
+function HeatmapLayer({ points }: { points: Array<[number, number, number]> }) {
+  const map = useMap();
+  
   useEffect(() => {
-    if (!mapContainerRef.current || mapRef.current) return
+    if (!map) return;
 
-    mapRef.current = setupLeafletMap(mapContainerRef.current)
+    const heatLayer = L.heatLayer(points, {
+      radius: 20,
+      blur: 15,
+      maxZoom: 10,
+      max: 1.0,
+      gradient: {
+        0.4: 'blue',
+        0.6: 'lime',
+        0.8: 'yellow',
+        1.0: 'red'
+      }
+    }).addTo(map);
 
     return () => {
-      mapRef.current?.remove()
-      mapRef.current = null
-    }
-  }, [])
+      if (map && heatLayer) {
+        map.removeLayer(heatLayer);
+      }
+    };
+  }, [map, points]);
+
+  return null;
+}
+
+// Main map component
+function MapContent() {
+  const [locations, setLocations] = useState<BusinessLocation[]>([])
+  const [heatmapPoints, setHeatmapPoints] = useState<Array<[number, number, number]>>([])
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    // Fix Leaflet icon issue
     fixLeafletIcon();
     
-    // Simulate loading different heatmap data based on selected year
-    const fetchHeatmapData = async () => {
+    const fetchData = async () => {
       setIsLoading(true)
-      
-      // Simulate API call delay
-      await new Promise(resolve => setTimeout(resolve, 800))
-      
-      // Generate different heatmap data based on year for Lahore, Pakistan
-      // Format: [lat, lng, intensity]
-      if (year === '2020') {
-        setHeatmapData([
-          // Central Lahore
-          [31.5204, 74.3587, 0.9], // City center - highest intensity
-          [31.5304, 74.3487, 0.8], // North of center
-          [31.5104, 74.3687, 0.7], // East of center
-          
-          // Main Commercial Areas
-          [31.5160, 74.3290, 0.85], // Mall Road area
-          [31.5710, 74.3415, 0.6],  // Gulberg
-          [31.4700, 74.2650, 0.55], // Defence Housing Authority
-          
-          // Old City areas
-          [31.5830, 74.3142, 0.75], // Walled City / Androon Shehr
-          [31.5847, 74.3098, 0.7],  // Badshahi Mosque area
-          
-          // Additional areas
-          [31.4705, 74.4100, 0.5],  // Cantt area
-          [31.5290, 74.3420, 0.65], // Anarkali
-          [31.5480, 74.3380, 0.6],  // Railway Station area
-          [31.5320, 74.3510, 0.7],  // Mall of Lahore area
-        ])
-      } else {
-        // 2024 data - different distribution showing development changes
-        setHeatmapData([
-          // Central Lahore - slightly reduced
-          [31.5204, 74.3587, 0.75], // City center - reduced from 2020
-          [31.5304, 74.3487, 0.7],  // North of center
-          
-          // Growing areas - increased intensity
-          [31.4700, 74.2650, 0.9],  // Defence Housing Authority - now higher
-          [31.4720, 74.2750, 0.85], // Defence Phase V
-          [31.5070, 74.2680, 0.8],  // Bahria Town
-          [31.4460, 74.2841, 0.85], // DHA Phase 6
-          
-          // IT Corridor - new development
-          [31.4705, 74.4210, 0.7],  // New IT Park area
-          [31.4750, 74.4300, 0.75], // Tech Zone
-          
-          // Traditional areas - slightly reduced
-          [31.5830, 74.3142, 0.6],  // Walled City / Androon Shehr - reduced
-          [31.5847, 74.3098, 0.55], // Badshahi Mosque area - reduced
-          
-          // New commercial developments
-          [31.5710, 74.3715, 0.9],  // Gulberg III - increased 
-          [31.5630, 74.3660, 0.8],  // MM Alam Road
-          [31.5180, 74.3510, 0.7],  // Mall Road - maintained
-          
-          // Additional modern areas
-          [31.4180, 74.2570, 0.85], // Bahria Orchard
-          [31.3990, 74.2340, 0.7],  // LDA City
-        ])
+      try {
+        const data = await loadBusinessData() // load business data
+        setLocations(data)
+        
+        // Create heatmap points
+        const densityMap = new Map<string, number>()
+        data.forEach(loc => {
+          const key = `${loc.latitude},${loc.longitude}`
+          densityMap.set(key, (densityMap.get(key) || 0) + 1)
+        })
+        
+        const points = Array.from(densityMap.entries()).map(([key, count]) => {
+          const [lat, lng] = key.split(',').map(Number)
+          return [lat, lng, Math.min(count / 10, 1)] as [number, number, number]
+        })
+        
+        setHeatmapPoints(points)
+      } catch (error) {
+        console.error('Error:', error)
+      } finally {
+        setIsLoading(false)
       }
-      
-      setIsLoading(false)
     }
 
-    fetchHeatmapData()
-  }, [year])
+    fetchData()
+  }, [])
+
+  // Memoize the icon creation function
+  const createCustomIcon = useMemo(() => (type: string, rating?: number) => {
+    const color = BUSINESS_COLORS[type] || BUSINESS_COLORS.default;
+    const size = rating ? Math.max(8, Math.min(rating * 2.5, 20)) : 10;
+    
+    return L.divIcon({
+      className: 'custom-div-icon',
+      html: `
+        <div style="
+          background-color: ${color};
+          width: ${size}px;
+          height: ${size}px;
+          border-radius: 50%;
+          border: 2px solid white;
+          box-shadow: 0 0 4px rgba(0,0,0,0.3);
+          opacity: ${rating ? 0.7 + (rating / 50) : 0.7};
+        "></div>
+      `,
+      iconSize: [size, size],
+      iconAnchor: [size/2, size/2],
+      popupAnchor: [0, -(size/2)]
+    });
+  }, []);
 
   if (isLoading) {
     return (
@@ -133,10 +152,10 @@ export default function MapComponent({ year }: MapComponentProps) {
   }
 
   return (
-    <div ref={mapContainerRef} className="h-full w-full">
+    <div className="h-full w-full relative">
       <MapContainer 
-        center={center} 
-        zoom={zoom} 
+        center={[LAHORE_CENTER.lat, LAHORE_CENTER.lng]}
+        zoom={11}
         style={{ height: "100%", width: "100%" }}
         zoomControl={false}
       >
@@ -144,19 +163,80 @@ export default function MapComponent({ year }: MapComponentProps) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <ZoomControl position="bottomright" />
         
-        {/* Render heatmap layer */}
-        <HeatmapLayer 
-          points={heatmapData}
-          longitudeExtractor={m => m[1]}
-          latitudeExtractor={m => m[0]}
-          intensityExtractor={m => m[2]} 
-          radius={20}
-          blur={15}
-          maxZoom={18}
+        <Rectangle 
+          bounds={[
+            [LAHORE_BOUNDS.south, LAHORE_BOUNDS.west],
+            [LAHORE_BOUNDS.north, LAHORE_BOUNDS.east]
+          ]}
+          pathOptions={{ color: 'black', weight: 1, fillOpacity: 0 }}
         />
+
+        {locations.length > 0 && <HeatmapLayer points={heatmapPoints} />}
+
+        {locations.map((location, index) => (
+          <Marker
+            key={`${location.type}-${index}-${location.latitude}-${location.longitude}`}
+            position={[location.latitude, location.longitude]}
+            icon={createCustomIcon(location.type, location.rating)}
+          >
+            <Popup>
+              <div className="p-2">
+                <p className="font-medium">{location.title}</p>
+                <p className="text-sm text-gray-600">{location.type}</p>
+                {location.rating && (
+                  <div className="flex items-center mt-1">
+                    <span className="text-sm text-yellow-600 font-medium">
+                      {location.rating.toFixed(1)}
+                    </span>
+                    <span className="text-yellow-400 ml-1">★</span>
+                  </div>
+                )}
+              </div>
+            </Popup>
+          </Marker>
+        ))}
       </MapContainer>
+
+      {/* Updated Legend */}
+      <div className="absolute bottom-4 right-4 bg-white p-4 rounded-lg shadow-lg z-[1000]">
+        <div className="text-sm font-medium mb-3">Business Types</div>
+        {Object.entries(BUSINESS_COLORS).map(([type, color]) => {
+          if (type === 'default') return null;
+          const count = locations.filter(l => l.type === type).length;
+          
+          return (
+            <div key={type} className="flex items-center gap-2 text-sm mb-1">
+              <div 
+                className="w-3 h-3 rounded-full" 
+                style={{ backgroundColor: color }}
+              />
+              <span>{type}</span>
+              <span className="text-gray-500 text-xs">
+                ({count})
+              </span>
+            </div>
+          );
+        })}
+        <div className="mt-2 pt-2 border-t border-gray-200 text-xs text-gray-600">
+          Marker size indicates rating
+        </div>
+      </div>
     </div>
   )
+}
+
+// Wrap the component with dynamic import
+const MapWithNoSSR = dynamic(() => Promise.resolve(MapContent), {
+  ssr: false,
+  loading: () => (
+    <div className="flex items-center justify-center h-full">
+      <Loader2 className="h-8 w-8 animate-spin text-gray-500" />
+    </div>
+  ),
+})
+
+// Export the wrapped component
+export default function MapComponent() {
+  return <MapWithNoSSR />
 }
