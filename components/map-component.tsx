@@ -117,7 +117,7 @@ function MapContent() {
     }
 
     fetchData()
-  }, []) // Removed year dependency
+  }, [])
 
   // Memoize the icon creation function
   const createCustomIcon = useMemo(() => (type: string, rating?: number) => {
