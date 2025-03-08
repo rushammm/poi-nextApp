@@ -530,7 +530,7 @@ export default function Home() {
                 
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <div className="relative h-[550px] rounded-xl border border-gray-100">
-                    <MapComponent year={selectedMapYear} />
+                    <MapComponent />
                     
                     <div className="absolute bottom-6 right-6 bg-white rounded-md shadow-lg p-2 z-10 border border-gray-100">
                       <div className="flex flex-col space-y-2">
