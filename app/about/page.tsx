@@ -75,8 +75,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { name: "Rusham Elahi", role: "Chief Data Scientist", image: "/images/rusham.jpg" },
-              { name: "Rusham Elahi", role: "Urban Planning Expert", image: "/images/image3.jpg" },
-              { name: "Rusham Elahi", role: "GIS Specialist", image: "/images/image3.jpg" }
+              { name: "Rusham Elahi", role: "Urban Planning Expert", image: "/images/rusham.jpg" },
+              { name: "Rusham Elahi", role: "GIS Specialist", image: "/images/rusham.jpg" }
             ].map((member, idx) => (
               <div key={idx} className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="relative h-64 w-full">
