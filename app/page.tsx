@@ -8,14 +8,26 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Loader2, Plus as PlusIcon, Minus as MinusIcon, Search, Map, BarChart3, Layers, ArrowRight, X } from 'lucide-react'
 import Image from 'next/image'
 import { SearchResults } from '@/components/searchResults'
-//import { BusinessLocationOptimizerComponent } from '@/components/business-location-optimizer'
-import MapComponent from '@/components/map-component'
+import dynamic from 'next/dynamic'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { useRouter } from 'next/navigation'
 import { POI } from '@/types/poi'
 import React from 'react'
+
+// Import MapComponent with no SSR
+const MapComponent = dynamic(
+  () => import('@/components/map-component'),
+  { 
+    ssr: false,
+    loading: () => (
+      <div className="h-[550px] bg-gray-100 rounded-xl flex items-center justify-center">
+        <Loader2 className="h-8 w-8 animate-spin text-gray-400" />
+      </div>
+    )
+  }
+)
 
 // Define a type for the search results
 // type POI = {
@@ -384,8 +396,8 @@ export default function Home() {
                     <div className="bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300 group-hover:shadow-xl">
                       <div className="relative">
                         <Image
-                          src="/nextAPPHeatmaps/busss.png"
-                          alt="Business Concentration Heatmap"
+                          src="/nextAPPHeatmaps/hosps-legend.png"
+                          alt="Hospitals Concentration Heatmap"
                           width={600}
                           height={350}
                           className="w-full h-72 object-cover transition-transform duration-700 group-hover:scale-105"
@@ -393,11 +405,11 @@ export default function Home() {
                         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         <div className="absolute bottom-0 left-0 w-full p-4 text-white transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                           <span className="inline-block bg-blue-500 text-black px-2 py-0.5 rounded text-sm font-medium mb-1">Key Insight</span>
-                          <h4 className="font-bold text-lg">Business Concentration Analysis</h4>
+                          <h4 className="font-bold text-lg">Hospital Concentration Analysis</h4>
                         </div>
                       </div>
                     </div>
-                    <h3 className="mt-5 font-semibold text-center text-lg">Business Concentration Analysis</h3>
+                    <h3 className="mt-5 font-semibold text-center text-lg">Hospital Concentration Analysis</h3>
                     <p className="text-gray-600 text-center mt-2 max-w-md mx-auto">
                       Shows existing business density to identify gaps and opportunities
                     </p>

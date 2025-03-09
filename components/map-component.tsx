@@ -237,6 +237,18 @@ const MapWithNoSSR = dynamic(() => Promise.resolve(MapContent), {
 })
 
 // Export the wrapped component
-export default function MapComponent() {
+const MapComponent = () => {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
+
   return <MapWithNoSSR />
 }
+
+export default MapComponent
