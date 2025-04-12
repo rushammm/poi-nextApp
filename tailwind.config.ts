@@ -49,7 +49,14 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+        theme: {
+          primary: '#0F2C25',
+          secondary: '#5A706C',
+          accent: '#A6AB9F',
+          cta: '#D23939',
+          light: '#E9E9E9',
+        }
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

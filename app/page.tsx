@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Label } from '@/components/ui/label'
@@ -53,19 +53,32 @@ export default function Home() {
     budget: '',
   })
   const [searchResults, setSearchResults] = useState<POI[]>([])
+  const [displayedResults, setDisplayedResults] = useState<POI[]>([])
+  const [resultsPerPage] = useState(6)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [selectedMapYear, setSelectedMapYear] = useState('2020')
   const [selectedBuildupYear, setSelectedBuildupYear] = useState('2020')
   const [mapZoom, setMapZoom] = useState(10)
+  const [visibleResults, setVisibleResults] = useState<number>(10)
+  const [hasMore, setHasMore] = useState<boolean>(false)
   
+  useEffect(() => {
+    setDisplayedResults(searchResults.slice(0, resultsPerPage))
+  }, [searchResults, resultsPerPage])
+
+  const handleSeeMore = () => {
+    const nextResults = searchResults.slice(0, visibleResults + resultsPerPage)
+    setDisplayedResults(nextResults)
+    setVisibleResults(prev => prev + resultsPerPage)
+  }
+
   // Function to handle opening the explorer
   const navigateToExplorer = () => {
     router.push('/explorer')
   };
   
   const handleZoom = (direction: string) => {
-    // ...existing code...
     if (direction === '+1' && mapZoom < 20) {
       setMapZoom(prev => prev + 1)
     } else if (direction === '-1' && mapZoom > 1) {
@@ -74,38 +87,44 @@ export default function Home() {
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
-    // ...existing code...
-    e.preventDefault()
-    setIsLoading(true)
-    setError(null)
+    e.preventDefault();
+    setIsLoading(true);
+    setError(null);
 
     try {
-      const params = new URLSearchParams()
+      const params = new URLSearchParams();
       
+      if (formData.businessName) {
+        params.append('businessName', formData.businessName);
+      }
       if (formData.businessCategory) {
-        params.append('category', formData.businessCategory)
+        params.append('category', formData.businessCategory);
       }
       if (formData.targetCity) {
-        params.append('city', formData.targetCity)
-      }
-      if (formData.budget) {
-        params.append('maxBudget', formData.budget)
+        params.append('city', formData.targetCity);
       }
 
-      const response = await fetch(`/api/locations?${params.toString()}`)
+      const response = await fetch(`/api/locations?${params.toString()}`);
       
       if (!response.ok) {
-        throw new Error('Search failed')
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
 
-      const data = await response.json()
-      setSearchResults(data)
-      setShowFormDialog(false)
+      const data = await response.json();
+      
+      if ('error' in data) {
+        throw new Error(data.error);
+      }
+
+      setSearchResults(data);
+      setDisplayedResults(data.slice(0, resultsPerPage));
+      setVisibleResults(resultsPerPage);
+      setShowFormDialog(false);
     } catch (err) {
-      setError('Failed to fetch locations. Please try again.')
-      console.error(err)
+      setError(err instanceof Error ? err.message : 'Failed to fetch locations');
+      console.error('Search error:', err);
     } finally {
-      setIsLoading(false)
+      setIsLoading(false);
     }
   }
 
@@ -138,7 +157,6 @@ export default function Home() {
           onSubmit={handleSubmit} 
           className="space-y-8 bg-white p-8 rounded-b-xl"
         >
-          {/* ...existing code... */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-3">
               <Label className="font-medium text-gray-700 text-base">Business Category</Label>
@@ -215,6 +233,14 @@ export default function Home() {
     </Card>
   );
 
+  useEffect(() => {
+    if (searchResults.length > visibleResults) {
+      setHasMore(true)
+    } else {
+      setHasMore(false)
+    }
+  }, [searchResults.length, visibleResults])
+
   return (
     <div className="min-h-screen bg-gray-50 text-black">
       {/* Enhanced Hero Section with gradient overlay and pattern */}
@@ -230,15 +256,15 @@ export default function Home() {
         {/* Content */}
         <div className="container relative z-10 mx-auto px-6">
           <div className="flex flex-col items-center text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white tracking-tight">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white tracking-tight animate-float">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
                 Locate<span className="text-gray-100">Pro</span>
               </span>
             </h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300 leading-relaxed">
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300 leading-relaxed animate-fade-slide-up">
               Find the optimal business location with data-driven insights and advanced geospatial analytics
             </p>
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-4 justify-center stagger-animation">
               <Button 
                 onClick={navigateToExplorer}
                 className="bg-white hover:bg-gray-100 text-gray-900 px-8 py-6 rounded-lg text-lg font-medium transition-all shadow-xl hover:shadow-2xl"
@@ -247,7 +273,7 @@ export default function Home() {
                 Get Started
               </Button>
               <Button
-                onClick={() => setShowFormDialog(true)} // Changed to open form dialog
+                onClick={() => setShowFormDialog(true)}
                 className="bg-transparent hover:bg-white/10 border-2 border-white text-white px-8 py-6 rounded-lg text-lg font-medium transition-all"
               >
                 <Map className="mr-2 h-5 w-5" />
@@ -275,7 +301,17 @@ export default function Home() {
                   Refine Search
                 </Button>
               </div>
-              {searchResults.length > 0 && <SearchResults results={searchResults} />}
+              {displayedResults.length > 0 && <SearchResults results={displayedResults} />}
+              {hasMore && (
+                <div className="flex justify-center mt-8">
+                  <Button
+                    onClick={handleSeeMore}
+                    className="bg-black hover:bg-gray-800 text-white px-8"
+                  >
+                    See More Results
+                  </Button>
+                </div>
+              )}
               {error && (
                 <div className="bg-red-50 border-l-4 border-red-500 text-red-700 p-5 rounded-lg my-8 shadow-sm animate-in slide-in-from-top duration-300">
                   <div className="flex">
@@ -313,8 +349,7 @@ export default function Home() {
             </div>
             
             {/* Feature Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-              {/* ...existing code... */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 stagger-animation">
               {[
                 {
                   icon: <BarChart3 className="w-6 h-6" />,
@@ -334,7 +369,7 @@ export default function Home() {
               ].map((item, idx) => (
                 <Card 
                   key={idx} 
-                  className="bg-white shadow-lg border-0 hover:shadow-xl transition-all duration-300 hover:translate-y-[-5px] overflow-hidden"
+                  className="bg-white shadow-lg border-0 hover:shadow-xl transition-all duration-500 hover:translate-y-[-5px] hover:scale-[1.02] overflow-hidden"
                 >
                   <CardHeader className="pb-2">
                     <div className="mb-4 bg-gray-100 p-3 rounded-full inline-flex">
@@ -355,7 +390,6 @@ export default function Home() {
 
             {/* Heatmaps Section */}
             <Card className="border-0 shadow-xl mb-16 overflow-hidden">
-              {/* ...existing code... */}
               <CardHeader className="bg-gradient-to-r from-gray-50 to-white rounded-t-xl border-b border-gray-100 py-8">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="bg-black text-white p-2 rounded-lg">
@@ -369,8 +403,8 @@ export default function Home() {
               </CardHeader>
               <CardContent className="p-8 bg-white rounded-b-xl">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                  <div className="group">
-                    <div className="bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300 group-hover:shadow-xl">
+                  <div className="group cursor-pointer">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md transition-all duration-500 group-hover:shadow-xl">
                       <div className="relative">
                         <Image
                           src="/nextAPPHeatmaps/ntl.png"
@@ -392,8 +426,8 @@ export default function Home() {
                     </p>
                   </div>
                   
-                  <div className="group">
-                    <div className="bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300 group-hover:shadow-xl">
+                  <div className="group cursor-pointer">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md transition-all duration-500 group-hover:shadow-xl">
                       <div className="relative">
                         <Image
                           src="/nextAPPHeatmaps/hosps-legend.png"
@@ -420,7 +454,6 @@ export default function Home() {
 
             {/* Buildup Index Section */}
             <Card className="border-0 shadow-xl mb-16 overflow-hidden">
-              {/* ...existing code... */}
               <CardHeader className="bg-gradient-to-r from-gray-50 to-white rounded-t-xl border-b border-gray-100 py-8">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="bg-black text-white p-2 rounded-lg">
@@ -502,7 +535,6 @@ export default function Home() {
 
             {/* Dynamic Map Section */}
             <Card className="border-0 shadow-xl mb-16 overflow-hidden">
-              {/* ...existing code... */}
               <CardHeader className="bg-gradient-to-r from-gray-50 to-white rounded-t-xl border-b border-gray-100 py-8">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="bg-black text-white p-2 rounded-lg">
@@ -602,7 +634,7 @@ export default function Home() {
       <div className="fixed bottom-8 right-8 z-50">
         <div 
           onClick={() => setShowFormDialog(true)}
-          className="bg-black text-white rounded-full p-4 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer"
+          className="bg-black text-white rounded-full p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-110 cursor-pointer animate-float"
         >
           <Search className="h-6 w-6" />
         </div>

@@ -4,41 +4,11 @@ import { useState, useEffect } from 'react'
 import { AlertCircle } from 'lucide-react'
 import type { POI } from '@/types/poi'
 import { MapModal } from '@/components/map-modal'
-
-// import { Button } from '@/components/ui/button'
+import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-// import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
-// import { Progress } from '@/components/ui/progress'
-
-// Sample data - In a real app, this would come from your ML model/backend
-// const sampleScores = {
-//   "Location A": {
-//     income: 0.85,
-//     infrastructure: 0.75,
-//     population: 0.90,
-//     competition: 0.60,
-//     overall: 0.78
-//   },
-//   "Location B": {
-//     income: 0.70,
-//     infrastructure: 0.85,
-//     population: 0.65,
-//     competition: 0.80,
-//     overall: 0.75
-//   }
-// }
-
-// const businessTypes = [
-//   "Restaurant",
-//   "Retail",
-//   "Office",
-//   "Manufacturing",
-//   "Service",
-//   "Other"
-// ]
 
 const POI_TYPES = [
   { value: "poi", label: "Restaurants" },
@@ -56,25 +26,32 @@ const POI_TYPES = [
 ]
 
 export function BusinessLocationOptimizerComponent() {
-  const [formData, setFormData] = useState({
-    businessName: '',
-    businessType: '',
-    currentLocation: '',
-    targetCity: '',
-    budget: '',
-  })
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [showResults, setShowResults] = useState(false)
-  const [isLoading, setIsLoading] = useState(true) // Start with loading true
+  // const [formData, setFormData] = useState({
+  //   businessName: '',
+  //   businessType: '',
+  //   currentLocation: '',
+  //   targetCity: '',
+  //   budget: '',
+  // })
+ // const [showResults, setShowResults] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState('')
-  const [pois, setPois] = useState<POI[]>([]) // Initialize as empty array
+  const [pois, setPois] = useState<POI[]>([])
   const [selectedLocation, setSelectedLocation] = useState<{
     lat: number;
     lng: number;
     title: string;
   } | null>(null);
   const [selectedPoiType, setSelectedPoiType] = useState("banks")
+  const [visibleDropdownResults, setVisibleDropdownResults] = useState(10)
   
+  const handleShowMoreDropdown = () => {
+    setVisibleDropdownResults(prev => prev + 10)
+  }
+
+  const handleShowLessDropdown = () => {
+    setVisibleDropdownResults(10)
+  }
 
   useEffect(() => {
     const fetchPOIs = async () => {
@@ -88,7 +65,7 @@ export function BusinessLocationOptimizerComponent() {
         setPois(Array.isArray(data) ? data : [])
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load POIs')
-        setPois([]) // Reset to empty array on error
+        setPois([])
       } finally {
         setIsLoading(false)
       }
@@ -97,38 +74,9 @@ export function BusinessLocationOptimizerComponent() {
     fetchPOIs()
   }, [selectedPoiType])
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-  }
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const handleSelectChange = (value: string) => {
-    setFormData({
-      ...formData,
-      businessType: value
-    })
-  }
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
-    setError('')
-    try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000))
-      setShowResults(true)
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    } catch (err) {
-      setError('An error occurred while analyzing locations. Please try again.')
-    } finally {
-      setIsLoading(false)
-    }
-  }
+  
 
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-8">
@@ -177,17 +125,17 @@ export function BusinessLocationOptimizerComponent() {
           </Card>
         ) : (
           <div className="space-y-6">
-            {pois.map((poi) => (
+            {pois.slice(0, visibleDropdownResults).map((poi) => (
               <Card key={poi.id}>
                 <CardHeader>
                   <CardTitle>{poi.title}</CardTitle>
-                  <CardDescription>{poi['categories/0'] || 'No category'}</CardDescription>
+                  <CardDescription>{poi['categories/0']}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <Label>Hotel Stars</Label>
-                      <p>{poi.hotelStars || 'N/A'}</p>
+                      <Label>Rating</Label>
+                      <p>{poi.hotelStars || '-'}</p>
                     </div>
                     <div>
                       <Label>Location</Label>
@@ -212,6 +160,27 @@ export function BusinessLocationOptimizerComponent() {
                 </CardContent>
               </Card>
             ))}
+            
+            {pois.length > 10 && (
+              <div className="flex justify-center gap-4 mt-8">
+                {pois.length > visibleDropdownResults && (
+                  <Button
+                    onClick={handleShowMoreDropdown}
+                    className="bg-black hover:bg-gray-800 text-white px-8"
+                  >
+                    Show More Results
+                  </Button>
+                )}
+                {visibleDropdownResults > 10 && (
+                  <Button
+                    onClick={handleShowLessDropdown}
+                    className="bg-gray-200 hover:bg-gray-300 text-black px-8"
+                  >
+                    Show Less
+                  </Button>
+                )}
+              </div>
+            )}
             
             {selectedLocation && (
               <MapModal

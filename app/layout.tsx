@@ -26,8 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.className} transition-colors duration-300`}>
         <div className="flex flex-col min-h-screen">
           <Header />
           <Suspense fallback={<Loading />}>
