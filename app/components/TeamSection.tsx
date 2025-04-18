@@ -54,7 +54,7 @@ export default function TeamSection() {
       role: "Chief Data Scientist",
       bio: "Leading our data intelligence efforts with expertise in spatial analytics, machine learning, and predictive modeling for business location optimization.",
       imageUrl:
-        "https://poi-next-app.vercel.app/_next/image?url=%2Fimages%2Frusham.jpg&w=1920&q=75",
+        "/rusham.jpeg",
       linkedinUrl: "https://www.linkedin.com/in/rusham-elahi-38511a229/"
     },
     {
