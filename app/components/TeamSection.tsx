@@ -71,7 +71,7 @@ export default function TeamSection() {
       bio: "Leveraging GIS expertise and spatial data analysis to provide actionable insights for urban, environmental, and business planning.",
       imageUrl:
         "/wafa.jpeg",
-      linkedinUrl: "https://www.linkedin.com/in/tehreem-fatima-72873b213/"
+      linkedinUrl: "https://www.linkedin.com/in/tehreem-fatimaaa/"
     },
     // More team members can be added here in the future
   ];

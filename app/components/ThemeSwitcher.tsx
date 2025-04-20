@@ -48,7 +48,7 @@ export default function ThemeSwitcher() {
   return (
     <AnimatePresence>
       <motion.div
-        className="fixed bottom-8 right-8 z-20"
+        className="fixed bottom-10 right-11 z-20"
         initial="initial"
         animate="animate"
         exit="exit"

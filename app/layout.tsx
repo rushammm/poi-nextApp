@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { ThemeProvider } from "next-themes";
 import ThemeSwitcher from "./components/ThemeSwitcher";
+import SmoothScroll from "./components/SmoothScroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,9 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LocatePro – AI-Powered Business Location Analytics",
-  description:
-    "LocatePro helps businesses find optimal expansion locations using AI-powered analytics, interactive maps, and real-time insights.",
+  title: "LocatePro - Contact Us",
+  description: "Get in touch with LocatePro for your business expansion needs",
   applicationName: "LocatePro",
   keywords: [
     "business analytics",
@@ -33,14 +33,10 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "LocatePro Team", url: "https://locatepro.ai" }],
   creator: "LocatePro",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
-    { media: "(prefers-color-scheme: dark)", color: "#18181b" },
-  ],
   icons: [
     { rel: "icon", url: "/favicon.ico" },
-    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
-    { rel: "manifest", url: "/site.webmanifest" },
+    { rel: "apple-touch-icon", url: "/apple-icon.png" }, // Updated path
+    { rel: "manifest", url: "/site.webmanifest" }, // Assuming site.webmanifest exists in public
   ],
   openGraph: {
     title: "LocatePro – AI-Powered Business Location Analytics",
@@ -68,18 +64,28 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
+    { media: "(prefers-color-scheme: dark)", color: "#18181b" },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <meta name="apple-mobile-web-app-title" content="Locatepro" />
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Locatepro" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <SmoothScroll />
           <Navbar />
           {children}
           <Footer />

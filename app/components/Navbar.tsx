@@ -75,6 +75,7 @@ export default function Navbar() {
     { name: "Home", icon: Home, href: "/" },
     { name: "Team", icon: Star, href: "/team" },
     { name: "Insights", icon: BarChart, href: "/insights" },
+    { name: "Location Prediction", icon: Map, href: "/locationpred" },
     { name: "Terms & Conditions", icon: LetterText, href: "/terms" },
     { name: "Contact", icon: Phone, href: "/contact" },
   ];

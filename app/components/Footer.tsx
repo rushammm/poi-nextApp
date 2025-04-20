@@ -49,7 +49,7 @@ const Footer = () => {
       <div className="absolute bottom-1/3 right-0 w-64 h-64 rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl z-0 pointer-events-none" />
 
       {/* Subtle grid pattern overlay for texture */}
-      <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] bg-repeat opacity-[0.015] dark:opacity-[0.03] z-0 pointer-events-none" />
+      <div className="absolute inset-0  bg-repeat opacity-[0.015] dark:opacity-[0.03] z-0 pointer-events-none" />
 
       {/* Subtle overlay for depth */}
       <div className="absolute inset-0 bg-background/60 dark:bg-background/80 backdrop-blur-sm z-0 pointer-events-none" />
